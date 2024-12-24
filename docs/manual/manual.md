@@ -1,0 +1,85 @@
+---
+title: "Manual"
+sidebar_label: "Manual"
+---
+
+# AVstudio Manual
+
+## What is AVstudio?
+
+AVgator Studio (AVstudio) is a comprehensive HTML5 GUI editor that combines powerful WYSIWYG (What You See Is What You Get) capabilities with flexibility and ease of use. It's available in two formats:
+
+- **Online SAAS**: Access through any web browser
+- **Compiled GUI Environment** supporting:
+  - Crestron One (iOS)
+  - Android App
+  - Progressive Web App (PWA)
+  - Web browsers
+
+## Platform Support
+
+### Current Focus
+- **Primary**: Full Crestron systems support
+- **Comprehensive**: Built-in tools and features specifically designed for Crestron integration
+
+### Future Development
+Our development team is actively expanding support for additional control systems, including:
+- Extron
+- QSC
+- Home Assistant
+- Node-RED
+- And more
+
+## Key Features
+
+### Rich Component Library
+- Extensive collection of pre-built themes
+- Ready-to-use elements and widgets
+- Built-in smart console for resource management
+- Quick-access application templates
+
+### Development Tools
+- **Live Debugging**: Test interfaces with real processors in real-time
+- **Smart Console**: Efficiently manage and organize resources
+- **Built-in Testing**: Identify and resolve issues instantly
+
+### Responsive Design
+All interfaces automatically adapt to different devices:
+- Desktop computers
+- Tablets
+- Smartphones
+- Custom screen sizes
+
+### Flexible Development Options
+
+#### No-Code Solutions
+- Drag-and-drop interface building
+- Visual action scenario creation
+- Pre-built component configuration
+- Interactive workflow design
+
+#### Pro-Code Features
+- Custom CSS implementation
+- JavaScript integration
+- Advanced customization options
+- Extended functionality development
+
+## Cross-Platform Integration
+
+AVstudio offers seamless integration capabilities:
+- Work with existing control system infrastructure
+- Maintain consistent user experiences across platforms
+- Unified development environment for all projects
+- Efficient workflow across different systems
+
+### Benefits
+- **Time Efficiency**: Reuse components across different projects
+- **Consistency**: Maintain uniform design standards
+- **Flexibility**: Adapt to various control systems
+- **Future-Proof**: Regular updates and expanding compatibility
+
+## Summary
+
+AVstudio combines powerful GUI development tools with user-friendly interfaces, making it suitable for both beginners and experienced developers. Its comprehensive feature set, expanding platform support, and flexible development options make it a versatile choice for creating modern, responsive user interfaces in the automation and control industry.
+
+
