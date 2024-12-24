@@ -1,52 +1,84 @@
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #323e47;        /* Dark Blue - Primary Brand Color */
+  --ifm-color-primary-dark: #2d373f;
+  --ifm-color-primary-darker: #2a343b; 
+  --ifm-color-primary-darkest: #232b31;
+  --ifm-color-primary-light: #37454f;
+  --ifm-color-primary-lighter: #3a4853;
+  --ifm-color-primary-lightest: #41515d;
   --ifm-background-color: #ffffff;
   --ifm-code-font-size: 95%;
-}
-
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --ifm-background-color: #1e2125;
-}
-
-.hero {
+ }
+ 
+ [data-theme='dark'] {
+  --ifm-color-primary: #bc163f;        /* Red - Secondary Brand Color */
+  --ifm-color-primary-dark: #a91439;
+  --ifm-color-primary-darker: #a01336;
+  --ifm-color-primary-darkest: #83102c;
+  --ifm-color-primary-light: #cf1845;
+  --ifm-color-primary-lighter: #d81948;
+  --ifm-color-primary-lightest: #e52655;
+  --ifm-background-color: #3c3c3c;     /* Dark Gray Background */
+ }
+ 
+ /* Hero section styles */
+ .hero {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-.hero--primary {
+  background-color: var(--ifm-color-primary);
+  color: #dadada;                      /* Light Gray Text */
+ }
+ 
+ .hero--primary {
   --ifm-hero-background-color: var(--ifm-color-primary);
-  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
-}
-
-.hero__title {
+  --ifm-hero-text-color: #dadada;      /* Light Gray Text */
+ }
+ 
+ .hero__title {
   font-size: 3rem;
-}
-
-.hero__subtitle {
+  color: #dadada;                      /* Light Gray Text */
+ }
+ 
+ .hero__subtitle {
   font-size: 1.5rem;
-}
-
-/* Custom styles for documentation */
-.markdown img {
+  color: #dadada;                      /* Light Gray Text */
+ }
+ 
+ /* Documentation styles */
+ .markdown img {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadada;           /* Light Gray Border */
+ }
+ 
+ .theme-doc-sidebar-item-category > .menu__list {
+  padding-left: 0.75rem;
+ }
+ 
+ /* Navbar customization */
+ .navbar {
+  background-color: var(--ifm-color-primary);
+ }
+ 
+ .navbar__link {
+  color: #dadada;                      /* Light Gray Text */
+ }
+ 
+ .navbar__link:hover {
+  color: #bc163f;                      /* Red on Hover */
+ }
+
+
+.navbar__title {
+  color: #dadada;      /* Light Gray */
+  /* font-size: 1.5rem;   /* Bigger text */
+  font-weight: 600;    /* Bolder */
+  padding-left: 0.5rem;
 }
 
-.theme-doc-sidebar-item-category > .menu__list {
-  padding-left: 0.75rem;
+/* Optional: Add hover effect */
+.navbar__title:hover {
+  color: #bc163f;      /* Red on hover */
 }

@@ -5,8 +5,6 @@ sidebar_label: "Pages"
 
 #  Pages 
 
-Created by Space Sync for Confluence on Jan 12, 2024
-
 ![](/img/screenshots/avstudio-pages.png)
 
 A page is the main container for placing your content: elements,

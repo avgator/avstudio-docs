@@ -5,8 +5,6 @@ sidebar_label: "About AVgator Studio (AVstudio)"
 
 #  About AVgator Studio (AVstudio) 
 
-Created by Space Sync for Confluence, last modified on May 04, 2023
-
 To create a user interface on HTML5 for a Crestron control system, you
 can use a software tool like AVstudio by AVgator Inc, which is
 specifically designed for this purpose. Here are the basic steps to

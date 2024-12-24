@@ -5,8 +5,6 @@ sidebar_label: "3 User interface"
 
 #  3 User interface 
 
-Created by Space Sync for Confluence on Jan 12, 2024
-
 The User Interface of AVgator Studio provides a user-friendly and
 intuitive environment for creating dynamic and interactive user
 interfaces. This section of the manual will guide you through the

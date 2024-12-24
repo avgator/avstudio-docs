@@ -5,14 +5,14 @@ sidebar_label: "HTML5 Crestron Control System Configuration"
 
 #  HTML5 Crestron Control System Configuration 
 
-Created by Space Sync for Confluence, last modified on May 03, 2023
-
 To enable HTML5 in the Crestron control system, execute (verify)
 following commands:
 
-    authentication on
-    userpageauth on
-    webserver allowsharedsession on
+```bash title="Terminal Commands" showLineNumbers
+authentication on
+userpageauth on
+webserver allowsharedsession on
+```
 
 More details:
 

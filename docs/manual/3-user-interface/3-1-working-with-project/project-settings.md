@@ -5,8 +5,6 @@ sidebar_label: "Project settings"
 
 #  Project settings 
 
-Created by Space Sync for Confluence on Jan 12, 2024
-
 ![](/img/screenshots/avstudio-projectsettings.png)
 
 This settings block includes the following functionality: viewing

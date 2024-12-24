@@ -41,6 +41,17 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
+          routeBasePath: '/',
+          path: 'docs',
+
+          async sidebarItemsGenerator({
+            defaultSidebarItemsGenerator,
+            ...args
+          }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            return sidebarItems;
+          },
+          
         },
         blog: {
           showReadingTime: true,
@@ -56,13 +67,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  
 
   themeConfig: {
+    // Rest of your themeConfig remains the same
     navbar: {
       title: 'AVStudio Docs',
       logo: {
         alt: 'AVStudio Logo',
-        src: 'img/logo.svg',
+        src: 'img/400x200_AVstudio_LOGO.avif',
       },
       items: [
         {
