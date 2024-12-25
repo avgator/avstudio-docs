@@ -1,10 +1,7 @@
 ---
-title: Knowledge Base
-sidebar_position: 2
+title: "Knowledge Base"
+sidebar_label: "Knowledge Base"
 ---
 
-import DocCardList from '@theme/DocCardList';
 
 # Knowledge Base
-
-<DocCardList />

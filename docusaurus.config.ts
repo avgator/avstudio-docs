@@ -1,8 +1,6 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+const prismThemes = require('prism-react-renderer').themes;
 
-const config: Config = {
+const config = {
   title: 'AVStudio Docs',
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
@@ -23,7 +21,6 @@ const config: Config = {
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       {
         hashed: true,
         language: ["en"],
@@ -39,11 +36,10 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.js'), // Ensure the file is renamed to sidebars.js
           editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
           routeBasePath: '/',
           path: 'docs',
-
           async sidebarItemsGenerator({
             defaultSidebarItemsGenerator,
             ...args
@@ -51,7 +47,6 @@ const config: Config = {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             return sidebarItems;
           },
-          
         },
         blog: {
           showReadingTime: true,
@@ -62,15 +57,13 @@ const config: Config = {
           editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
-  
 
   themeConfig: {
-    // Rest of your themeConfig remains the same
     navbar: {
       title: 'AVStudio Docs',
       logo: {
@@ -80,17 +73,23 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'manualSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'knowledgeBaseSidebar',
+          position: 'left',
+          label: 'Knowledge Base',
         },
         {
           type: 'search',
           position: 'right',
         },
         {
-          href: 'https://github.com/avgator/avstudio-docs',
-          label: 'GitHub',
+          href: 'https://avstudio.app',
+          label: 'Open AVstudio',
           position: 'right',
         },
       ],
@@ -103,7 +102,7 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/avstudio-about',
+              to: 'avstudio-about',
             },
           ],
         },
@@ -123,7 +122,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  } satisfies Preset.ThemeConfig,
+  },
 };
 
-export default config;
+module.exports = config;

@@ -1,13 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 
-type FeatureItem = {
-  title: string;
-  description: JSX.Element;
-  icon: JSX.Element;
-};
-
-const FeatureList: FeatureItem[] = [
+const FeatureList = [
   {
     title: 'Easy to Use',
     description: (
@@ -49,7 +43,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, description, icon}: FeatureItem) {
+function Feature({ title, description, icon }) {
   return (
     <div className="flex flex-col items-center p-6">
       <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500 text-white">
@@ -61,7 +55,7 @@ function Feature({title, description, icon}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures() {
   return (
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

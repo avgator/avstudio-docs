@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className="hero hero--primary">
       <div className="container">
@@ -17,7 +17,8 @@ function HomepageHeader() {
         <div className={clsx('padding-horiz--md')}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/avstudio-about">
+            to="/docs/avstudio-about"
+          >
             Get Started →
           </Link>
         </div>
@@ -26,12 +27,13 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home() {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Documentation for AVStudio software suite">
+      description="Documentation for AVStudio software suite"
+    >
       <HomepageHeader />
       <main>
         <div className="container margin-top--lg">
@@ -39,16 +41,20 @@ export default function Home(): JSX.Element {
             <div className="col col--6">
               <h2>Quick Links</h2>
               <ul>
-                <li><Link to="/docs/manual/getting-started">Getting Started Guide</Link></li>
-                <li><Link to="/docs/manual">User Manual</Link></li>
-                <li><Link to="/docs/knowledge-base">Knowledge Base</Link></li>
+                <li>
+                  <Link to="/docs/manual/getting-started">Getting Started Guide</Link>
+                </li>
+                <li>
+                  <Link to="/docs/manual">User Manual</Link>
+                </li>
+                <li>
+                  <Link to="/docs/knowledge-base">Knowledge Base</Link>
+                </li>
               </ul>
             </div>
             <div className="col col--6">
               <h2>Support</h2>
-              <p>
-                Need help? Check our documentation or contact support.
-              </p>
+              <p>Need help? Check our documentation or contact support.</p>
             </div>
           </div>
         </div>

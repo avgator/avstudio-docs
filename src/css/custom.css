@@ -62,23 +62,77 @@
   background-color: var(--ifm-color-primary);
  }
  
- .navbar__link {
-  color: #dadada;                      /* Light Gray Text */
+.navbar__title {
+  color: #dadada;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+.navbar__link {
+  color: #dadada;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar__title:hover,
+.navbar__link:hover {
+  color: #bc163f;
+}
+
+
+/* Navbar improvements */
+.navbar__link {
+  color: #dadada;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Search box styling */
+.navbar__search {
+  padding: 0.5rem;
+}
+
+.search-bar {
+  background-color: rgba(218, 218, 218, 0.1);
+  border: 1px solid rgba(218, 218, 218, 0.2);
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .navbar__link:hover {
+  color: #bc163f;
+}
+
+[data-theme='dark'] .search-bar {
+  background-color: rgba(218, 218, 218, 0.05);
+}
+
+/* Fix mobile menu */
+.navbar__toggle {
+  color: #dadada;
+}
+
+/* Improve navbar spacing */
+.navbar__items {
+  gap: 0.5rem;
+}
+
+/* Footer link improvements */
+.footer__link-item {
+  color: #dadada;
+  transition: color 0.2s ease-in-out;
  }
  
- .navbar__link:hover {
-  color: #bc163f;                      /* Red on Hover */
+ .footer__link-item:hover {
+  color: #bc163f;
+  text-decoration: none;
  }
-
-
-.navbar__title {
-  color: #dadada;      /* Light Gray */
-  /* font-size: 1.5rem;   /* Bigger text */
-  font-weight: 600;    /* Bolder */
-  padding-left: 0.5rem;
-}
-
-/* Optional: Add hover effect */
-.navbar__title:hover {
-  color: #bc163f;      /* Red on hover */
-}
+ 
+ [data-theme='dark'] .footer__link-item {
+  color: #dadada;
+ }
+ 
+ [data-theme='dark'] .footer__link-item:hover {
+  color: #bc163f;
+ }

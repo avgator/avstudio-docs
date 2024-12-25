@@ -1,42 +1,16 @@
-// src/components/Layout.tsx
-import * as ReactAlias from 'react';
-import Navbar from '@theme/Navbar';
-import Footer from '@theme/Footer';
-import { ReactNode } from 'react';
-
-interface LayoutProps {
-  children: ReactNode;
-  title?: string; // Optional title
-  description?: string; // Optional description
-}
-
-export default function Layout({ children, title, description }: LayoutProps) {
-  return (
-    <div>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </div>
-  );
-}
-
-// src/components/HomepageFeatures.tsx
+// src/components/HomepageFeatures.jsx
 import React from 'react';
 
-interface Feature {
-  title: string;
-  description: string;
-}
-
-const FeatureList: Feature[] = [
+const FeatureList = [
   {
     title: 'Easy to Use',
-    description: 'Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.',
+    description:
+      'Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.',
   },
   // ... more features
 ];
 
-function FeatureComponent({ title, description }: Feature) {
+function FeatureComponent({ title, description }) {
   return (
     <div>
       <h3>{title}</h3>
