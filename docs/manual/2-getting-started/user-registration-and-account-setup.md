@@ -5,7 +5,7 @@ sidebar_label: "User Registration and Account Setup"
 
 # Creating Your AVstudio Account
 
-![Registration Form](/img/screenshots/user-registration-and-account-setup.png)
+![Registration Form](user-registration-and-account-setup.png)
 
 ## Quick Registration Steps
 

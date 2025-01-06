@@ -7,7 +7,7 @@ sidebar_label: "Dashboard"
 
 The dashboard is your central hub for managing all your AVstudio projects. Here you'll find comprehensive project overviews, quick access to recent work, and essential project management tools.
 
-![AVstudio Dashboard Overview](/img/screenshots/avstudio-dashboard.png)
+![AVstudio Dashboard Overview](avstudio-dashboard.png)
 
 ## Dashboard Layout
 
@@ -21,7 +21,7 @@ Located on the left side, this panel provides:
 ### 2. Tail-view Projects Panel
 Positioned on the right, offering detailed project information:
 
-![Tail-view Projects Section](/img/screenshots/projects-tail-view.png)
+![Tail-view Projects Section](projects-tail-view.png)
 
 #### Key Information Displayed
 - **Project Name**: Project identifier
@@ -32,7 +32,7 @@ Positioned on the right, offering detailed project information:
 
 ## Project Management
 
-![Project Management Details](/img/screenshots/projects-tail.png)
+![Project Management Details](projects-tail.png)
 
 ### Quick Actions
 - Create new project

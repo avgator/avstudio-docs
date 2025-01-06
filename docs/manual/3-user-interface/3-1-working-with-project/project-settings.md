@@ -5,7 +5,7 @@ sidebar_label: "Project settings"
 
 #  Project settings 
 
-![](/img/screenshots/avstudio-projectsettings.png)
+![](avstudio-projectsettings.png)
 
 This settings block includes the following functionality: viewing
 project metadata, creating and working with project builds, opening the
@@ -43,7 +43,7 @@ have not been saved at the moment will not be included in the build.
 
 ## Project settings
 
-![](/img/101285982.png)
+![AVstudio Project settings](project-settings2.png)
 
 In the project settings you can modify various aspects including its
 name, the archive name after compiling the build, graphical theme,

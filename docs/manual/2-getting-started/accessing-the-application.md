@@ -5,7 +5,7 @@ sidebar_label: "Accessing the Application"
 
 # Accessing AVstudio
 
-![AVstudio Login Screen](/img/screenshots/avstudio-login.png)
+![AVstudio Login Screen](avstudio-login.png)
 
 ## Quick Access
 

@@ -2,7 +2,7 @@
 
 The project workspace is your primary development environment in AVstudio, where you create and manage exceptional user interfaces.
 
-![Project Workspace Overview](/img/screenshots/working-with-project.png)
+![Project Workspace Overview](working-with-project.png)
 
 ## Project Configuration
 

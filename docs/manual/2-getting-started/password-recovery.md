@@ -5,7 +5,7 @@ sidebar_label: "Password Recovery"
 
 # Password Recovery Guide
 
-![Password Recovery Screen](/img/screenshots/avstudio-password-recovery.png)
+![Password Recovery Screen](avstudio-password-recovery.png)
 
 ## Recovery Process
 
