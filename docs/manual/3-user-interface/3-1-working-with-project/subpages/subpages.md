@@ -5,7 +5,7 @@ sidebar_label: "SubPages"
 
 #  SubPages 
 
-![AVstudio SubPages](avstudio-subpages.png)
+![AVstudio SubPages](./img/avstudio-subpages.png)
 
 A subpage is one of the available elements that can contain any other
 elements as well as other subpages. A subpage has the same properties as

@@ -6,7 +6,7 @@ sidebar_label: "Variables"
 #  Variables 
 
 
-![](/img/101351544.png)
+![Variables](./img/variables1.png)
 
 Variables are mutable values that can be used in configuring pages and
 elements of your project. Variables can be of different types: string,
@@ -21,7 +21,7 @@ the processor to your GUI.
 
 ## Create new variable
 
-![](/img/101351545.png)
+![Variables add new](./img/variables_add_new.png)
 
 To create a new variable, you need to specify its name, the type of data
 it will store, the initial default value, and optionally, you can

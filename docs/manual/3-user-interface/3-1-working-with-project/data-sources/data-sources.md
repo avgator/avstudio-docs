@@ -7,7 +7,7 @@ sidebar_label: "Data Sources"
 
 Data Sources serve as JSON-format data repositories that can be either local or populated from external sources via REST API requests.
 
-![Data Sources Overview](/img/screenshots/avstudio-datasources.png)
+![Data Sources Overview](./img/avstudio-datasources.png)
 
 ## Types of Data Sources
 
@@ -35,7 +35,7 @@ Data Source content is immutable during runtime. Updates require either a new re
 
 ## Creating a Data Source
 
-![New Data Source Form](/img/screenshots/avstudio-datasource-new.png)
+![New Data Source Form](./img/avstudio-datasource-new.png)
 
 ### Required Fields
 - **Name**: Unique identifier for the data source
@@ -58,7 +58,7 @@ You can use [project-level global values](project-settings.md) for header values
 
 ## Advanced Features
 
-![Additional Controls](/img/screenshots/avstudio-datasource-additional-controls.png)
+![Additional Controls](./img/avstudio-datasource-additional-controls.png)
 
 ### Data Management
 - **Clear**: Reset local JSON data
@@ -106,5 +106,5 @@ When using mixed mode:
 
 ## Related Topics
 
-- [Project Settings](project-settings.md)
-- [Global Variables](variables.md)
+- [Project Settings](../project-settings/project-settings.md)
+- [Global Variables](../variables/variables.md)

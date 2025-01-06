@@ -5,7 +5,7 @@ sidebar_label: "Pages"
 
 #  Pages 
 
-![AVstudio Pages](avstudio-pages.png)
+![AVstudio Pages](./img/avstudio-pages.png)
 
 A page is the main container for placing your content: elements,
 widgets, applications, subPages.
