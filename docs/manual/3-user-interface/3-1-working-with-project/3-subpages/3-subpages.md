@@ -14,7 +14,7 @@ It also has unique settings such as size.
 
 Within this section of page management, you can:
 
-|Element|Secription|
+|Element|Description|
 |---|---|
 |Name|Change page Name, filter by subPage name. SUB PAGE NAME MUST BE UNIQUE|
 |Updated| Last page update date|
@@ -22,11 +22,15 @@ Within this section of page management, you can:
 |Actions| * Clone subPage 
 | | * Delete subPage |
 
-:::warning
+:::warning 
+PAGE NAME MUST BE UNIQUE
+:::
+
+:::danger
 DELETE SUBPAGE CANNOT BE UNDONE
 :::
 
-Start page is first page loaded after loading UI
-
+:::tip 
 You can quickly open multiple page editor's at once if option/ctrl key
 pressed
+:::

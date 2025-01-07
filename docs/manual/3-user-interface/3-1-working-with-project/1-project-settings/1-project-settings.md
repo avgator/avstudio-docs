@@ -24,10 +24,12 @@ functional: page transitions are supported, all interaction events are
 processed, and all dynamic data that you configured earlier is actively
 involved.
 
+:::info Live Mode
 By default, Live Mode works when both project editing and viewing occur
 in the same browser on the same device. Pricing plans that involve
 **team development** allow the use of Live Mode on any devices,
 regardless of where the project editing takes place.
+:::
 
 ## Build
 
@@ -37,9 +39,11 @@ of your project data. The result of the build is an archive with the
 extension ".ch5z" which can be directly uploaded to the processor or any
 web server.
 
+:::warning Build
 It's important to understand that during the build process the project
 uses data that has been saved previously. Therefore any changes that
 have not been saved at the moment will not be included in the build.
+:::
 
 ## Project settings
 
@@ -52,70 +56,33 @@ notification control signals, webxpanel settings and more.
 
 Let's take a closer look at each field.
 
-PROPERTIES
+### PROJECT PROPERTIES
+|Element|Description|
+|---|---|
+|Name|Project name
+|Archive Name|Archive name after compiling the build
+|Theme|UI graphical theme|
 
-Name
+### SIGNALS (JOINS)
+|Element|Description|
+|---|---|
+|Analog flip page signal|Analog signal name feedback with proper page number trigger page flip to this page|
+|Serial flip page signal|Serial signal name feedback with proper page name trigger page flip to this page|
+|Notification signal|Serial signal name feedback content appears as notification|
+|Refresh DataSources|Digital signal name feedback with “true“ value trigger datasources data refresh|
 
-Project name
+### CONNECTOR SETTINGS
+|Element|Description|
+|---|---|
+|Connector|Type of connector , for now only webXpanel supported|
+|Host|WebXpanel host value|
+|IpId|WebXpanel IpId value|
+|Room ID|WebXpanel Room ID value|
 
-Archive Name
-
-Archive name after compiling the build
-
-Theme
-
-UI graphical theme.
-
-SIGNALS (JOINS)
-
-Analog flip page signal
-
-Analog signal name feedback with proper page number trigger page flip to
-this page
-
-Serial flip page signal
-
-Serial signal name feedback with proper page name trigger page flip to
-this page
-
-Notification signal
-
-Serial signal name feedback content appears as notification
-
-Refresh DataSources
-
-Digital signal name feedback with “true“ value trigger datasources data
-refresh
-
-CONNECTOR SETTINGS
-
-Connector
-
-Type of connector , for now only webXpanel supported
-
-Host
-
-WebXpanel host value
-
-IpId
-
-WebXpanel IpId value
-
-Room ID
-
-WebXpanel Room ID value
-
-DATASOURCE VARIABLES
-
-Dataset base URL
-
-Base url for remote datasources
-
-Authorization header key
-
-Authorization header key for remote datasources
-
-Authorization header value
-
-Authorization header value for remote datasources
+### DATASOURCE VARIABLES
+|Element|Description|
+|---|---|
+|Dataset base URL|Base url for remote datasources|
+|Authorization header key|Authorization header key for remote datasources|
+|Authorization header value|Authorization header value for remote datasources|
 

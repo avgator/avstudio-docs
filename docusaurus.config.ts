@@ -37,7 +37,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'), // Ensure the file is renamed to sidebars.js
-          editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
+          // editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
           routeBasePath: '/',
           path: 'docs',
           async sidebarItemsGenerator({
@@ -54,7 +54,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
+          //editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

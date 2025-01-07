@@ -53,7 +53,7 @@ Optional for Remote Data Sources:
 - **Fallback Data**: Backup for remote sources
 
 :::tip Global Values
-You can use [project-level global values](project-settings.md) for header values and base URLs.
+You can use [project-level global values](../1-project-settings/1-project-settings.md) for header values and base URLs.
 :::
 
 ## Advanced Features
@@ -106,5 +106,5 @@ When using mixed mode:
 
 ## Related Topics
 
-- [Project Settings](../project-settings/project-settings.md)
-- [Global Variables](../variables/variables.md)
+- [Project Settings](../1-project-settings/1-project-settings.md)
+- [Global Variables](../5-variables/5-variables.md)
