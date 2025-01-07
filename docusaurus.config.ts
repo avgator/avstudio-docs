@@ -21,13 +21,14 @@ const config = {
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
         hashed: true,
         language: ["en"],
         indexDocs: true,
-        indexBlog: true,
-        docsRouteBasePath: "/docs",
-      },
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+      }),
     ],
   ],
 
@@ -59,6 +60,18 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
         },
       },
     ],
@@ -128,6 +141,8 @@ const config = {
       maxHeadingLevel: 4,
     },
   },
+
+  
 };
 
 module.exports = config;
