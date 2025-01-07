@@ -6,7 +6,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://avstudio.github.io',
-  baseUrl: '/',
+  baseUrl: '/', // The public URL of your site. For example: https://avstudio.github.io
   organizationName: 'avgator',
   projectName: 'avstudio-docs',
 
