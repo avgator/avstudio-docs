@@ -5,9 +5,9 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
-  url: 'https://avstudio.github.io',
-  baseUrl: '/', // The public URL of your site. For example: https://avstudio.github.io
-  organizationName: 'avgator',
+  url: 'https://avgator.github.io',
+  baseUrl: '/avstudio-docs/', 
+  organizationName: 'AVgator Inc.',
   projectName: 'avstudio-docs',
 
   onBrokenLinks: 'throw',
