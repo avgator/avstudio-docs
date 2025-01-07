@@ -37,11 +37,17 @@ const config = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.ts'), // Ensure the file is renamed to sidebars.ts
-          // editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
+          sidebarPath: require.resolve('./sidebars.ts'),
           routeBasePath: '/',
           tagsBasePath: '/tags',
           path: 'docs',
+          remarkPlugins: [
+            require('remark-math'),
+            [require('remark-gfm'), {}]  // Add this for better table support
+          ],
+          rehypePlugins: [
+            require('rehype-katex')
+          ],
           async sidebarItemsGenerator({
             defaultSidebarItemsGenerator,
             ...args
@@ -50,13 +56,12 @@ const config = {
             return sidebarItems;
           },
         },
-        blog:  {
+        blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          //editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -85,6 +90,12 @@ const config = {
         src: 'img/400x200_AVstudio_LOGO.avif',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'aboutSidebar',
+          position: 'left',
+          label: 'About',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'manualSidebar',
@@ -116,7 +127,7 @@ const config = {
           items: [
             {
               label: 'Getting Started',
-              to: 'avstudio-about',
+              to: 'about',
             },
           ],
         },
@@ -141,8 +152,6 @@ const config = {
       maxHeadingLevel: 4,
     },
   },
-
-  
 };
 
 module.exports = config;

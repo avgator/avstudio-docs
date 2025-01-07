@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={clsx('padding-horiz--md')}>
           <Link
             className="button button--secondary button--lg"
-            to="/avstudio-about"
+            to="/about"
           >
             Get Started →
           </Link>
