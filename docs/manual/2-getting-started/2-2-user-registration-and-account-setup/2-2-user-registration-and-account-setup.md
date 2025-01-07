@@ -53,7 +53,7 @@ After verification, enhance your account by:
 ## Next Steps
 
 Once registered, you can:
-- [Log in to your account](accessing-the-application.md)
+- [Log in to your account](../2-3-accessing-the-application/2-3-accessing-the-application.md)
 - Create your first project
 - Explore available templates
 - Review tutorials
@@ -71,7 +71,7 @@ We recommend enabling two-factor authentication (2FA) for additional security.
 4. Contact support if needed
 
 ### Password Reset
-If needed, use our [password recovery](password-recovery.md) process.
+If needed, use our [password recovery](../2-4-password-recovery/2-4-password-recovery.md) process.
 
 ## Need Help?
 

@@ -12,13 +12,13 @@ Welcome to AVstudio! This section will guide you through your first steps with t
 ## Quick Start Guide
 
 ### 1. Account Setup
-- [Create your account](user-registration-and-account-setup.md)
+- [Create your account](../2-getting-started/2-2-user-registration-and-account-setup/2-2-user-registration-and-account-setup.md)
 - Verify your email
 - Complete your profile
 - Choose your subscription plan
 
 ### 2. First Login
-- [Access the platform](accessing-the-application.md)
+- [Access the platform](../2-getting-started/2-3-accessing-the-application/2-3-accessing-the-application.md)
 - Review the welcome dashboard
 - Set your preferences
 - Configure basic settings
