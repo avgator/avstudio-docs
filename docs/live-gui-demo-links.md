@@ -59,9 +59,10 @@ Introducing a simple yet powerful HTML5 interface designed specifically for cine
 
 ## 09 Home by Artem Buslaev
 ![Demo 09 Home by Artem Buslaev](/img/demo/Screenshot-DEMO09-Home-by-Artem-Buslaev-Medium.avif)
+
 Introducing the Smart Home User Interface by Artem Buslaev, a cutting-edge demo project that redefines home automation. This complex yet elegantly designed interface features a dynamic, multi-language setup that seamlessly adapts to various touch panel sizes, including iPads and iPhones, without the need for additional programming. Enjoy an excellent navigation layout that prioritizes user experience, with meticulous attention to detail. Designed for optimal integration with both Crestron and KNX systems, this interface is the perfect solution for modern smart homes.
 [Demo 9](https://avgatordemo09home-ab.netlify.app/)
-
+[Demo 9 Video](https://youtu.be/JCd3TTGwR8c?si=P53nn9Y01OSZbO7q)
 
 
 Mirror at
