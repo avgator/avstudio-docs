@@ -5,7 +5,7 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
-  url: 'https://avgator.github.io',
+  url: 'https://avstudio.github.io',
   baseUrl: '/avstudio-docs/',
   organizationName: 'avgator',
   projectName: 'avstudio-docs',
@@ -34,7 +34,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.ts'), // Ensure the file is renamed to sidebars.ts
