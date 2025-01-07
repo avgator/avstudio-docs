@@ -1,6 +1,8 @@
 ---
 title: "2 Getting Started"
 sidebar_label: "2 Getting Started"
+sidebar_position: 2
+
 ---
 
 # Getting Started with AVstudio

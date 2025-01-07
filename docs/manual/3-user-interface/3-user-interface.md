@@ -1,6 +1,7 @@
 ---
 title: "3 User interface"
 sidebar_label: "3 User interface"
+sidebar_position: 3
 ---
 
 #  3 User interface 

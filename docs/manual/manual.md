@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 sidebar_label: "Manual"
+sidebar_position: 0
 ---
 
 # AVstudio Manual

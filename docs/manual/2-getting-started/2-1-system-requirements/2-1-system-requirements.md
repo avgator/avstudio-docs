@@ -1,6 +1,7 @@
 ---
 title: "System Requirements"
 sidebar_label: "System Requirements"
+sidebar_position: 1
 ---
 
 # System Requirements

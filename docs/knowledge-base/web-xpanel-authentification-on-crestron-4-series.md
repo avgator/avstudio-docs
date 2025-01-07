@@ -1,6 +1,10 @@
 ---
 title: "Web Xpanel Authentification on Crestron 4-series"
 sidebar_label: "Web Xpanel Authentification on Crestron 4-series"
+tags:
+  - crestron
+  - authentification
+  - websocket
 ---
 
 #  Web Xpanel Authentification on Crestron 4-series 

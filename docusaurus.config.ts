@@ -36,9 +36,10 @@ const config = {
       'classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'), // Ensure the file is renamed to sidebars.js
+          sidebarPath: require.resolve('./sidebars.ts'), // Ensure the file is renamed to sidebars.ts
           // editUrl: 'https://github.com/avgator/avstudio-docs/tree/main/',
           routeBasePath: '/',
+          tagsBasePath: '/tags',
           path: 'docs',
           async sidebarItemsGenerator({
             defaultSidebarItemsGenerator,
@@ -48,7 +49,7 @@ const config = {
             return sidebarItems;
           },
         },
-        blog: {
+        blog:  {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -121,6 +122,10 @@ const config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 4,
     },
   },
 };
