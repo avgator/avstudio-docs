@@ -6,7 +6,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://avstudio.github.io',
-  baseUrl: '/avstudio-docs/',
+  baseUrl: '/',
   organizationName: 'avgator',
   projectName: 'avstudio-docs',
 
