@@ -30,7 +30,7 @@ different platforms. Additionally, AVstudio provides a built-in smart
 console and live debugging with a real processor to help you
 troubleshoot any issues and optimize your interface.
 
-[![](/img/43778064.png)](https://avgator.com/products-gui/darkhuddle#templateGalleryId)
+[![](./img/darkhuddle.png)](https://avgator.com/products-gui/darkhuddle#templateGalleryId)
 
 AVstudio by AVgator Inc is an online-based HTML5 editor for creating
 GUIs for control systems like Crestron. You can access it at the
@@ -40,7 +40,7 @@ Once you log in, you can start creating your project and designing your
 user interface. If you have any questions or issues, you can also
 contact support team for assistance.
 
-[![](/img/43679761.png)](https://avgator.com/products-gui/brightconferencespace#templateGalleryId)
+[![](./img/brightconferencespace.png)](https://avgator.com/products-gui/brightconferencespace#templateGalleryId)
 
 The difficulty level of creating a GUI in AVstudio will depend on your
 previous experience with GUI design and HTML5 development. However,
@@ -48,7 +48,7 @@ AVstudio is designed to be a user-friendly and intuitive tool that
 requires no coding skills, making it accessible for people who are new
 to GUI design.
 
-[![](/img/43778056.png)](https://avgator.com/products-gui/riseup#templateGalleryId)
+[![](./img/riseup.png)](https://avgator.com/products-gui/riseup#templateGalleryId)
 
 AVstudio provides a drag-and-drop interface that allows you to select
 and place various elements, widgets, and controls onto your GUI canvas.
@@ -58,16 +58,16 @@ library of pre-built components, including buttons, sliders, labels, and
 images, that you can use to add interactivity and functionality to your
 interface.
 
-[![](/img/43778052.png)](https://avgator.com/products-gui/violethuddle#templateGalleryId)
+[![](./img/violethuddle.png)](https://avgator.com/products-gui/violethuddle#templateGalleryId)
 
 If you do have coding skills, you can also add custom CSS and JavaScript
 to your project for even more flexibility and control.
 
-[![](/img/43712533.png)](https://avgator.com/products-gui/brightmodernnest#templateGalleryId)
+[![](./img/brightmodernnest.png)](https://avgator.com/products-gui/brightmodernnest#templateGalleryId)
 
 Overall, while there may be a bit of a learning curve to become
 proficient with the tool, AVstudio is designed to be intuitive and
 accessible for users with varying levels of GUI design experience.
 
-[![](/img/43679755.png)](https://avgator.com/products-gui/versailles#templateGalleryId)
+[![](./img/versailles.png)](https://avgator.com/products-gui/versailles#templateGalleryId)
 
