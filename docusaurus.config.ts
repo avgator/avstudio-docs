@@ -5,13 +5,32 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
+  // SEO-optimized metadata
   url: 'https://docs.avgator.com',
-  baseUrl: '/avstudio-docs/', 
+  baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
   projectName: 'avstudio-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // SEO metadata configuration
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVstudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'AVStudio, documentation, HTML5, WYSIWYG, GUI, editor, control systems, Crestron One, knowledge base, AVgator',
+      },
+    },
+  ],
 
   i18n: {
     defaultLocale: 'en',
@@ -43,7 +62,7 @@ const config = {
           path: 'docs',
           remarkPlugins: [
             require('remark-math'),
-            [require('remark-gfm'), {}]  // Add this for better table support
+            [require('remark-gfm'), {}]
           ],
           rehypePlugins: [
             require('rehype-katex')
@@ -54,6 +73,14 @@ const config = {
           }) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             return sidebarItems;
+          },
+          // SEO Optimizations for docs
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+          // Add structured data
+          metadata: {
+            property: 'og:type',
+            content: 'website',
           },
         },
         blog: {
@@ -66,11 +93,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        // Enhanced sitemap configuration
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: ['/tags/**', '/search/**', '/page/**'],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
             const {defaultCreateSitemapItems, ...rest} = params;
@@ -82,7 +110,13 @@ const config = {
     ],
   ],
 
+  // Enhanced theme configuration with SEO metadata
   themeConfig: {
+    metadata: [
+      {name: 'og:title', content: 'AVStudio Documentation'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'robots', content: 'index, follow'},
+    ],
     navbar: {
       title: 'AVStudio Docs',
       logo: {
@@ -152,6 +186,19 @@ const config = {
       maxHeadingLevel: 4,
     },
   },
+
+  // Add plugins for SEO optimization
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030,
+        min: 640,
+        steps: 2,
+      },
+    ],
+  ],
 };
 
 module.exports = config;
