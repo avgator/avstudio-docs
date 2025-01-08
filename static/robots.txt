@@ -1,10 +1,15 @@
 User-agent: *
 Allow: /
 
-# Prevent indexing of search results and tag pages
-Disallow: /search
+# Prevent duplicate content indexing
 Disallow: /tags
+Disallow: /search
 Disallow: /page/
+Disallow: */LICENSE.md
+Disallow: */CHANGELOG.md
 
-# Add your sitemap location
+# Add sitemap
 Sitemap: https://docs.avgator.com/avstudio-docs/sitemap.xml
+
+# Crawl-delay directive
+Crawl-delay: 10

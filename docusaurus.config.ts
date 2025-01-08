@@ -5,6 +5,7 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
+  // Enhanced metadata for better SEO
   url: 'https://docs.avgator.com',
   baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
@@ -55,30 +56,45 @@ const config = {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             return sidebarItems;
           },
-          // SEO Optimizations for docs
+          // Enhanced SEO Optimizations for docs
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          editUrl: 'https://github.com/avgator/avstudio-docs/edit/main/', // Add this for better UX and SEO
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            copyright: `Copyright © ${new Date().getFullYear()} AVgator Inc.`,
+            language: 'en',
           },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        // Enhanced sitemap configuration
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**', '/search/**', '/page/**'],
+          ignorePatterns: [
+            '/tags/**',
+            '/search/**',
+            '/page/**',
+            '/**/LICENSE.md',
+            '/**/CHANGELOG.md'
+          ],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
             const {defaultCreateSitemapItems, ...rest} = params;
             const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
+            return items
+              .filter((item) => !item.url.includes('/page/'))
+              .map((item) => ({
+                ...item,
+                priority: item.url === '/' ? 1.0 : 0.8 // Prioritize homepage and main sections
+              }));
           },
         },
       },
@@ -86,14 +102,20 @@ const config = {
   ],
 
   themeConfig: {
-    // SEO metadata
+    // Enhanced SEO metadata
     metadata: [
       {name: 'description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
       {name: 'keywords', content: 'AVStudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor'},
       {name: 'og:title', content: 'AVStudio Documentation'},
       {name: 'og:type', content: 'website'},
+      {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
+      {name: 'og:image', content: 'https://docs.avgator.com/avstudio-docs/img/400x200_AVstudio_LOGO.avif'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'robots', content: 'index, follow'}
+      {name: 'twitter:title', content: 'AVStudio Documentation'},
+      {name: 'twitter:description', content: 'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
+      {name: 'robots', content: 'index, follow, max-image-preview:large'},
+      {name: 'author', content: 'AVgator Inc.'},
+      {name: 'language', content: 'English'}
     ],
     navbar: {
       title: 'AVStudio Docs',
@@ -165,8 +187,14 @@ const config = {
     },
   },
 
-  // Add plugins for SEO optimization
   plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-8S2KS09YKE',
+        anonymizeIP: true, // Should be enabled for GDPR compliance
+      },
+    ],
     [
       '@docusaurus/plugin-ideal-image',
       {
@@ -174,6 +202,7 @@ const config = {
         max: 1030,
         min: 640,
         steps: 2,
+        disableInDev: false,
       },
     ],
   ],
