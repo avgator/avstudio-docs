@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+For image optimization, you can use [Squoosh](https://squoosh.app/) or [ImageOptim](https://imageoptim.com/) to compress images.
+
 ### Installation
 
 ```
