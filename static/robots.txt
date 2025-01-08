@@ -1,9 +1,10 @@
 User-agent: *
 Allow: /
-Disallow: /search
-Disallow: /docs/-
-Disallow: /docs/next
-Disallow: /blog/tags
-Disallow: /blog/archive
 
-Sitemap: https://docs.avgator.com/sitemap.xml
+# Prevent indexing of search results and tag pages
+Disallow: /search
+Disallow: /tags
+Disallow: /page/
+
+# Add your sitemap location
+Sitemap: https://docs.avgator.com/avstudio-docs/sitemap.xml
