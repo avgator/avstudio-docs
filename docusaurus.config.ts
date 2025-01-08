@@ -5,7 +5,7 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
-  url: 'https://avgator.github.io',
+  url: 'https://docs.avgator.com',
   baseUrl: '/avstudio-docs/', 
   organizationName: 'AVgator Inc.',
   projectName: 'avstudio-docs',
