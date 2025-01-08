@@ -5,7 +5,6 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
-  // SEO-optimized metadata
   url: 'https://docs.avgator.com',
   baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
@@ -13,24 +12,6 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // SEO metadata configuration
-  headTags: [
-    {
-      tagName: 'meta',
-      attributes: {
-        name: 'description',
-        content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVstudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
-      },
-    },
-    {
-      tagName: 'meta',
-      attributes: {
-        name: 'keywords',
-        content: 'AVStudio, documentation, HTML5, WYSIWYG, GUI, editor, control systems, Crestron One, knowledge base, AVgator',
-      },
-    },
-  ],
 
   i18n: {
     defaultLocale: 'en',
@@ -77,11 +58,6 @@ const config = {
           // SEO Optimizations for docs
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          // Add structured data
-          metadata: {
-            property: 'og:type',
-            content: 'website',
-          },
         },
         blog: {
           showReadingTime: true,
@@ -93,7 +69,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        // Enhanced sitemap configuration
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
@@ -110,12 +85,15 @@ const config = {
     ],
   ],
 
-  // Enhanced theme configuration with SEO metadata
   themeConfig: {
+    // SEO metadata
     metadata: [
+      {name: 'description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
+      {name: 'keywords', content: 'AVStudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor'},
       {name: 'og:title', content: 'AVStudio Documentation'},
+      {name: 'og:type', content: 'website'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'robots', content: 'index, follow'},
+      {name: 'robots', content: 'index, follow'}
     ],
     navbar: {
       title: 'AVStudio Docs',
