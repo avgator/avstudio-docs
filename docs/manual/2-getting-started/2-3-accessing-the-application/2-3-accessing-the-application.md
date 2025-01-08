@@ -2,6 +2,8 @@
 title: "Accessing the Application"
 sidebar_label: "Accessing the Application"
 sidebar_position: 3
+tags:
+  - login
 ---
 
 # Accessing AVstudio

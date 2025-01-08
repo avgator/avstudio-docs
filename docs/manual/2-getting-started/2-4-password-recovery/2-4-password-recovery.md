@@ -2,6 +2,9 @@
 title: "Password Recovery"
 sidebar_label: "Password Recovery"
 sidebar_position: 4
+tags:
+  - password
+  - recovery
 ---
 
 # Password Recovery Guide

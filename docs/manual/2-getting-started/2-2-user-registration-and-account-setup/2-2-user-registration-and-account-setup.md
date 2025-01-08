@@ -2,6 +2,9 @@
 title: "User Registration and Account Setup"
 sidebar_label: "User Registration and Account Setup"
 sidebar_position: 2
+tags:
+  - authentification
+  - registration
 ---
 
 # Creating Your AVstudio Account
