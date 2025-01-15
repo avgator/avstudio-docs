@@ -132,7 +132,13 @@ const config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'manualSidebar',
+          sidebarId: 'showcaseSidebar',
+          position: 'left',
+          label: 'Showcase',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'documentationSidebar',
           position: 'left',
           label: 'Documentation',
         },
