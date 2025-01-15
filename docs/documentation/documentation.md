@@ -1,10 +1,10 @@
 ---
-title: "Manual"
-sidebar_label: "Manual"
+title: "Documentation"
+sidebar_label: "Documentation"
 sidebar_position: 0
 ---
 
-# AVstudio Manual
+# AVstudio Documentation
 
 ## What is AVstudio?
 

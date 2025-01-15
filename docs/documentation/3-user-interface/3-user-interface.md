@@ -8,7 +8,7 @@ sidebar_position: 3
 
 The User Interface of AVgator Studio provides a user-friendly and
 intuitive environment for creating dynamic and interactive user
-interfaces. This section of the manual will guide you through the
+interfaces. This section of the documentation will guide you through the
 various components and features of the User Interface.
 
 -   [Dashboard Overview](dashboard.md):

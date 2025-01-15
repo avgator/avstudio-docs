@@ -42,13 +42,16 @@ export default function Home() {
               <h2>Quick Links</h2>
               <ul>
                 <li>
-                  <Link to="/manual/getting-started">Getting Started Guide</Link>
+                  <Link to="/documentation/getting-started">Getting Started Guide</Link>
                 </li>
                 <li>
-                  <Link to="/manual">User Manual</Link>
+                  <Link to="/showcase">Showcase</Link>
                 </li>
                 <li>
                   <Link to="/knowledge-base">Knowledge Base</Link>
+                </li>
+                <li>
+                  <Link to="/documentation">Documentation</Link>
                 </li>
               </ul>
             </div>

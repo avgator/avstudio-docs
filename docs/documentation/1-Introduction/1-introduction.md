@@ -24,9 +24,9 @@ AVgator Studio (AVstudio) revolutionizes the way you create dynamic and interact
 - Flexible action scenarios
 - Advanced customization options
 
-## Purpose of This Manual
+## Purpose of This Documentation
 
-This manual serves as your comprehensive guide to mastering AVstudio. You'll learn:
+This Documentation serves as your comprehensive guide to mastering AVstudio. You'll learn:
 
 - Essential concepts and workflows
 - Best practices for interface design
@@ -35,9 +35,9 @@ This manual serves as your comprehensive guide to mastering AVstudio. You'll lea
 
 Whether you're creating your first interface or developing complex systems, this guide will help you harness the full power of AVstudio.
 
-## Who Should Read This Manual
+## Who Should Read This Documentation
 
-This manual is designed for:
+This Documentation is designed for:
 
 ### Primary Users
 - UI/UX Developers
@@ -58,7 +58,7 @@ This manual is designed for:
 
 ## What's Inside
 
-Throughout this manual, you'll find:
+Throughout this documentation, you'll find:
 - Step-by-step tutorials
 - Best practice recommendations
 - Real-world examples
