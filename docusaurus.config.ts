@@ -166,8 +166,8 @@ const config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Getting Started',
-              to: 'about',
+              label: 'HTML5 UI Showcase',
+              to: 'showcase',
             },
           ],
         },
