@@ -9,7 +9,7 @@ Disallow: */LICENSE.md
 Disallow: */CHANGELOG.md
 
 # Add sitemap
-Sitemap: https://docs.avstudio.app/avstudio-docs/sitemap.xml
+Sitemap: https://docs.avgator.com/avstudio-docs/sitemap.xml
 
 # Crawl-delay directive
 Crawl-delay: 10
