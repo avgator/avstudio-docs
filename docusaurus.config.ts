@@ -10,7 +10,6 @@ const config = {
   baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
   projectName: 'avstudio-docs',
-
   
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
