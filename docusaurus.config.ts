@@ -5,7 +5,7 @@ const config = {
   tagline: 'Documentation and Knowledge Base',
   favicon: 'img/favicon.ico',
 
-  // Enhanced metadata for better SEO
+  // Enhanced metadata for better SEO 
   url: 'https://docs.avstudio.app',
   baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
