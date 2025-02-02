@@ -3,7 +3,7 @@ title: Knowledge Base
 sidebar_position: 1
 ---
 
-# Knowledge Base TOC
+# Knowledge Base
 
 import TOCInline from '@theme/TOCInline';
 
