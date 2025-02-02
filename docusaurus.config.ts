@@ -7,7 +7,7 @@ const config = {
 
   // Enhanced metadata for better SEO 
   url: 'https://docs.avstudio.app',
-  baseUrl: '/',
+  baseUrl: '/avstudio-docs/',
   organizationName: 'AVgator Inc.',
   projectName: 'avstudio-docs',
   
@@ -109,7 +109,7 @@ const config = {
       {name: 'og:title', content: 'AVStudio Documentation'},
       {name: 'og:type', content: 'website'},
       {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'og:image', content: 'https://docs.avstudio.app/img/400x200_AVstudio_LOGO.avif'},
+      {name: 'og:image', content: 'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:title', content: 'AVStudio Documentation'},
       {name: 'twitter:description', content: 'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
