@@ -1,18 +1,40 @@
+---
+title: "Multi-Language Implementation Guide"
+sidebar_label: "Multi-Language Implementation Guide"
+tags:
+- multi-language
+- localization
+- UI components
+- datasource
+- language switching
+- AVStudio
+- JavaScript
+- functions
+- internationalization
+- language codes
+- dynamic content
+---
+
+
 # Multi-Language Implementation Guide
+
 
 ## Before We Start
 
 This document explains how to set up and manage multiple languages within your UI using a single, globally accessible language variable. It covers the logic behind structuring data sources so that each element can seamlessly adapt to any chosen language.
 
 ## Locale Setup
+
 We need a locale variable to store the current language using standard international language codes (e.g., **en** for English, **es** for Spanish, or **fr** for French).
 
-![variable within AVStudio](./assets/variables.png)
+![variable within AVStudio](./img/variables.png)
 
 ## Defining Language-Dependent Components
+
 To support language switching on the fly, define all language-dependent UI components via a datasource. This ensures that changing the language variable globally will update the entire UI.
 
 ## Structuring Your Datasource
+
 Each datasource used for elements should keep language-specific data together with its matching language code. This approach allows you to handle different languages without manually updating every element.
 
 Below is an example of such a datasource:
@@ -56,8 +78,7 @@ Below is an example of such a datasource:
 
 ### Selecting a Single Portion of Data
 
-![data filtered for a single entity](./assets/singledata.png)
-
+![data filtered for a single entity](./img/singledata.png)
 
 In some scenarios, you only need a single item from the datasource to attach it to the single UI element. For instance, if you filter or directly select a single room object, it might look like this:
 
@@ -79,6 +100,7 @@ In some scenarios, you only need a single item from the datasource to attach it 
 ```
 
 ### Creating a Function to Select the Language Value
+
 You can create a function (e.g., **languageselector**) in the *Functions* section of AVStudio. This function will:
 
 1. Retrieve the current language (using the previously defined `currentLocale` variable).  
@@ -118,6 +140,7 @@ function languageselector(json) {
 ```
 
 ### Example Result
+
 Applying this function to the single room object above results in:
 
 ```json
@@ -130,10 +153,10 @@ Applying this function to the single room object above results in:
 }
 ```
 
-![function has been applied to the data](./assets/functionapplied.png)
-
+![function has been applied to the data](./img/functionapplied.png)
 
 ## Dealing with Subpages List
+
 For a list of subpages (e.g., multiple rooms), modify the function to operate on each item in the array:
 
 ```javascript
@@ -163,6 +186,7 @@ function listlanguageselector(json) {
 ```
 
 ### Example Result
+
 When you apply the function to the datasource in subpages list's source selection, you will get a transformed array. For example:
 
 ```json
@@ -184,10 +208,10 @@ When you apply the function to the datasource in subpages list's source selectio
 ]
 ```
 
-![function has been applied to the data](./assets/listfunctionapplied.png)
-
+![function has been applied to the data](./img/listfunctionapplied.png)
 
 ## Updating the Current Locale
+
 If you change the `currentLocale` variable (in any way supported by AVStudio), all interfaces and components that rely on this logic will automatically reflect the new language settings.
 
-![action will change the variable](./assets/changevariable.png)
+![action will change the variable](./img/changevariable.png)
