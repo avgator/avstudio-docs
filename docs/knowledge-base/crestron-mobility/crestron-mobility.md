@@ -6,6 +6,7 @@ tags:
   - mobility
   - trial
   - license
+  - verification
 ---
 
 #  Verify Trial period remaining (Crestron Mobility) 

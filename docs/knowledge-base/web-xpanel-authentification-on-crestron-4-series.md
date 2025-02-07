@@ -5,6 +5,8 @@ tags:
   - crestron
   - authentification
   - websocket
+  - xpanel
+  - 4-series
 ---
 
 #  Web Xpanel Authentification on Crestron 4-series 

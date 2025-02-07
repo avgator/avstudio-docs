@@ -2,6 +2,11 @@
 title: "Showcase"
 sidebar_label: "Showcase"
 sidebar_position: 10
+tags:
+  - demo
+  - projects
+  - live
+  - gui
 ---
 
 #  Demo Projects and Live GUI demo links 

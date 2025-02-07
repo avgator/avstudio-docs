@@ -1,6 +1,12 @@
 ---
 title: "Data Sources"
 sidebar_label: "Data Sources"
+sidebar_position: 6
+tags:
+   - data-sources
+   - user-interface
+   - avstudio
+   
 ---
 
 # Data Sources in AVstudio

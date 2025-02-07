@@ -2,7 +2,9 @@
 title: "Pages"
 sidebar_label: "Pages"
 sidebar_position: 2
-
+tags:
+    - avstudio
+    - pages
 ---
 
 #  Pages 

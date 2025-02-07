@@ -1,6 +1,8 @@
 ---
 title: Knowledge Base
 sidebar_position: 1
+tags:
+    - knowledge-base
 ---
 
 # Knowledge Base

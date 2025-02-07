@@ -5,6 +5,9 @@ sidebar_position: 4
 tags:
   - password
   - recovery
+  - avstudio
+  - getting-started
+  
 ---
 
 # Password Recovery Guide

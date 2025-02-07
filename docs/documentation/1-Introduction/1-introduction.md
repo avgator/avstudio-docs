@@ -2,6 +2,18 @@
 title: "1 Introduction"
 sidebar_label: "1 Introduction"
 sidebar_position: 1
+tags: 
+    - AVstudio
+    - Introduction
+    - UI/UX
+    - Documentation
+    - Interface Design
+    - Control Systems
+    - Crestron
+    - SAAS
+    - GUI
+    - HTML5
+
 ---
 
 # Introduction to AVstudio

@@ -2,6 +2,9 @@
 title: "About AVgator Studio (AVstudio)"
 sidebar_label: "About AVgator Studio (AVstudio)"
 sidebar_position: 0
+tags:
+    - about
+    - avstudio
 ---
 
 #  About AVgator Studio (AVstudio) 

@@ -1,3 +1,14 @@
+---
+title: "Working with Projects"
+sidebar_label: "Working with Projects"
+sidebar_position: 2
+order: 2
+tags:
+   - avstudio
+   - user-interface
+   
+---
+
 # Working with Projects
 
 The project workspace is your primary development environment in AVstudio, where you create and manage exceptional user interfaces.

@@ -1,11 +1,15 @@
 ---
 title: "Global Containers"
 sidebar_label: "Global Containers"
+sidebar_position: 4
+tags:
+    - global-containers
+    - avstudio
 ---
 
 #  Global Containers 
 
-![AVstudio Global Containers](./images/avstudio-globalcontainers.png)
+![AVstudio Global Containers](./img/avstudio-globalcontainers.png)
 
 Global containers are areas where you can place any elements and by
 default they will be displayed on all pages of your project. This is

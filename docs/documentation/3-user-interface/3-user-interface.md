@@ -2,6 +2,11 @@
 title: "3 User interface"
 sidebar_label: "3 User interface"
 sidebar_position: 3
+order: 3
+tags:
+    - user-interface
+    - documentation
+    - avstudio
 ---
 
 #  3 User interface 

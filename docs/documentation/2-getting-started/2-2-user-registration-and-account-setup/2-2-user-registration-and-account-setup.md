@@ -5,6 +5,9 @@ sidebar_position: 2
 tags:
   - authentification
   - registration
+  - avstudio
+  - getting-started
+  
 ---
 
 # Creating Your AVstudio Account
@@ -61,10 +64,6 @@ Once registered, you can:
 - Explore available templates
 - Review tutorials
 
-:::note Account Security
-We recommend enabling two-factor authentication (2FA) for additional security.
-:::
-
 ## Common Registration Issues
 
 ### Didn't Receive Verification Email?
@@ -76,10 +75,6 @@ We recommend enabling two-factor authentication (2FA) for additional security.
 ### Password Reset
 If needed, use our [password recovery](../2-4-password-recovery/2-4-password-recovery.md) process.
 
-## Need Help?
-
-If you encounter any issues during registration:
-- Review our FAQ section
-- Contact support@avstudio.app
-- Check system status page
-- Join our community forum
+:::tip Password Recovery
+Forgot your password? Click the "Recover" link on the login page to reset it.
+:::

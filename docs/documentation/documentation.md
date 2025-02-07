@@ -2,6 +2,11 @@
 title: "Documentation"
 sidebar_label: "Documentation"
 sidebar_position: 0
+order: 0
+tags:
+    - documentation
+    - avstudio
+    - user-interface
 ---
 
 # AVstudio Documentation

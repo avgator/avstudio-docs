@@ -2,7 +2,12 @@
 title: "Dashboard"
 sidebar_label: "Dashboard"
 sidebar_position: 3
-
+order: 3
+tags:
+    - dashboard
+    - user-interface
+    - documentation
+    - avstudio
 ---
 
 # AVstudio Dashboard

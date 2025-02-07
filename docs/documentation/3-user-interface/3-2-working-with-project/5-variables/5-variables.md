@@ -1,6 +1,12 @@
 ---
 title: "Variables"
 sidebar_label: "Variables"
+sidebar_position: 5
+tags:
+    - variables
+    - user-interface
+    - avstudio
+    
 ---
 
 #  Variables 

@@ -1,6 +1,11 @@
 ---
 title: "Project settings"
 sidebar_label: "Project settings"
+sidebar_position: 1
+tags:
+    - avstudio
+    - settings
+    
 ---
 
 #  Project settings 
