@@ -1,6 +1,6 @@
 {
-  "name": "avgator-docs",
-  "version": "0.0.0",
+  "name": "avstudio-docs",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

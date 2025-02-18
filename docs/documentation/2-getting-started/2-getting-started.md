@@ -1,11 +1,10 @@
 ---
-title: "2 Getting Started"
-sidebar_label: "2 Getting Started"
-sidebar_position: 2
+title: 2 Getting Started
+description: Get started with AV Studio
+sidebar_position: 1
 tags:
   - avstudio
   - getting-started
-  
 ---
 
 # Getting Started with AVstudio

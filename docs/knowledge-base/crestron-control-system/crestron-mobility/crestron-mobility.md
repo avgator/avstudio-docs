@@ -1,12 +1,12 @@
 ---
-title: "Verify Trial period remaining (Crestron Mobility)"
-sidebar_label: "Verify Trial period remaining (Crestron Mobility)"
+title: Crestron Mobility
+description: Guide for Crestron mobility features and configuration
+sidebar_position: 1
 tags:
   - crestron
   - mobility
-  - trial
-  - license
-  - verification
+  - configuration
+  - integration
 ---
 
 #  Verify Trial period remaining (Crestron Mobility) 
