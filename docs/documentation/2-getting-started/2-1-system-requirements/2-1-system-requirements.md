@@ -3,11 +3,11 @@ title: "System Requirements"
 sidebar_label: "System Requirements"
 sidebar_position: 1
 tags:
-    - AVstudio
-    - Requirements
-    - System
-    - Hardware
-    - Software
+    - avstudio
+    - requirements
+    - system
+    - hardware
+    - software
 ---
 
 # System Requirements
