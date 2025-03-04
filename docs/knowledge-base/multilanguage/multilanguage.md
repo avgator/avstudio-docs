@@ -13,6 +13,7 @@ tags:
 - internationalization
 - language codes
 - dynamic content
+sidebar_position: 2
 ---
 
 
