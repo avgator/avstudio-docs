@@ -5,7 +5,7 @@ sidebar_position: 1
 tags:
     - avstudio
     - settings
-    
+    - project
 ---
 
 #  Project settings 

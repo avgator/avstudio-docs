@@ -2,9 +2,11 @@
 title: "HTML5 Crestron Control System Configuration"
 sidebar_label: "HTML5 Crestron Control System Configuration"
 tags:
+  - knowledge-base
   - authentification
   - crestron
   - html5
+---
 ---
 
 #  HTML5 Crestron Control System Configuration 

@@ -7,7 +7,6 @@ tags:
   - registration
   - avstudio
   - getting-started
-  
 ---
 
 # Creating Your AVstudio Account

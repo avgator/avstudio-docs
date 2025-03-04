@@ -2,6 +2,7 @@
 title: "Web Xpanel Authentification on Crestron 4-series"
 sidebar_label: "Web Xpanel Authentification on Crestron 4-series"
 tags:
+  - knowledge-base
   - crestron
   - authentification
   - websocket

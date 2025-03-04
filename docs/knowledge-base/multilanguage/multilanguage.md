@@ -2,17 +2,18 @@
 title: "Multi-Language Implementation Guide"
 sidebar_label: "Multi-Language Implementation Guide"
 tags:
+- knowledge-base
 - multi-language
 - localization
-- UI components
+- ui-components
 - datasource
-- language switching
-- AVStudio
-- JavaScript
+- language-switching
+- avstudio
+- javascript
 - functions
 - internationalization
-- language codes
-- dynamic content
+- language-codes
+- dynamic-content
 sidebar_position: 2
 ---
 

@@ -3,6 +3,7 @@ title: Crestron Mobility
 description: Guide for Crestron mobility features and configuration
 sidebar_position: 1
 tags:
+  - knowledge-base
   - crestron
   - mobility
   - configuration

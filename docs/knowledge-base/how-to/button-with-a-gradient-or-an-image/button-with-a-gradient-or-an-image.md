@@ -3,6 +3,7 @@ title: "How to create button with a gradient"
 sidebar_label: "How to create button with a gradient"
 sidebar_position: 1
 tags:
+  - knowledge-base
   - button
   - gradient
   - image
