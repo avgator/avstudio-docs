@@ -1,63 +1,88 @@
 ---
-title: "Working with Projects"
-sidebar_label: "Working with Projects"
+id: working-with-project
+title: Working with Projects
+sidebar_label: Working with Projects
 sidebar_position: 2
 order: 2
 tags:
-   - avstudio
-   - user-interface
-   
+  - avstudio
+  - user-interface
 ---
 
 # Working with Projects
 
-The project workspace is your primary development environment in AVstudio, where you create and manage exceptional user interfaces.
+The project workspace is your primary development environment in AVstudio v3, where you create and manage exceptional user interfaces for Crestron systems.
 
-![Project Workspace Overview](./img/working-with-project.png)
+![Project Dashboard Overview](./img/avstudio-3-001-1-dashboard.jpg)
+*Caption: The AVstudio v3 project dashboard as of March 12, 2025.*
 
-## Project Configuration
+## Project Dashboard and Configuration
 
-### Basic Settings
-- Project name and description
-- **Global Joins** configuration
-- Theme selection and customization
-- **Project Environments** setup and management
+### Basic Controls and Settings
+- **Project Name and Theme**: Displayed at the top (e.g., "Dark Huddle").
+- **Timestamp**: Shows the last update (e.g., March 9, 2025, 7:13 AM).
+- **Save Project**: Click the "Save project" button to manually save your work.
 
-### Advanced Properties
-- API configurations and integrations
-- Build settings and optimization
-- Multi-platform deployment options
+### Live Preview
+The Live Preview feature enables real-time interaction with your project:
+1. Click the **Live** button.
+2. Select an environment (e.g., "Default") from the dropdown.
+3. Open a new window to view live updates connected to your control system or equipment.
+
+![Live Preview in Action](./img/avstudio-3-001-2-live-preview.jpg)
+*Caption: Live Preview with the Default environment selected.*
+
+:::tip
+Use Live Preview to test modifications instantly while connected to your Crestron system.
+:::
+
+### Build
+Create a compiled file for deployment:
+1. Click the **Build** button.
+2. Select an environment (e.g., "Default") from the dropdown.
+3. Download the archive file (e.g., `.ch5z` for Crestron or `.zip` for other panels).
+
+![Build Selection](./img/avstudio-3-001-3-build.jpg)
+*Caption: Building a project with the Default environment.*
+
+### Project Settings
+Access additional options via the hamburger menu:
+- **Project Settings**: Configure project details.
+- **Clone Project**: Duplicate the current project.
+- **Delete Project**: Remove the project permanently.
+
+![Project Settings Submenu](./img/avstudio-3-001-4-project-settings-submenu.jpg)
+*Caption: The project settings submenu in AVstudio v3.*
 
 ## Content Management
 
 ### Pages and Structure
-- Create and manage pages
-- Organize subpages hierarchy
-- **Global containers** implementation
-- Navigation system configuration
+- Create and manage pages within your project.
+- Implement **Global Containers** for reusable layouts.
+- Configure the navigation system.
 
 ### Asset Management
-- Image and icon library
-- Video content optimization
-- Efficient file organization
-- **Media Gallery** management
+- Manage an **Image and Icon Library**.
+- Optimize video content for performance.
+- Organize files efficiently.
+- Use the **Media Gallery** for asset oversight.
 
 ## Development Tools
 
 ### Visual Editor
-- Intuitive drag-and-drop interface
-- Extensive component library
-- Precise layout grid system
-- **Adaptive and responsive** design tools
+- Intuitive drag-and-drop interface.
+- Extensive component library.
+- Precise layout grid system.
+- **Adaptive and Responsive** design tools.
 
 ### Code Integration
-- Custom CSS styling
-- JavaScript functionality
-- HTML block implementation
-- Component customization
+- Apply **Custom CSS Styling**.
+- Add **JavaScript Functionality**.
+- Implement **HTML Blocks**.
+- Customize components as needed.
 
 :::tip Keyboard Shortcuts
-Speed up your workflow:
+Boost productivity with:
 - Ctrl/Cmd + C: Copy
 - Ctrl/Cmd + P: Paste
 - Ctrl/Cmd + S: Save
@@ -68,67 +93,73 @@ Speed up your workflow:
 ## Project Components
 
 ### Core Elements
-- Pages and subpages
-- **Global Containers**
-- **Variables** management
-- **Data sources** configuration
-- Custom Functions
-- Media Gallery
-- Font management
+- Pages.
+- **Global Containers** for shared layouts.
+- **Variables** management.
+- **Data Sources** configuration.
+- Custom Functions.
+- **Media Gallery**.
+- Font management.
 
 ## Testing & Preview
 
 ### Preview Options
-- Standard Page Preview
-- **Live Preview** with full functionality
-  - Tablet responsive testing
-  - Mobile adaptation testing
-  - Custom resolution testing
+- **Standard Page Preview**: View a static render.
+- **Live Preview**: Test full functionality across:
+  - Tablet responsive testing.
+  - Mobile adaptation testing.
+  - Custom resolution testing.
 
 ### Development Tools
-- Real-time Live Preview
-- Multi-device simulation
-- Performance monitoring
-- Debug console access
+- **Real-time Live Preview**.
+- Multi-device simulation.
+- Performance monitoring.
+- Debug console access.
 
 :::note Automatic Saving
-While AVstudio auto-saves your work periodically, we recommend manual saves after significant changes.
+AVstudio auto-saves periodically, but manual saves after significant changes are recommended.
 :::
 
 ## Collaboration Features (Upcoming)
 
 ### Team Collaboration
-- Shared project access
-- Role-based permissions
-- Version control system
-- Change history tracking
+- Shared project access (coming soon).
+- Role-based permissions (in development).
+- Version control system (planned).
+- Change history tracking (upcoming).
 
 ### Team Communication
-- In-page annotations
-- Design review tools
-- Task management
-- Change request system
+- In-page annotations (future release).
+- Design review tools (in progress).
+- Task management (planned).
+- Change request system (upcoming).
+
+:::caution
+Collaboration features are not yet available in AVstudio v3 as of March 12, 2025. Stay tuned for updates!
+:::
 
 ## Best Practices
 
-1. **Project Organization**
-   - Implement consistent naming conventions
-   - Structure assets logically
-   - Maintain component documentation
-   - Create clear hierarchies
+### Project Organization
+- Use consistent naming conventions.
+- Structure assets logically.
+- Maintain component documentation.
+- Create clear hierarchies.
 
-2. **Optimization**
-   - Compress media assets
-   - Optimize custom code
-   - Utilize shared components
-   - Perform regular testing
+### Optimization
+- Compress media assets.
+- Optimize custom code.
+- Utilize shared components.
+- Perform regular testing.
 
-3. **Development Flow**
-   - Save work frequently
-   - Create version backups
-   - Reuse components
-   - Keep documentation current
+### Development Flow
+- Save work frequently.
+- Create version backups.
+- Reuse components.
+- Keep documentation current.
 
 :::caution Testing
-Always thoroughly test across multiple devices and screen sizes before deployment.
+Thoroughly test across multiple devices and screen sizes before deployment.
 :::
+
+---
