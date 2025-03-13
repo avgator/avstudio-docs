@@ -39,7 +39,10 @@ Within the Pages section, you can manage your pages:
 | **Analog flip ID** | Page number for flip trigger from processor (see [Project Settings](/documentation/3-user-interface/3-2-working-with-project/1-project-settings/)). |
 | **Updated**     | Last page update date (e.g., Mar 9, 2025, 4:21 PM).                        |
 | **Subpages Used**| Information about subpages used on this page.                              |
-| **Actions**     | - **Open in Editor**: Edit the page.<br>- **Mark as Start Page**: Set as the first page loaded.<br>- **Clone Page**: Duplicate the page.<br>- **Delete Page**: Permanently remove the page. |
+| **Actions**     | - Open in Editor: Edit the page.                                           |
+|                 | - Mark as Start Page: Set as the first page loaded.                        |
+|                 | - Clone Page: Duplicate the page.                                          |
+|                 | - Delete Page: Permanently remove the page.                                |
 
 ![Pages Management Interface](./img/avstudio-3-002-01-pages.jpg)
 *Caption: The initial Pages tab in AVstudio v3.*
