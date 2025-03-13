@@ -46,7 +46,7 @@ Create a compiled file for deployment:
 *Caption: Building a project with the Default environment.*
 
 ### Project Settings
-Access additional options via the hamburger menu:
+Access additional options via the hamburger menu. For more details, see [Project Settings](/documentation/3-user-interface/3-2-working-with-project/1-project-settings):
 - **Project Settings**: Configure project details.
 - **Clone Project**: Duplicate the current project.
 - **Delete Project**: Remove the project permanently.
@@ -57,8 +57,8 @@ Access additional options via the hamburger menu:
 ## Content Management
 
 ### Pages and Structure
-- Create and manage pages within your project.
-- Implement **Global Containers** for reusable layouts.
+- Create and manage pages within your project. Learn more in [Pages](/documentation/3-user-interface/3-2-working-with-project/2-pages).
+- Implement **Global Containers** for reusable layouts. See [Global Containers](/documentation/3-user-interface/3-2-working-with-project/4-global-containers).
 - Configure the navigation system.
 
 ### Asset Management
@@ -95,8 +95,8 @@ Boost productivity with:
 ### Core Elements
 - Pages.
 - **Global Containers** for shared layouts.
-- **Variables** management.
-- **Data Sources** configuration.
+- **Variables** management. See [Variables](/documentation/3-user-interface/3-2-working-with-project/5-variables).
+- **Data Sources** configuration. See [Data Sources](/documentation/3-user-interface/3-2-working-with-project/6-data-sources).
 - Custom Functions.
 - **Media Gallery**.
 - Font management.
