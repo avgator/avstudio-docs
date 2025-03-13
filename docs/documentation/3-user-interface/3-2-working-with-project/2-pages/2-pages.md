@@ -17,12 +17,12 @@ In AVstudio v3, a page is the main container for placing your content, including
 
 To create a new page:
 1. Navigate to the **Pages** tab in your project.
-2. Click **Create New Page** or the **+** button.
+2. Click **Create New Page**.
 3. In the "Add new page" dialog:
    - Enter a unique **Name** (e.g., "main").
    - Select a **Design paradigm**:
-     - **Adaptive**: Automatically arranges elements based on screen size.
-     - **Responsive**: Allows manual element positioning with optional adaptability.
+     - **Adaptive**: Allows manual element positioning with optional adaptability.
+     - **Responsive**: Automatically arranges elements based on screen size. *Note: Responsive is the most preferred option for optimal layout adjustment across devices.*
    - Click **Add new page** to create the page.
 
 ![Add New Page (Adaptive)](./img/avstudio-3-002-02-add-new-page-adaptive.jpg)
@@ -52,19 +52,40 @@ Within the Pages section, you can manage your pages:
 
 ## Adding Elements to a Page
 
-Enhance your page by adding elements:
-1. Open a page in the editor.
-2. Click **Add Element** to open the dialog.
-3. Specify:
-   - **Name**: A unique name (e.g., "Button").
-   - **Type**: Choose from a wide range of options, including Button, SubPage, Text, Spacer, Clock, and more (see dropdown examples below).
-4. Click **Add Element** to insert it.
-
-![Initiating Add Element](./img/avstudio-3-002-06-new-page-main-add-elements.jpg)
-*Caption: Initiating the Add Element process in the page editor.*
+Once a page is created, you can enhance it by adding elements in the page editor. The editor provides a canvas where you can design your interface, initially starting with no elements.
 
 ![Page Editor with No Elements](./img/avstudio-3-002-04-new-page-main-editor.jpg)
 *Caption: The page editor interface before adding elements.*
+
+To add elements:
+1. In the page editor, click **Add Element** (or use the context menu) to open the element addition dialog.
+   - This dialog allows you to select the element to be added to the page by specifying its name and type.
+2. Elements are grouped into categories:
+   - **Elements**:
+     - Button
+     - Checkbox
+     - Dpad
+     - Image
+     - Keypad
+     - Slider
+     - Spacer
+     - SubPage
+     - Switch
+     - Text
+     - Text Input
+     - Video
+   - **Widgets**:
+     - Circle Slider
+     - Clock
+     - DateTime
+     - HTML Block
+     - MediaPlayer
+     - Shades Control
+     - Toggle Switch
+3. Give a name and click **Add Element** to insert it.
+
+![Initiating Add Element](./img/avstudio-3-002-06-new-page-main-add-elements.jpg)
+*Caption: Initiating the Add Element process in the page editor. This dialog appears after clicking "Add Element," prompting you to name the element and select its type from a dropdown.*
 
 ![New Element Type Dropdown (Part 1)](./img/avstudio-3-002-07-new-page-main-new-elements-menu1.jpg)
 *Caption: First part of the element type dropdown (e.g., Button, SubPage).*
