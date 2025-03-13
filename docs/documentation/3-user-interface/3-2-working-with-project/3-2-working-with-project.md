@@ -46,7 +46,7 @@ Create a compiled file for deployment:
 *Caption: Building a project with the Default environment.*
 
 ### Project Settings
-Access additional options via the hamburger menu. For more details, see [Project Settings](/documentation/3-user-interface/3-2-working-with-project/1-project-settings):
+Access additional options via the hamburger menu. For more details, see [Project Settings](../3-2-working-with-project/1-project-settings/1-project-settings.md):
 - **Project Settings**: Configure project details.
 - **Clone Project**: Duplicate the current project.
 - **Delete Project**: Remove the project permanently.
@@ -57,8 +57,8 @@ Access additional options via the hamburger menu. For more details, see [Project
 ## Content Management
 
 ### Pages and Structure
-- Create and manage pages within your project. Learn more in [Pages](/documentation/3-user-interface/3-2-working-with-project/2-pages).
-- Implement **Global Containers** for reusable layouts. See [Global Containers](/documentation/3-user-interface/3-2-working-with-project/4-global-containers).
+- Create and manage pages within your project. Learn more in [Pages](../3-2-working-with-project/2-pages/2-pages.md).
+- Implement **Global Containers** for reusable layouts. See [Global Containers](../3-2-working-with-project/4-global-containers/4-global-containers.md).
 - Configure the navigation system.
 
 ### Asset Management
@@ -95,8 +95,8 @@ Boost productivity with:
 ### Core Elements
 - Pages.
 - **Global Containers** for shared layouts.
-- **Variables** management. See [Variables](/documentation/3-user-interface/3-2-working-with-project/5-variables).
-- **Data Sources** configuration. See [Data Sources](/documentation/3-user-interface/3-2-working-with-project/6-data-sources).
+- **Variables** management. See [Variables](../3-2-working-with-project/5-variables/5-variables.md).
+- **Data Sources** configuration. See [Data Sources](../3-2-working-with-project/6-data-sources/6-data-sources.md).
 - Custom Functions.
 - **Media Gallery**.
 - Font management.

@@ -36,7 +36,7 @@ Within the Pages section, you can manage your pages:
 | Element         | Description                                                                 |
 |-----------------|-----------------------------------------------------------------------------|
 | **Name**        | Change page name or filter by name.                                        |
-| **Analog flip ID** | Page number for flip trigger from processor (see [Project Settings](/documentation/3-user-interface/3-2-working-with-project/1-project-settings/)). |
+| **Analog flip ID** | Page number for flip trigger from processor (see [Project Settings](../1-project-settings/1-project-settings.md). |
 | **Updated**     | Last page update date (e.g., Mar 9, 2025, 4:21 PM).                        |
 | **Subpages Used**| Information about subpages used on this page.                              |
 | **Actions**     | - Open in Editor: Edit the page.                                           |
@@ -136,8 +136,8 @@ Hold the Option/Ctrl key while clicking to open multiple page editor tabs at onc
 - Regularly save your project after adding pages or elements.
 
 ## Related Topics
-- Learn about the project workspace in [Working with Projects](/documentation/3-user-interface/3-2-working-with-project).
-- Manage subpages in [Subpages](/documentation/3-user-interface/3-2-working-with-project/3-subpages/).
-- Configure reusable layouts with [Global Containers](/documentation/3-user-interface/3-2-working-with-project/4-global-containers).
+- Learn about the project workspace in [Working with Projects](../3-2-working-with-project.md).
+- Manage subpages in [Subpages](../3-subpages/3-subpages.md).
+- Configure reusable layouts with [Global Containers](../4-global-containers/4-global-containers.md).
 
 ---
