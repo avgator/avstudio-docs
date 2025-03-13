@@ -59,7 +59,7 @@ Once a page is created, you can enhance it by adding elements in the page editor
 
 To add elements:
 1. In the page editor, click **Add Element** (or use the context menu) to open the element addition dialog.
-   - This dialog allows you to select the element to be added to the page by specifying its name and type.
+   - This dialog allows you to select the element to be added to the page.
 2. Elements are grouped into categories:
    - **Elements**:
      - Button
@@ -136,8 +136,8 @@ Hold the Option/Ctrl key while clicking to open multiple page editor tabs at onc
 - Regularly save your project after adding pages or elements.
 
 ## Related Topics
-- Learn about the project workspace in [Working with Projects](/documentation/3-user-interface/3-2-working-with-project/).
+- Learn about the project workspace in [Working with Projects](/documentation/3-user-interface/3-2-working-with-project).
 - Manage subpages in [Subpages](/documentation/3-user-interface/3-2-working-with-project/3-subpages/).
-- Configure reusable layouts with [Global Containers](/documentation/3-user-interface/3-2-working-with-project/4-global-containers/).
+- Configure reusable layouts with [Global Containers](/documentation/3-user-interface/3-2-working-with-project/4-global-containers).
 
 ---
