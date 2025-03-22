@@ -1,0 +1,1 @@
+import{E as r,j as a,G as s,dS as i}from"./main-C9kTvUvK.js";const p=r.memo(function({value:n,setValue:o}){function t(e){o(e)}return a.jsx("div",{className:"innerBox",onClick:e=>{e.stopPropagation()},onKeyDown:e=>{e.stopPropagation()},children:a.jsx(s,{prefix:a.jsx(i,{}),allowClear:!0,onChange:e=>t(e.target.value),value:n,placeholder:"Filter by name"})})});export{p as T};
