@@ -1,1 +1,0 @@
-const t=self,s=[];t.onconnect=e=>{const a=e.ports[0];s.push(a),a.onmessage=o=>{console.warn("Worker received message:",o.data),s.forEach(r=>{r.postMessage({type:o.data.type,payload:o.data.payload})})},a.postMessage({type:"RESPONSE",payload:"Worker is ready!"})};
