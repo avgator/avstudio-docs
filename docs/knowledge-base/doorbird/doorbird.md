@@ -57,7 +57,7 @@ For comprehensive documentation and the latest API specifications, refer to the 
 
 To efficiently manage multiple DoorBird intercoms, we need to establish global project variables that will store the currently selected intercom's information. 
 
-![Project variables configuration screen](./img/project_variables.png)
+![Project variables configuration screen](./img/project_variables.jpg)
 
 ### Required Project Variables
 
@@ -121,7 +121,7 @@ Each intercom object contains:
 
 Notice how each URL includes authentication parameters (`http-user` and `http-password`). The DoorBird API supports this basic authentication method directly in the URL, though for production systems you may want to consider more secure approaches.
 
-![DoorBird dataset example showing multiple intercoms](./img/doorbird_dataset.png)
+![DoorBird dataset example showing multiple intercoms](./img/doorbird_dataset.jpg)
 
 ## Creating a Single Intercom Component
 
@@ -136,7 +136,7 @@ This section details how to create a dedicated page that displays the live video
 3. Set the bottom container height to 80px
 4. Configure the bottom container's alignment, padding, and element distribution settings for optimal button placement
 
-![Page containers structure](./img/doorbird_subpage_containers.png)
+![Page containers structure](./img/doorbird_subpage_containers.jpg)
 
 ### Step 2: Add the Intercom Label
 
@@ -145,7 +145,7 @@ This section details how to create a dedicated page that displays the live video
 3. Bind the text element to the `currentIntercomName` project variable we created earlier
 4. Position the label appropriately above where the video feed will appear
 
-![Intercom name label configuration](./img/doorbird_video_label.png)
+![Intercom name label configuration](./img/doorbird_video_label.jpg)
 
 ### Step 3: Create the Video Feed Component
 
@@ -155,7 +155,7 @@ This section details how to create a dedicated page that displays the live video
    - Height: 600px
 3. This will create adequate space for the video stream
 
-![HTML block configuration](./img/doorbird_video_html.png)
+![HTML block configuration](./img/doorbird_video_html.jpg)
 
 ### Step 4: Configure the HTML Block
 
@@ -220,7 +220,7 @@ In the following sections, we'll add control buttons to the bottom container tha
    - Select HTTP GET request as the action type
    - In the Request URL field, bind to the `currentIntercomOpenTrigger` project variable
 
-![Open button configuration showing HTTP GET action setup](./img/doorbird_open_button_html.png)
+![Open button configuration showing HTTP GET action setup](./img/doorbird_open_button_html.jpg)
 
 #### Adding the Light Control Button
 
@@ -230,11 +230,11 @@ In the following sections, we'll add control buttons to the bottom container tha
    - Keep the HTTP GET request action type
    - Update the Request URL field to bind to `currentIntercomLightTrigger` instead
 
-![Light button configuration showing modified HTTP action settings](./img/doorbird_light_button_html.png)
+![Light button configuration showing modified HTTP action settings](./img/doorbird_light_button_html.jpg)
 
 These controls will complete our single intercom component interface.
 
-![Video feed page](./img/doorbird_page_ready.png)
+![Video feed page](./img/doorbird_page_ready.jpg)
 
 ## Creating a Intercoms Menu entry
 
@@ -273,7 +273,7 @@ Create a subpage with the following input parameters to handle each DoorBird dev
    - Example: "Main Entry" or "Garden Gate"
    - Usage: Displayed as a label within the component
 
-![Subpage parameters](./img/doorbird_subpage_parameters.png)
+![Subpage parameters](./img/doorbird_subpage_parameters.jpg)
 
 ### Component Design
 
@@ -282,7 +282,7 @@ Design your intercom component with these essential elements:
 ### Video Feed Display 
 Set the component background that loads the `intercomImageURL` image
 
-![Subpage background](./img/doorbird_subpage_background.png)
+![Subpage background](./img/doorbird_subpage_background.jpg)
 
 ### Creating the Interactive Selection Area
 
@@ -299,17 +299,17 @@ First, we'll create a reusable label component to display the intercom name:
    - Add 10px padding on all sides
    - This positioning ensures the label appears in a consistent location
 
-![Intercom Labels Alignment](./img/doorbird_label_alignment.png)
+![Intercom Labels Alignment](./img/doorbird_label_alignment.jpg)
 
 4. Add a string parameter named `labelText` to this subpage
    - This parameter will receive the intercom name from the parent component
 
-![Intercom Label Parameters](./img/doorbird_intercom_label_parameters.png)
+![Intercom Label Parameters](./img/doorbird_intercom_label_parameters.jpg)
 
 5. Add a text element to the container
 6. Bind this text element to the `labelText` parameter
 
-![Intercom Label Text Configuration](./img/doorbird_intercom_label_text.png)
+![Intercom Label Text Configuration](./img/doorbird_intercom_label_text.jpg)
 
 #### Step 2: Add the Label to the Intercom Tile
 
@@ -319,14 +319,14 @@ Now we'll integrate this label into our main intercom tile component:
    - The top container will display the intercom image and label
    - The bottom container (80px height) will contain control buttons
 
-![Containers Structure](./img/doorbird_subpage_containers.png)
+![Containers Structure](./img/doorbird_subpage_containers.jpg)
 
 2. Add the "Intercom Label" subpage to the top container
 3. Configure the subpage instance:
    - Set Width and Height to 100% to fill the container
    - Bind the `labelText` parameter to the `intercomName` parameter of the parent component
 
-![Subpage Configuration](./img/doorbird_intercom_label_text_configuration.png)
+![Subpage Configuration](./img/doorbird_intercom_label_text_configuration.jpg)
 
 #### Step 3: Configure Selection Actions
 
@@ -334,7 +334,7 @@ When a user clicks on an intercom label, we need to update global variables and 
 1. Add a Click actions to the Intercom Label component
    a. Set the `currentIntercomName` project variable from the `intercomName` parameter
    
-   ![Setting Project Variable](./img/doorbird_variable_from_parameter.png)
+   ![Setting Project Variable](./img/doorbird_variable_from_parameter.jpg)
    
    b. Similarly, set these project variables:
       - `currentIntercomVideoURL` from `intercomVideoURL` parameter
@@ -343,11 +343,11 @@ When a user clicks on an intercom label, we need to update global variables and 
    
    c. Add a Flip action as the final step to navigate to the "Camera Feed" page
 
-   ![Flip Action Configuration](./img/doorbird_flip_action.png)
+   ![Flip Action Configuration](./img/doorbird_flip_action.jpg)
 
 2. Verify all actions are properly sequenced to ensure they execute in the correct order
 
-![All Actions Configured](./img/doorbird_actions_are_set.png)
+![All Actions Configured](./img/doorbird_actions_are_set.jpg)
 
 ### Door Control Button
 1. In the bottom container, add a new Button element
@@ -355,7 +355,7 @@ When a user clicks on an intercom label, we need to update global variables and 
 3. Add an HTTP action to the button:
    - Select HTTP GET request as the action type
    - In the Request URL field, bind to the `intercomOpenTrigger` subpage parameter
-![Open button configuration showing HTTP GET action setup](./img/doorbird_open_button_parameter.png)
+![Open button configuration showing HTTP GET action setup](./img/doorbird_open_button_parameter.jpg)
 
 ### Light Toggle Button
 1. Clone the "Open" button to maintain consistent styling
@@ -363,7 +363,7 @@ When a user clicks on an intercom label, we need to update global variables and 
 4. Change the button's action:
    - Keep the HTTP GET request action type
    - Update the Request URL field to bind to `intercomLightTrigger` subpage parameter
-![Light button configuration showing modified HTTP action settings](./img/doorbird_light_button_parameter.png)
+![Light button configuration showing modified HTTP action settings](./img/doorbird_light_button_parameter.jpg)
 
 ## Creating an Intercoms Menu
 
@@ -374,7 +374,7 @@ After creating the individual intercom component, you'll need to implement a men
 1. Create a new page in your project to serve as the main intercoms menu
 2. Add a subpage list component to this page, selecting your "Intercom Menu Entry" subpage as the template
    
-![Configuring subpage list](./img/doorbird_menu_configuration.png)
+![Configuring subpage list](./img/doorbird_menu_configuration.jpg)
 
 ### Step 2: Connect the Dataset
 
@@ -382,7 +382,7 @@ After creating the individual intercom component, you'll need to implement a men
 2. Select your intercoms dataset as the data source
 3. Set the data path to target the `intercoms` array in your dataset
 
-![Subpage list dynamic source](./img/doorbird_menu_dynamic.png)
+![Subpage list dynamic source](./img/doorbird_menu_dynamic.jpg)
 
 ### Step 3: Configure List Layout
 
@@ -393,7 +393,7 @@ Apply appropriate styling to optimize the visual presentation of your intercoms:
 3. Enable the "Force children to fill list width" option
 4. Add 10px padding around items for visual separation
 
-![Subpage list styling](./img/doorbird_menu_style.png)
+![Subpage list styling](./img/doorbird_menu_style.jpg)
 
 ### Step 4: Map Dataset Fields to Component Parameters
 
@@ -407,7 +407,7 @@ Connect each field from your dataset to the corresponding parameter in your inte
 | Name | intercomName |
 | Video | intercomVideoURL |
 
-![Subpage list parameters](./img/doorbird_parameters_set.png)
+![Subpage list parameters](./img/doorbird_parameters_set.jpg)
 
 ### Complete Implementation
 
@@ -418,4 +418,4 @@ With this configuration complete, your interface now offers two methods of inter
 
 The completed menu provides an intuitive overview of all available intercoms while maintaining direct access to essential controls.
 
-![Subpage list final view](./img/doorbird_final.png)
+![Subpage list final view](./img/doorbird_final.jpg)
