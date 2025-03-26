@@ -158,113 +158,78 @@ This JavaScript function:
 
 The polling approach gives our interface real-time responsiveness to playback changes initiated from any source, whether from our interface or other controllers in the environment.
 
-## Building the Player Interface
+## Creating the Player Interface
 
-### Step 1: Create a New Page
-
-1. Create a new page in your project and name it "Player"
-2. This will be the main interface for controlling media playback
+To build our media player interface, we'll start by creating a new page in the project named "Player." This page will display the currently playing track's information and provide playback controls.
 
 ![New page creation screen](./img/mms-new-page.png)
 
-### Step 2: Configure Page Properties
+After creating the page, we need to set its background to dynamically show the current track's artwork. Navigate to the page properties and configure the background to use the "Artwork" project variable we created earlier. 
 
-1. Set the page background to use the `Artwork` project variable
-   - This dynamically displays the current track's album art as the background
-   ![Page background](./img/background.png)
-2. Set page alignment to vertical for proper component stacking
+![Page background](./img/background.png)
 
+This ensures that the background automatically updates whenever a new song plays. Next, set the page alignment to vertical so our components will stack properly from top to bottom.
 
 ![Page alignment](./img/alignment.png)
 
-### Step 3: Create Layout Containers
-
-Add two containers to organize your player components:
-
-#### Metadata Container (Top)
-1. Create the first container for track information
-2. Configure it with:
-   - Padding: 15px on all sides
-   - Elements alignment: End (bottom)
-   - Elements distribution: Start (left)
+Our player interface will consist of two main sections, so we'll create two containers to organize them. The top container will display track metadata, while the bottom container will hold our playback control buttons. For the top container, configure it with 15px padding on all sides, set elements alignment to "end" (bottom), and elements distribution to "start" (left). This ensures the track information appears at the bottom of the container, aligned to the left.
 
 ![First container](./img/first_container.png)
 
-#### Controls Container (Bottom)
-1. Create a second container for playback buttons
-2. Configure it with:
-   - Height: 100px
-   - Padding: 15px on left and right sides
+For the bottom container, set its height to 100px with 15px padding on both the left and right sides. This creates a consistent area for our playback controls.
 
 ![Second container](./img/second_container.png)
 
-### Step 4: Add Track Information
+Now let's add the track information to the first container. Insert a text element and configure it to display the current track's name on the first line (bound to the "Track" project variable) and the artist name on the second line (bound to the "Artist" project variable). Style this text appropriately to ensure good visibility against the album artwork background.
 
-1. Add a text element to the metadata container
-2. Configure it to display:
-   - First line: Track name (bind to `Track` project variable)
-   - Second line: Artist name (bind to `Artist` project variable)
-3. Set appropriate font size, color, and styling to ensure readability over the album art background
+![Metadata](./img/metadata.png)
 
-!Metadata
+Moving to the bottom container, we'll add three control buttons: skip back, play/pause, and skip forward. Let's begin with the skip back button. Create a button in the second container and set its size to 45 by 45 pixels. Select "IoPlaySkipBack" from AVgator Studio's standard icon library and set the icon size to 55px. 
 
-### Step 5: Add Playback Controls
-
-#### Skip Back Button
-1. Add a button to the controls container
-2. Configure the button:
-   - Size: 45px × 45px
-   - Icon: IoPlaySkipBack (from AVStudio library)
-   - Icon size: 55px
-   - Padding: 3px
-   - Design: Ghost
-   - Icon color: White
 ![Back button properties](./img/back_one.png)
+
+In the Sizing section, change the padding to 3px for better visual balance.
+
 ![Back button sizing](./img/back_two.png)
+
+For the button's appearance, set its design to "Ghost" and change the icon color to white so it remains visible against darker backgrounds. 
+
 ![Back button design](./img/back_three.png)
-3. Add an HTTP GET action with URL: `http://autonomic.local/api/Script/SkipPrevious/`
+
+Then add an HTTP GET request action to the button, using "http://autonomic.local/api/Script/SkipPrevious/" as the Request URL according to the Autonomic Media Server Control Protocol.
+
 ![Back button action](./img/previous_action.png)
 
-#### Play/Pause Button
-1. Add a button between the skip buttons
-2. Configure the button:
-   - Size: 80px × 80px
-   - Icon: IoPause (for the default mode)
-   - Icon size: 50px
-   - Padding: 3px
-   - Background: White
-   - Icon color: Black
-   - Border radius: 50px (to create a circular button)
-   ![Play button properties](./img/play_one.png)
-   ![Play button design](./img/play_two.png)
-3. Add an HTTP GET action with URL: `http://autonomic.local/api/Script/PlayPause/`
+Next, clone this button and modify it to create the skip forward button. Change its icon to "IoPlaySkipForward" and update the action URL to "http://autonomic.local/api/Script/SkipNext/" to control forward track navigation.
+
+Between these two buttons, we'll create the play/pause button. This button needs to be more prominent, so set its size to 80 by 80 pixels with the "IoPause" icon at 50px size. Like the other buttons, set its padding to 3px. 
+
+![Play button properties](./img/play_one.png)
+
+For its design, configure a white background with black icon color and a 50px border radius to create a perfect circle.
+
+![Play button design](./img/play_two.png)
+
+Add an HTTP GET action to this button using "http://autonomic.local/api/Script/PlayPause/" as the Request URL. 
+
 ![Play button action](./img/play_three.png)
-4. Create a second mode for the button:
-   
-   - Configure the mode selector to use the `PlayPauseState` project variable
-   - Add a new mode
+
+Since this button needs to toggle between play and pause states, we'll add a second mode to represent the paused state.
+
 ![Play button new mode](./img/play_four.png)
-   - Set the icon to IoPlay for this mode
+
+Create a new mode, select it, and change its icon to "IoPlay." 
+
 ![Play button mode editing](./img/play_fifth.png)
-- Configure the mode selector to use the `PlayPauseState` project variable
+
+Then set the "PlayPauseState" project variable as the mode selector for this button, allowing it to automatically switch between play and pause icons based on the current playback state.
+
 ![Play button mode selector](./img/play_six.png)
 
-#### Skip Forward Button
-1. Clone the Skip Back button
-2. Change the icon to IoPlaySkipForward
-3. Update the action URL to: `http://autonomic.local/api/Script/SkipNext/`
-
-### Step 6: Set Up Page Actions
-
-1. Open the Page Actions section
-2. Add an "On Load" action
-3. Select "Run function" and choose the `poll()` function we created earlier
-4. This ensures that our polling mechanism starts as soon as the player page loads
+The final step is to ensure our player stays updated with the current playback information. Open the Page Actions section and add a new action with "On Load" behavior. Select "Run function" as the action type and choose the "poll" function we created earlier. This ensures that as soon as the player page loads, it begins polling the Autonomic Media Server for playback status updates.
 
 ![Page action](./img/poll_action.png)
 
-## Completed Player
-
-With all components in place and the polling function active, your player will update in real time with the currently playing track information from your Autonomic Media Server. Users can control playback directly from this interface.
+With all these components in place and properly configured, our media player is complete. When the page loads and the polling function runs, your interface will display the current track's information and provide intuitive controls for media playback.
 
 ![Final preview](./img/final.png)
