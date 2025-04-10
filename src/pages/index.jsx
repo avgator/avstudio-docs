@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import EventBanner from '@site/src/components/EventBanner';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -34,6 +35,7 @@ export default function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Documentation for AVStudio software suite"
     >
+      <EventBanner />
       <HomepageHeader />
       <main>
         <div className="container margin-top--lg">
