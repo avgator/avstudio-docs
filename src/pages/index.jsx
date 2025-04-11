@@ -35,7 +35,6 @@ export default function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Documentation for AVStudio software suite"
     >
-      <EventBanner />
       <HomepageHeader />
       <main>
         <div className="container margin-top--lg">
@@ -64,6 +63,8 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <EventBanner />
+
     </Layout>
   );
 }
