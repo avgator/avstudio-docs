@@ -17,19 +17,27 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install git-lfs
+          git lfs install
+          git lfs pull
       - uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: npm
-
       - name: Install dependencies
         run: npm ci
-      
       - name: Build website
         run: npm run build
-
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.AVG_DOC_ACTIONS }}
           publish_dir: ./build
+          force_orphan: true
