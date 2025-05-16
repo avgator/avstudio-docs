@@ -12,6 +12,7 @@ tags:
 
 ![AVstudio Project settings](./img/avstudio-projectsettings.png)
 
+
 This settings block includes the following functionality: viewing
 project metadata, creating and working with project builds, opening the
 project in live preview mode, accessing the editing of project

@@ -46,7 +46,8 @@ Create a compiled file for deployment:
 *Caption: Building a project with the Default environment.*
 
 ### Project Settings
-Access additional options via the hamburger menu. For more details, see [Project Settings](../3-2-working-with-project/1-project-settings/1-project-settings.md):
+Access additional options via the hamburger menu. For more details, see [Project Settings](../../3-user-interface/3-2-working-with-project/1-project-settings/1-project-settings.md)
+
 - **Project Settings**: Configure project details.
 - **Clone Project**: Duplicate the current project.
 - **Delete Project**: Remove the project permanently.
