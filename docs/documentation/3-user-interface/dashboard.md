@@ -1,8 +1,8 @@
 ---
-title: "Dashboard"
-sidebar_label: "Dashboard"
-sidebar_position: 3
-order: 3
+title: "Dashboard Overview"
+sidebar_label: "Main Dashboard"
+sidebar_position: 1
+order: 1
 tags:
     - dashboard
     - user-interface
@@ -10,13 +10,13 @@ tags:
     - avstudio
 ---
 
-# AVstudio Dashboard
+# Dashboard Overview
 
 The dashboard is your central hub for managing all your AVstudio projects. Here you'll find comprehensive project overviews, quick access to recent work, and essential project management tools.
 
 ![AVstudio Dashboard Overview](./img/avstudio-dashboard.png)
 
-## Dashboard Layout
+Below is a visual breakdown of the dashboard interface, with numbered callouts corresponding to essential features.
 
 ### Project List Panel
 Located on the left side, this panel provides:
