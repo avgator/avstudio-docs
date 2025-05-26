@@ -7,61 +7,55 @@ tags:
   - recovery
   - avstudio
   - getting-started
-  
 ---
 
 # Password Recovery Guide
 
-![Password Recovery Screen](./img/avstudio-password-recovery.png)
+If you've lost access to your AVstudio account or can't remember your password, this guide will walk you through the password reset process.
 
 ## Recovery Process
 
-Follow these steps to regain access to your account:
+👉 Follow these steps to reset your AVstudio password:
 
-1. Visit [AVstudio Login Page](https://avstudio.app)
-2. Click the "Recover" tab
-3. Enter your registered email address
-4. Click the "Recover" button
-5. Check your email for recovery instructions
-6. Follow the link in the email
-7. Create a new password
-8. Log in with your new credentials
+1. Go to the [AVstudio Login Page](https://avstudio.app) and click the `Recover` tab
+2. Enter your **registered email address**  
+4. Click the `Recover` button  
 
-:::tip Email Check
-If you don't see the recovery email:
-- Check your spam/junk folder
-- Verify you used the correct email address
-- Wait a few minutes and try again
-:::
+    ![Password Recovery Screen](./img/avstudio-password-recovery.png)
+5. Check your inbox for a **password recovery email**  
+6. Click the **link in the email** to reset your password  
+
+    ![Password Recovery Screen](./img/avstudio-password-recovery-link.png)
+
+    :::tip **Email Check**
+    If you don't see the recovery email:
+    - Look in your **spam or junk folder**
+    - Make sure you entered the **correct email address**
+    - Wait a few minutes before trying again
+    :::
 
 ## Password Requirements
 
-Your new password must meet these security requirements:
-- Minimum 8 characters
-- At least one uppercase letter
-- At least one number
-- At least one special character
+To protect your account, your new password must meet the following security criteria:
 
-:::caution Important
-The recovery link in your email is valid for 24 hours only. If it expires, you'll need to request a new one.
+- At least **8 characters**  
+- Includes **one uppercase letter**  
+- Contains **one number**  
+- Has **one special character** (e.g., !, @, #, $)
+
+:::tip **Important**
+- The password reset link is valid for **24 hours only**. If it expires, return to the login page and request a new recovery link.
 :::
 
 ## Additional Help
 
-If you're still having trouble:
-- Double-check your email address
-- Ensure you're using the latest browser version
-- Contact support if issues persist
-- Consider clearing your browser cache
+If you're still experiencing issues with account access:
 
-## After Recovery
+- Double-check your **email spelling**
+- Ensure you're using a **modern, updated browser**
+- Clear your browser’s **cache and cookies**
+- Reach out to **support** if the problem continues
 
-Remember to:
-- Update password in any saved bookmarks
-- Log out of other devices if necessary
-- Save your new password securely
-- Update any API tokens if you use them
-
-:::note Security Tip
-For better security, avoid reusing passwords from other services.
+:::tip **Security Tip**
+For your safety, avoid reusing passwords from other platforms or services.
 :::

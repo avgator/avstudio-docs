@@ -11,69 +11,56 @@ tags:
 
 # Creating Your AVstudio Account
 
-![Registration Form](./img/user-registration-and-account-setup.png)
+Start your journey with AVstudio by setting up a secure and personalized account. This guide walks you through registration, verification, and initial setup so you can begin building interfaces in minutes. 🚀
 
 ## Quick Registration Steps
 
-1. Visit [AVstudio's registration page](https://avstudio.app/register)
-2. Click "Sign Up" or "Register"
-3. Complete the registration form
-4. Verify your email
-5. Set up your account
+![Registration Form](./img/user-registration-and-account-setup.png)
 
-## Registration Form Details
+👉 Follow these steps to create your AVstudio account:
 
-### Required Information
-- **First Name** - Your given name
-- **Last Name** - Your family name
-- **Email Address** - Your professional email
-- **Company Name** - Your organization
-- **Password** - Secure account access
+1. Go to **[AVstudio's registration page](https://avstudio.app/register)** then click `Register`  
+2. Fill in the required registration fields. 
+    Here’s what you’ll need to provide during the registration process.
 
-### Password Requirements
-- Minimum 8 characters
-- At least one uppercase letter
-- At least one number
-- Special characters recommended
+    | Field           | Description                  |
+    |----------------|------------------------------|
+    | **First Name**  | Your given name              |
+    | **Last Name**   | Your family or surname       |
+    | **Email Address** | Your professional email    |
+    | **Company Name** | Organization or team name   |
+    | **Password**    | Used for secure login        |
 
-## Account Verification
+    :::tip **Password Requirements**
 
-1. Check your email inbox for verification message
-2. Look in spam/junk if not found
-3. Click the verification link
-4. Complete activation process
+    Ensure your password meets the following security standards:
 
-:::tip Email Verification
-The verification link expires after 24 hours. Request a new one if needed.
-:::
+    - At least **8 characters**  
+    - Contains **one uppercase letter**  
+    - Includes **at least one number**  
+    - **Special characters** are recommended for added strength
+    :::
 
-## Account Setup
-
-After verification, enhance your account by:
-1. Completing your profile
-2. Setting preferences
-3. Configuring workspace settings
-4. Adding team members (if applicable)
-
-## Next Steps
-
-Once registered, you can:
-- [Log in to your account](../2-3-accessing-the-application/2-3-accessing-the-application.md)
-- Create your first project
-- Explore available templates
-- Review tutorials
+3. Click `Create Account` 
+4. Confirm your email address via the link sent to your inbox to finalize your account setup 
 
 ## Common Registration Issues
 
-### Didn't Receive Verification Email?
-1. Check spam folder
-2. Verify email address
-3. Request new verification link
-4. Contact support if needed
+Here are common problems users may face—and how to fix them.
 
 ### Password Reset
-If needed, use our [password recovery](../2-4-password-recovery/2-4-password-recovery.md) process.
 
-:::tip Password Recovery
-Forgot your password? Click the "Recover" link on the login page to reset it.
-:::
+If you’ve forgotten your password, you can easily recover access.
+
+👉 Use the [password recovery](../2-4-password-recovery/2-4-password-recovery.md) process.
+Click the `Recover` link on the login screen to reset your password via email.
+
+
+## Next Steps
+
+After your account is active, you’re ready to dive in:
+
+- [Log in to your account](../2-3-accessing-the-application/2-3-accessing-the-application.md)  
+- Start your first project  
+- Explore interface templates  
+- Browse tutorials to get up to speed

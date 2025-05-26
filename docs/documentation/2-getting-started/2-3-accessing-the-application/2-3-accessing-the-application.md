@@ -4,44 +4,52 @@ sidebar_label: "Accessing the Application"
 sidebar_position: 3
 tags:
   - login
-  
+  - avstudio
+  - access
+  - authentication
+  - user-guide
 ---
 
 # Accessing AVstudio
 
-![AVstudio Login Screen](./img/avstudio-login.png)
-
-## Quick Access
-
-Visit [AVstudio](https://avstudio.app) to start creating your interfaces.
-
+Log in to AVstudio to begin building and managing your user interfaces. Whether you're starting a new project or continuing existing work, this guide walks you through the secure login process.
 ## Login Steps
 
-1. Navigate to [https://avstudio.app](https://avstudio.app)
-2. Enter your registered email address
-3. Provide your password (case-sensitive)
-4. Click "Login" to access your workspace
+![AVstudio Login Screen](./img/avstudio-login.png)
 
-:::tip Password Recovery
-Forgot your password? Click the "Recover" link on the login page to reset it.
-:::
+Follow these simple steps to access your AVstudio workspace:
+
+1. Go directly to [AVstudio](https://avstudio.app) in your browser to open the login screen
+2. Enter your **registered email address** then your **password** (case-sensitive)  
+
+  :::tip **Password Recovery**
+  If you forgot your password, click the `Recover` link on the login screen to reset it via email.
+  :::
+
+3. Click the `Login` button to access your dashboard
+
+
 
 ## Common Issues
 
-If you experience login problems:
-- Verify your email address is correct
-- Check if Caps Lock is enabled
-- Ensure you're using the latest browser version
-- Clear your browser cache if needed
+If you're unable to log in, here are some things to check:
 
-## Next Steps
+- ✅ Double-check your **email address** for typos  
+- ✅ Ensure **Caps Lock** is turned off (passwords are case-sensitive)  
+- ✅ Make sure you're using a **supported, up-to-date browser**  
+- ✅ Try clearing your browser **cache and cookies** if login fails repeatedly
 
-After logging in, you can:
-- Start a new project
-- Access existing projects
-- Configure your workspace
-- Begin creating interfaces
+## Next Steps After Login
 
-:::note Security
-For your security, be aware that AVstudio will not automatically log you out after a period of inactivity. Do it manually if needed. 
+Once logged in, you're ready to begin designing interfaces or managing projects.
+
+👉 You can:
+
+- Start a **new project**  
+- Open and edit **existing projects**  
+- Configure your **workspace settings**  
+- Access available **themes, widgets, and templates**
+
+:::tip **Security**
+AVstudio does not auto-logout after periods of inactivity. For best security practices, **log out manually** when finished using the platform.
 :::
