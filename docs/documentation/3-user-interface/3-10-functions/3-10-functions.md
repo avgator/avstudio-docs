@@ -45,7 +45,7 @@ Clicking **Add Function** opens the function editor, where you can define and te
 **⑥ Discard** – Cancels the creation process and closes the editor without saving.
 
 **⑦ Built-in Function Snippets** – A contextual panel that provides insert-ready code blocks for common AVstudio tasks. Click any category to reveal usable methods:
-- `NAVIGATE` – Route the user by page or URL.
+- `NAVIGATE` – Route the user by page.
 - `EVENTS` – Publish or retrieve signal feedback values.
 - `GET DATASOURCE` – Retrieve dynamic data by UID.
 - `VARIABLES` – Get or set project variable values.
