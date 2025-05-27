@@ -1,8 +1,8 @@
 ---
 title: "3 User interface"
-sidebar_label: "3 User interface"
-sidebar_position: 3
-order: 3
+sidebar_label: "User interface"
+sidebar_position: 1
+order: 1
 tags:
     - user-interface
     - documentation
@@ -16,7 +16,7 @@ intuitive environment for creating dynamic and interactive user
 interfaces. This section of the documentation will guide you through the
 various components and features of the User Interface.
 
--   [Dashboard Overview](dashboard.md):
+-   [Dashboard Overview](1-main-dashboard.md):
 
 The Dashboard serves as the main hub for your projects and activities in
 AVgator Studio. It provides an overview of your recent projects,
