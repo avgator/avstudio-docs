@@ -16,7 +16,7 @@ intuitive environment for creating dynamic and interactive user
 interfaces. This section of the documentation will guide you through the
 various components and features of the User Interface.
 
--   [Dashboard Overview](1-main-dashboard.md):
+-   [Dashboard Overview](./3-1-main-dashboard/3-1-main-dashboard.md):
 
 The Dashboard serves as the main hub for your projects and activities in
 AVgator Studio. It provides an overview of your recent projects,
