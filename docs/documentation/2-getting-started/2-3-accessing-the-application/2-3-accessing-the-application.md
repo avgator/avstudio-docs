@@ -47,8 +47,7 @@ Once logged in, you're ready to begin designing interfaces or managing projects.
 
 - Start a **new project**  
 - Open and edit **existing projects**  
-- Configure your **workspace settings**  
-- Access available **themes, widgets, and templates**
+- Access available **templates**
 
 :::tip **Security**
 AVstudio does not auto-logout after periods of inactivity. For best security practices, **log out manually** when finished using the platform.

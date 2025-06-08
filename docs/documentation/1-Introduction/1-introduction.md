@@ -53,7 +53,7 @@ Whether you're just starting out or you're working on a high-level integration p
 
 ## Who Should Read This Documentation
 
-AVstudio is designed for a diverse group of interface creators and control system professionals.
+AVstudio is designed for a diverse group of interface creators and AV system integrators.
 
 ### Primary Users
 

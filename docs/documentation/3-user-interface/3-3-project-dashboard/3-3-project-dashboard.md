@@ -84,7 +84,7 @@ This opens the current environment version of your project. You can navigate, te
 
 Click the `Build` button to compile your project into a deployable archive.
 
-You can upload the output to your CMS or deploy it to a connected backend. Build behavior will follow your selected environment’s configuration.
+You can upload the output to your control processor, device (such as Touch Panel) or backend. Build behavior will follow your selected environment’s configuration.
 
 ### ④ Project Settings Menu
 
