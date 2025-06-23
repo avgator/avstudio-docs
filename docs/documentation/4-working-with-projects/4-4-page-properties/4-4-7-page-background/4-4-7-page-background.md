@@ -14,7 +14,7 @@ tags:
 
 The `Page Background` section allows you to customize the visual background of the page. You can use a solid color or set a background image from either your media library or an external URL. Additional options let you control blur, opacity, and image positioning.
 
----
+![Configuring the page background in AVstudio](./img/page-background-configuration.png)
 
 ## Background Color
 
