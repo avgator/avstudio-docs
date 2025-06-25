@@ -16,7 +16,7 @@ The `Project Media Library` is where you can manage all media assets used in you
 
 Uploading your media here makes it accessible throughout the editor and ensures consistent asset use across your layout.
 
----
+![Managing media assets in the Project Media Library in AVstudio](./img/project-media-library-configuration.png)
 
 ## Uploading Media
 

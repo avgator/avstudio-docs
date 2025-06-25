@@ -19,6 +19,8 @@ This section is divided into two areas:
 - **Global Project Background**
 - **Theme Variables**
 
+![Configuring the project theme in AVstudio](./img/project-theme-configuration.png)
+
 ---
 
 ## Global Project Background

@@ -14,7 +14,7 @@ tags:
 
 The `Project CSS` section allows you to define and manage custom CSS that applies globally across your AVstudio project. This gives you more control over the appearance of your layout, especially when visual configuration options are not enough or when you want to apply consistent branding across all pages.
 
----
+![Editing the global CSS for the project in AVstudio](./img/project-css-configuration.png)
 
 ## Project Global CSS
 
