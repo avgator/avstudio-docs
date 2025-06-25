@@ -21,7 +21,7 @@ The **Button** is one of the most commonly used elements in AVStudio. It can be 
 1. Open your project in AVStudio and go to the **Editor** view.
 2. From the left panel, click on **Elements**.
 3. Click the **Add Element** dropdown and choose **Button**.
-4. The button will appear in your layout. You can reposition it freely.
+4. The button will appear in your layout.
 
 ---
 
@@ -36,7 +36,6 @@ Once selected, the button's settings appear in the right panel.
 | Setting             | Description |
 |---------------------|-------------|
 | **Button Display Name** | Visible label in the layout and project |
-| **Button Target Source** | Toggle between Static or Dynamic values |
 
 ---
 
@@ -44,15 +43,12 @@ Once selected, the button's settings appear in the right panel.
 
 - Set button width and height using fixed px or percentage values.
 - Margins allow spacing from surrounding elements.
-- Available in layouts: apply the button to specific breakpoints.
 
 ---
 
 ### Class Name
 
 - **Button Class Name**: Add a custom class for styling.
-- **Element Class Name**: Optional secondary styling tag.
-
 ---
 
 ## Styling and Design Options
