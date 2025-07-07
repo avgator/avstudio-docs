@@ -14,6 +14,8 @@ tags:
 
 The `Keypad` element provides a customizable on-screen keypad that users can interact with. This element is often used for numeric entry, PIN input, or other forms of digital control. The Keypad element can be static or dynamic, with various size and mode options.
 
+![Expanded keypad static sizing panel](./img/keypad-static-sizing.png)
+
 ## Dataset Source
 
 The keypad can use a static or dynamic dataset source:
@@ -69,6 +71,8 @@ Use the toggle labeled `Hide letters` to control the display of character labels
 
 - When **enabled**, only the numeric values are shown.
 - When **disabled**, the character labels (e.g., ABC under 2) remain visible.
+
+![Expanded keypad design settings with Hide letters toggle](./img/keypad-design-hide-letters.png)
 
 ### Border
 

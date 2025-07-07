@@ -16,9 +16,9 @@ The `Button` is one of the most commonly used elements in AVStudio. It can be us
 
 ## How to Add a Button
 
-1. Open your project in AVStudio and go to the **Editor** view.
-2. From the left panel, click on **Elements**.
-3. Click the **Add Element** dropdown and choose **Button**.
+1. Open your project in AVStudio and go to the `Editor` view.
+2. From the left panel, click on `Elements`.
+3. Click the `Add Element` dropdown and choose `Button`.
 4. The button will appear in your layout. You can reposition it freely.
 
 ---
@@ -26,15 +26,13 @@ The `Button` is one of the most commonly used elements in AVStudio. It can be us
 ## Button Settings Overview
 
 Once selected, the button's settings appear in the right panel.
-![Expanded button settings panel](./img/4-4-5-1-button-settings-panel.png)
-
 
 ### Basic Properties
 
 | Setting             | Description |
 |---------------------|-------------|
-| **Button Display Name** | Visible label in the layout and project |
-| **Button Target Source** | Toggle between Static or Dynamic values |
+| `Button Display Name` | Visible label in the layout and project |
+| `Button Target Source` | Toggle between Static or Dynamic values |
 
 ---
 
@@ -48,8 +46,8 @@ Once selected, the button's settings appear in the right panel.
 
 ### Class Name
 
-- **Button Class Name**: Add a custom class for styling.
-- **Element Class Name**: Optional secondary styling tag.
+- `Button Class Name`: Add a custom class for styling.
+- `Element Class Name`: Optional secondary styling tag.
 
 ---
 
@@ -139,6 +137,3 @@ Control when the button appears or how it behaves:
 - Use consistent padding and class naming to manage appearance across devices.
 - Add visibility rules to customize UI behavior across page states or roles.
 
----
-
-In the next element guide, we’ll cover the `Label` element.

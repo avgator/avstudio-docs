@@ -13,6 +13,8 @@ tags:
 
 The `Image` element allows you to display images inside your project layout, with options for size, stretching behavior, and positioning.
 
+![Expanded Image settings panel](./img/image-settings-panel.png)
+
 ## Image Friendly Name
 
 You can rename the element label by clicking the pencil icon beside the default name. This is for visual organization and does not affect functionality.
