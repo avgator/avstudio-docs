@@ -16,14 +16,10 @@ The `Button` is one of the most commonly used elements in AVStudio. It can be us
 
 ## How to Add a Button
 
-![New element modal with name and type fields](./img/4-4-5-1-button-new-element-modal.png)
-
-
-1. Open your project in AVStudio and go to the `Open Editor` view.
-2. From the left panel, under `Page Containers`>`Container`, click on `Elements`.
-3. Click `Add Element` and choose `Button` from the dropdown then `Add Element`.
-
-The button will appear in your layout. You can reposition it freely.
+1. Open your project in AVStudio and go to the **Editor** view.
+2. From the left panel, click on **Elements**.
+3. Click the **Add Element** dropdown and choose **Button**.
+4. The button will appear in your layout. You can reposition it freely.
 
 ---
 
@@ -35,25 +31,25 @@ Once selected, the button's settings appear in the right panel.
 
 ### Basic Properties
 
-| Setting                   | Description                              |
-|---------------------------|------------------------------------------|
-| `Button Display Name`     | Visible label in the layout and project  |
-| `Button Dataset Source`    | Toggle between Static or Dynamic values  |
+| Setting             | Description |
+|---------------------|-------------|
+| **Button Display Name** | Visible label in the layout and project |
+| **Button Target Source** | Toggle between Static or Dynamic values |
 
 ---
 
 ### Size Settings
 
-- Set button width and height using fixed `px` or percentage values.
-- `Margins` allow spacing from surrounding elements.
-- `Available in layouts`: apply the button to specific breakpoints.
+- Set button width and height using fixed px or percentage values.
+- Margins allow spacing from surrounding elements.
+- Available in layouts: apply the button to specific breakpoints.
 
 ---
 
 ### Class Name
 
-- `Button Class Name`: Add a custom class for styling.
-- `Element Class Name`: Optional secondary styling tag.
+- **Button Class Name**: Add a custom class for styling.
+- **Element Class Name**: Optional secondary styling tag.
 
 ---
 
