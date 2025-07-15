@@ -8,7 +8,7 @@ const config = {
   // Enhanced metadata for better SEO 
   url: 'https://docs.avstudio.app',
   baseUrl: '/avstudio-docs/',
-  organizationName: 'AVgator Inc.',
+  organizationName: 'AVstudio Inc.',
   projectName: 'avstudio-docs',
   
   onBrokenLinks: 'throw',
@@ -66,7 +66,7 @@ const config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
-            copyright: `Copyright © ${new Date().getFullYear()} AVgator Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} AVstudio Inc.`,
             language: 'en',
           },
         },
@@ -104,23 +104,23 @@ const config = {
   themeConfig: {
     // Enhanced SEO metadata
     metadata: [
-      {name: 'description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'keywords', content: 'AVStudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor'},
-      {name: 'og:title', content: 'AVStudio Documentation'},
+      {name: 'description', content: 'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
+      {name: 'keywords', content: 'AVstudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor'},
+      {name: 'og:title', content: 'AVstudio Documentation'},
       {name: 'og:type', content: 'website'},
-      {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVgator Studio (AVStudio) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
+      {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
       {name: 'og:image', content: 'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:title', content: 'AVStudio Documentation'},
+      {name: 'twitter:title', content: 'AVstudio Documentation'},
       {name: 'twitter:description', content: 'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
       {name: 'robots', content: 'index, follow, max-image-preview:large'},
-      {name: 'author', content: 'AVgator Inc.'},
+      {name: 'author', content: 'AVstudio Inc.'},
       {name: 'language', content: 'English'}
     ],
     navbar: {
-      title: 'AVStudio Docs',
+      title: 'AVstudio Docs',
       logo: {
-        alt: 'AVStudio Logo',
+        alt: 'AVstudio Logo',
         src: 'img/400x200_AVstudio_LOGO.avif',
       },
       items: [
@@ -181,7 +181,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AVStudio Documentation.`,
+      copyright: `Copyright © 2022 - ${new Date().getFullYear()} AVstudio Inc.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -212,6 +212,16 @@ const config = {
       },
     ],
   ],
+scripts: [
+  {
+    src: '/avstudio-docs/js/zoho-init.js',
+    defer: true,
+  },
+  {
+    src: 'https://salesiq.zohopublic.com/widget?wc=siq1a525445dedc30bf13ef0981eea4ecf87904b7c2772b4823e47b7b97ca15bf4c',
+    defer: true,
+  },
+],
 };
 
 module.exports = config;
