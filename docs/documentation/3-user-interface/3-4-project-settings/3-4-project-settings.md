@@ -33,7 +33,7 @@ This section appears at the top of the Project Settings panel and includes the c
 **⑤ Default Project Settings** – Displays the active environment tab. The default environment is labeled `Default` and cannot be renamed.
 
 **⑥ Project Connectors** – This expandable section lets you connect your project to third-party services:
-  - `Crestron connectors` — For hardware-based control signals  
+  - `Control System connectors (Crestron-compatible)` — For hardware-based control signals  
   - `WebSocket connectors` — For real-time data sync  
   - `WEB connectors` — For REST API integrations
 
@@ -70,7 +70,7 @@ This section allows you to manage environment-specific configurations. Every pro
 
 ## Crestron Connectors
 
-This section allows you to configure signal bindings between your AVstudio project and Crestron hardware systems. You can specify different signal types to control navigation, data handling, and connection feedback.
+This section allows you to configure signal bindings between your AVstudio project and hardware systems. You can specify different signal types to control navigation, data handling, and connection feedback.
 
 ![Crestron Connectors](./img/3-4-crestron-connectors.png)
 
@@ -88,19 +88,19 @@ This section allows you to configure signal bindings between your AVstudio proje
 
 ## WebXpanel and Additional Connectors
 
-This section allows you to configure WebXpanel settings within Crestron connectors and expand additional integration options for WebSocket and WEB connectors.
+This section allows you to configure WebXpanel-compatible settings within Crestron-related connectors and expand additional integration options for WebSocket and WEB connectors.
 
 ![WebXpanel and Connectors](./img/3-4-webxpanel.png)
 
 **① WebXpanel** – This block allows you to configure WebXpanel integration settings. All fields support inheritance or manual override using the toggle.
 
-**② Host** – The IP address or hostname of the Crestron device. Toggle off inheritance to manually enter the value.
+**② Host** – The IP address or hostname of the control processor. Toggle off inheritance to manually enter the value.
 
 **③ IPID** – The IPID (IP Identifier) used to communicate with the control system.
 
 **④ Room ID** – An optional identifier for defining which room the session should connect to.
 
-**⑤ Auth Token** – An optional authentication token used for secure access to the Crestron system.
+**⑤ Auth Token** – An optional authentication token used for secure access to the control processor.
 
 **⑥ WebSocket connectors** – Expandable section to configure real-time socket-based data exchange with external systems. The number in parentheses indicates how many connectors are currently defined.
 
@@ -117,3 +117,6 @@ This section allows you to configure the API endpoint and authorization settings
 **② Authorization header key** – Header key used to send authorization credentials (e.g., `Authorization`).
 
 **③ Authorization header value** – The actual token or credential passed with the header key. This is typically a bearer token or API key.
+
+
+<sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>

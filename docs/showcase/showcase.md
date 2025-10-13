@@ -109,7 +109,7 @@ Follow link for live demo
 ## 09 Home by Artem Buslaev
 ![Demo 09 Home by Artem Buslaev](./img/Screenshot-DEMO09-Home-by-Artem-Buslaev-Medium.avif)
 
-Introducing the Smart Home User Interface by Artem Buslaev, a cutting-edge demo project that redefines home automation. This complex yet elegantly designed interface features a dynamic, multi-language setup that seamlessly adapts to various touch panel sizes, including iPads and iPhones, without the need for additional programming. Enjoy an excellent navigation layout that prioritizes user experience, with meticulous attention to detail. Designed for optimal integration with both Crestron and KNX systems, this interface is the perfect solution for modern smart homes.
+Introducing the Smart Home User Interface by Artem Buslaev, a cutting-edge demo project that redefines home automation. This complex yet elegantly designed interface features a dynamic, multi-language setup that seamlessly adapts to various touch panel sizes, including iPads and iPhones, without the need for additional programming. Enjoy an excellent navigation layout that prioritizes user experience, with meticulous attention to detail. Compatible with Crestron and KNX systems, this interface demonstrates advanced flexibility for diverse home automation platforms.
 
 :::info Live
 Follow link for live demo
@@ -130,3 +130,6 @@ import YouTubeEmbed from '@site/src/components/YouTubeEmbed';
 
 Mirror at
 [https://www.avgator.cloud/demo-projects](https://www.avgator.cloud/demo-projects)
+
+
+<sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>

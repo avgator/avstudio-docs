@@ -69,9 +69,9 @@ d. Set the `Build Archive Name` — this defines the filename for exported build
 Use environments to separate internal testing setups from production builds.
 :::
 
-## 5. Configure Crestron Connectors
+## 5. Configure Control System Connectors
 
-If your project integrates with Crestron systems or similar controllers, you can assign signal IDs that allow AVstudio to interact with external commands, navigate between pages, and trigger data updates.
+If your project communicates with Crestron-compatible or similar control systems, you can assign signal IDs that allow AVstudio to process external commands, navigate between pages, and trigger data updates.
 
 a. `Analog flip page signal` – Accepts a numeric input to switch between different pages.  
    *Use this when your control processor sends analog values representing specific page indexes.*  
@@ -151,9 +151,11 @@ This guide covered how to:
 - Access the settings panel
 - Edit branding and splash screen details
 - Set up environments with debug options
-- Configure Crestron signal connections
+- Configure control system signal connections
 - Add web API integrations
 - Define dataset access and authentication
 - Save your updates properly
 
 Use this structured approach to make sure every AVstudio project is properly set up for success.
+
+<sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>

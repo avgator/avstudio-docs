@@ -14,7 +14,7 @@ This documentation introduces the core offerings, features, and benefits of AVst
 
 ## Overview
 
-AVstudio redefines interface design for control systems by providing both flexibility and power. It supports Crestron integration out of the box and is continually expanding its compatibility with other platforms.
+AVstudio redefines interface design for control systems by providing both flexibility and power. It is fully compatible with numerous platforms, including Crestron systems, and is continually expanding its integration capabilities.
 
 ### Core Offerings
 
@@ -22,7 +22,7 @@ AVstudio is available in multiple formats to suit different development environm
 
 👉 **Web-Based SAAS Platform**: Access your projects from anywhere using a modern browser.  
 👉 **Compiled GUI Environment**: Install and run on your preferred operating system for offline development.  
-👉 **Crestron Integration**: Full support for Crestron systems, streamlining your integration process.  
+👉 **Crestron Compatibility**: Works seamlessly with Crestron systems through standard web-based interfaces.  
 👉 **Cross-System Compatibility**: Ongoing expansion to support more control systems in future releases.
 
 ## Key Features
@@ -72,7 +72,7 @@ AVstudio is designed for a diverse group of interface creators and AV system int
 
 AVstudio delivers tangible advantages that enhance your workflow and project outcomes.
 
-- 👉 Stay ahead in control and automation integration services  
+- 👉 Enhance your workflow in control and automation environments
 - 👉 Design professional-grade interfaces without needing a design degree  
 - 👉 Optimize development time and reduce debugging  
 - 👉 Deliver engaging and intuitive user experiences  
@@ -91,3 +91,6 @@ Here’s what you’ll find throughout this documentation:
 ---
 
 Let’s get started on your journey to creating exceptional user interfaces with AVstudio.
+
+
+<sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>
