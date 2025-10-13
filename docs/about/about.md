@@ -9,7 +9,7 @@ tags:
 
 #  About AVgator Studio (AVstudio) 
 
-To create a user interface on HTML5 for a Crestron control system, you
+To create a user interface on HTML5 for a control system, you
 can use a software tool like AVstudio by AVgator Inc, which is
 specifically designed for this purpose. Here are the basic steps to
 create a user interface using AVstudio:
@@ -25,10 +25,10 @@ create a user interface using AVstudio:
     real-time.
 6.  Test the interface on the target device or emulator to ensure it
     works correctly.
-7.  Export the interface code and upload it to the Crestron control
+7.  Export the interface code and upload it to the control
     system.
 
-AVstudio supports various environments like Crestron One, Android App,
+AVstudio supports various environments like iOS, Android App,
 PWA, and browsers, so you can create an interface that works across
 different platforms. Additionally, AVstudio provides a built-in smart
 console and live debugging with a real processor to help you
@@ -37,7 +37,7 @@ troubleshoot any issues and optimize your interface.
 [![](./img/darkhuddle.png)](https://avgator.com/products-gui/darkhuddle#templateGalleryId)
 
 AVstudio by AVgator Inc is an online-based HTML5 editor for creating
-GUIs for control systems like Crestron. You can access it at the
+GUIs for control systems. You can access it at the
 following address: [https://avstudio.app/](https://avstudio.app/)
 
 Once you log in, you can start creating your project and designing your
@@ -75,3 +75,4 @@ accessible for users with varying levels of GUI design experience.
 
 [![](./img/versailles.png)](https://avgator.com/products-gui/versailles#templateGalleryId)
 
+<sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>

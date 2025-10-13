@@ -154,15 +154,13 @@ Preview mode is great for spot-checking animations, positioning, and interaction
 
 ### Connection Manager
 
-The `Connection Manager` lets you simulate how your page interacts with connected systems, such as Crestron controllers or WebSocket services. This is useful for testing signal routing and verifying dynamic behaviors during development.
+The `Connection Manager` lets you simulate how your page interacts with connected systems. This is useful for testing signal routing and verifying dynamic behaviors during development.
 
 ![Connection Manager](./img/connection-manager.png)
 
 👉 Open the `Connection Manager` from the toolbar (look for the chain-link icon near the right side). Depending on the connection state, the label may say `Connected` or `Disconnected`.
 
 👉 Use the `Toggle connections` switch to simulate connecting or disconnecting from the system.
-
-👉 Under **Crestron Connection**, you’ll see items like `WebXpanel` if they’re configured for your project.
 
 👉 Any WebSocket connectors will appear in the **WebSocket Connections** section, if available.
 
