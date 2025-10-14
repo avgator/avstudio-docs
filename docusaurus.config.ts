@@ -216,6 +216,21 @@ const config = {
         disableInDev: false,
       },
     ],
+    [
+    '@docusaurus/plugin-client-redirects',
+    {
+      createRedirects(existingPath) {
+        // Automatically redirect any path containing /docs/avstudio-editor/
+        // from its old equivalent /docs/documentation/
+        if (existingPath.includes('/docs/avstudio-editor/')) {
+          return [
+            existingPath.replace('/docs/avstudio-editor/', '/docs/documentation/'),
+          ];
+        }
+        return [];
+      },
+    },
+  ],
   ],
 scripts: [
   {
