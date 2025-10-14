@@ -46,7 +46,8 @@ This guide covers:
 
 ## 👉 Adding a Player Element
 
-To add a Player element, follow the steps in [How to Add an Element](/docs/documentation/4-working-with-projects/4-5-adding-elements/4-5-adding-elements.md).  
+To add a Player element, follow the steps in [How to Add an Element](../../../4-5-adding-elements/4-5-adding-elements.md).  
+
 Once added, you can select it in the `Editor` to configure its properties and behavior.
 
 ---
@@ -71,11 +72,11 @@ Controls the layer order of the element. Higher values bring it to the front of 
 ### `Dimensions`
 Defines the player’s width and height.  
 You can enter fixed values or assign dynamic bindings.  
-See [How to Configure Dimensions](/docs/documentation/4-working-with-projects/4-6-configuring-dimensions/4-6-configuring-dimensions.md) for details.
+See [How to Configure Dimensions](../../../4-6-configuring-dimensions/4-6-configuring-dimensions.md) for details.
 
 ### `Mode Selector by Index or Name`
 Specifies which playback mode or layout variation the player should display.  
-Can be bound dynamically using the `{–}` icon or the [Assigning Dynamic Values](/docs/documentation/4-working-with-projects/4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md) guide.
+Can be bound dynamically using the `{–}` icon or the [Assigning Dynamic Values](../../../4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md) guide.
 
 ### `Available Player Modes`
 Lists the modes you can assign to switch between visual or functional layouts (for example, Default, Compact, or Full).  
@@ -132,6 +133,6 @@ No. Each player instance supports a specific media type — use separate players
 Yes. Create and edit player modes under `Available Player Modes` to design different visual states.
 
 **How can I bind dynamic track information?**  
-Use the `{–}` icon beside a metadata field and follow the steps in [Assigning Dynamic Values](/docs/documentation/4-working-with-projects/4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md).
+Use the `{–}` icon beside a metadata field and follow the steps in [Assigning Dynamic Values](../../../4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md).
 
 

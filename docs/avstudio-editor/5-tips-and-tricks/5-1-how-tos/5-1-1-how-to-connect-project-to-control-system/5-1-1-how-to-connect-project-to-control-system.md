@@ -16,7 +16,7 @@ tags:
 This guide explains how to connect an existing AVStudio project to a control system using a WebSocket token. This enables real-time communication between your interface and the processor during testing and deployment.
 
 :::tip Note
-If you haven’t created a project yet, refer to [How to Create a Project](/docs/documentation/4-working-with-projects/4-1-creating-projects/4-1-creating-projects.md) before proceeding.
+If you haven’t created a project yet, refer to [How to Create a Project](../../../4-working-with-projects/4-1-creating-projects/4-1-creating-projects.md) before proceeding.
 :::
 
 

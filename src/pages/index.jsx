@@ -43,7 +43,7 @@ export default function Home() {
               <h2>Quick Links</h2>
               <ul>
                 <li>
-                  <Link to="/documentation/getting-started">Getting Started Guide</Link>
+                  <Link to="/avstudio-editor/getting-started">AVstudio Editor getting started</Link>
                 </li>
                 <li>
                   <Link to="/showcase">Showcase</Link>
@@ -52,13 +52,27 @@ export default function Home() {
                   <Link to="/knowledge-base">Knowledge Base</Link>
                 </li>
                 <li>
-                  <Link to="/documentation">Documentation</Link>
+                  <Link to="/avstudio-editor">AVstudio Editor Documentation</Link>
                 </li>
               </ul>
             </div>
             <div className="col col--6">
               <h2>Support</h2>
-              <p>Need help? Check our documentation or contact support.</p>
+              <p>
+                Need help? Visit our{' '}
+                <a
+                  href="https://community.avstudio.app"
+                  className="button button--primary button--sm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Community & Support Center
+                </a>{' '}
+                or check our{' '}
+                <Link to="/avstudio-editor">
+                  documentation
+                </Link>.
+              </p>
             </div>
           </div>
         </div>

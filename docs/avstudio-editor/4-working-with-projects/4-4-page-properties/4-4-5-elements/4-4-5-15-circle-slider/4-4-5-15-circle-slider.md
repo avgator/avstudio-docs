@@ -63,7 +63,7 @@ Use the **Element Constraints** options to position the Circle Slider along the 
 For detailed setup, see How to Configure Element Constraints.  
 
 Set the **Width** and **Height** fields under **Dimensions** to define the slider’s size.  
-Refer to [How to Configure Dimensions](/docs/documentation/4-working-with-projects/4-6-configuring-dimensions/4-6-configuring-dimensions.md) for measurement details.
+Refer to [How to Configure Dimensions](../../../4-6-configuring-dimensions/4-6-configuring-dimensions.md) for measurement details.
 
 ---
 
@@ -100,7 +100,7 @@ You can also format the **Value Display Options** to automatically show fraction
 
 Add actions under the **Actions** section to trigger specific responses based on user interaction.  
 For visibility control, expand **State** and adjust **Orientation Visibility** or **Disabled Signal** as needed.  
-See [Assigning Dynamic Values](/docs/documentation/4-working-with-projects/4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md) for linking logic and signals.
+See [Assigning Dynamic Values](../../../4-7-assigning-dynamic-values/4-7-assigning-dynamic-values.md) for linking logic and signals.
 
 ---
 
