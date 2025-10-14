@@ -9,6 +9,7 @@ tags:
   - signals
   - reactivity
   - dynamic-data
+  - variables
 ---
 
 # Project Variables Overview
