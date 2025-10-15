@@ -202,7 +202,7 @@ const config = {
     [
       '@docusaurus/plugin-google-gtag',
       {
-        trackingID: 'G-8S2KS09YKE',
+        trackingID: 'G-4HP0VV8V2Z',
         anonymizeIP: true, // Should be enabled for GDPR compliance
       },
     ],

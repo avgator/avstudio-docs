@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -24,16 +21,17 @@ jobs:
         with:
           node-version: 20
           cache: npm
-
       - name: Install dependencies
         run: npm ci
-      
       - name: Build website
         run: npm run build
-
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.AVG_DOC_ACTIONS }}
           publish_dir: ./build
+          force_orphan: true
