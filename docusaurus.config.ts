@@ -143,7 +143,7 @@ const config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'documentationSidebar',
+          sidebarId: 'avstudioEditorSidebar',
           position: 'left',
           label: 'Documentation',
         },
