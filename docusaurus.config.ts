@@ -142,10 +142,20 @@ const config = {
           label: 'Showcase',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'avstudioEditorSidebar',
-          position: 'left',
           label: 'Documentation',
+          position: 'left',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'avstudioEditorSidebar',
+              label: 'AVstudio Editor',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'appContainerSidebar',
+              label: 'App Container',
+            },
+          ],
         },
         {
           type: 'docSidebar',
