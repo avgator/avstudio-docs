@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Prevent duplicate content indexing
+Disallow: /tags
+Disallow: /search
+Disallow: /page/
+Disallow: */LICENSE.md
+Disallow: */CHANGELOG.md
+
+# Add sitemap
+Sitemap: https://docs.avstudio.app/sitemap.xml
+
+# Crawl-delay directive
+Crawl-delay: 10
