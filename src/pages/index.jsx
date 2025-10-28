@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={clsx('padding-horiz--md')}>
           <Link
             className="button button--secondary button--lg"
-            to="/about"
+            to="/about/"
           >
             Get Started →
           </Link>
@@ -43,16 +43,16 @@ export default function Home() {
               <h2>Quick Links</h2>
               <ul>
                 <li>
-                  <Link to="/avstudio-editor/getting-started">AVstudio Editor getting started</Link>
+                  <Link to="/avstudio-editor/getting-started/">AVstudio Editor getting started</Link>
                 </li>
                 <li>
-                  <Link to="/showcase">Showcase</Link>
+                  <Link to="/showcase/">Showcase</Link>
                 </li>
                 <li>
-                  <Link to="/knowledge-base">Knowledge Base</Link>
+                  <Link to="/knowledge-base/">Knowledge Base</Link>
                 </li>
                 <li>
-                  <Link to="/avstudio-editor">AVstudio Editor Documentation</Link>
+                  <Link to="/avstudio-editor/">AVstudio Editor Documentation</Link>
                 </li>
               </ul>
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
                   Community & Support Center
                 </a>{' '}
                 or check our{' '}
-                <Link to="/avstudio-editor">
+                <Link to="/avstudio-editor/">
                   documentation
                 </Link>.
               </p>
