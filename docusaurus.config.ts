@@ -10,13 +10,16 @@ const config = {
   baseUrl: '/avstudio-docs/',
   organizationName: 'AVstudio Inc.',
   projectName: 'avstudio-docs',
-  
+
+  // ✅ Force trailing slashes everywhere (critical for sitemap)
+  trailingSlash: true,
+
   onBrokenLinks: 'throw',
-  
+
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
-      },
+    },
   },
 
   i18n: {
@@ -26,15 +29,14 @@ const config = {
 
   themes: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
         hashed: true,
-        language: ["en"],
+        language: ['en'],
         indexDocs: true,
         indexPages: true,
         highlightSearchTermsOnTargetPage: true,
-      }),
+      },
     ],
   ],
 
@@ -47,13 +49,8 @@ const config = {
           routeBasePath: '/',
           tagsBasePath: '/tags',
           path: 'docs',
-          remarkPlugins: [
-            require('remark-math'),
-            [require('remark-gfm'), {}]
-          ],
-          rehypePlugins: [
-            require('rehype-katex')
-          ],
+          remarkPlugins: [require('remark-math'), [require('remark-gfm'), {}]],
+          rehypePlugins: [require('rehype-katex')],
           async sidebarItemsGenerator({
             defaultSidebarItemsGenerator,
             ...args
@@ -61,10 +58,9 @@ const config = {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             return sidebarItems;
           },
-          // Enhanced SEO Optimizations for docs
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          editUrl: 'https://github.com/avgator/avstudio-docs/edit/main/', // Add this for better UX and SEO
+          editUrl: 'https://github.com/avgator/avstudio-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -78,7 +74,8 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        // Enhanced sitemap configuration
+
+        // ✅ Enhanced sitemap configuration with trailing slash logic
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
@@ -88,18 +85,27 @@ const config = {
             '/search/**',
             '/page/**',
             '/**/LICENSE.md',
-            '/**/CHANGELOG.md'
+            '/**/CHANGELOG.md',
           ],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
+            const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
+
+            // ✅ Add trailing slashes and adjust priorities
             return items
               .filter((item) => !item.url.includes('/page/'))
-              .map((item) => ({
-                ...item,
-                priority: item.url === '/' ? 1.0 : 0.8 // Prioritize homepage and main sections
-              }));
+              .map((item) => {
+                let fixedUrl = item.url;
+                if (!fixedUrl.endsWith('/')) {
+                  fixedUrl += '/';
+                }
+                return {
+                  ...item,
+                  url: fixedUrl,
+                  priority: item.url === '/' ? 1.0 : 0.8,
+                };
+              });
           },
         },
       },
@@ -107,20 +113,39 @@ const config = {
   ],
 
   themeConfig: {
-    // Enhanced SEO metadata
     metadata: [
-      {name: 'description', content: 'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'keywords', content: 'AVstudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor'},
-      {name: 'og:title', content: 'AVstudio Documentation'},
-      {name: 'og:type', content: 'website'},
-      {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'og:image', content: 'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif'},
-      {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:title', content: 'AVstudio Documentation'},
-      {name: 'twitter:description', content: 'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'robots', content: 'index, follow, max-image-preview:large'},
-      {name: 'author', content: 'AVstudio Inc.'},
-      {name: 'language', content: 'English'}
+      {
+        name: 'description',
+        content:
+          'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
+      },
+      {
+        name: 'keywords',
+        content:
+          'AVstudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor',
+      },
+      { name: 'og:title', content: 'AVstudio Documentation' },
+      { name: 'og:type', content: 'website' },
+      {
+        name: 'og:description',
+        content:
+          'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
+      },
+      {
+        name: 'og:image',
+        content:
+          'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif',
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'AVstudio Documentation' },
+      {
+        name: 'twitter:description',
+        content:
+          'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
+      },
+      { name: 'robots', content: 'index, follow, max-image-preview:large' },
+      { name: 'author', content: 'AVstudio Inc.' },
+      { name: 'language', content: 'English' },
     ],
     navbar: {
       title: 'AVstudio Docs',
@@ -163,15 +188,8 @@ const config = {
           position: 'left',
           label: 'Knowledge Base',
         },
-        {
-          type: 'search',
-          position: 'right',
-        },
-        {
-          href: 'https://avstudio.app',
-          label: 'Open AVstudio',
-          position: 'right',
-        },
+        { type: 'search', position: 'right' },
+        { href: 'https://avstudio.app', label: 'Open AVstudio', position: 'right' },
       ],
     },
     footer: {
@@ -179,12 +197,7 @@ const config = {
       links: [
         {
           title: 'Documentation',
-          items: [
-            {
-              label: 'HTML5 UI Showcase',
-              to: 'showcase',
-            },
-          ],
+          items: [{ label: 'HTML5 UI Showcase', to: 'showcase' }],
         },
         {
           title: 'Community',
@@ -202,10 +215,7 @@ const config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    tableOfContents: {
-      minHeadingLevel: 2,
-      maxHeadingLevel: 4,
-    },
+    tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 4 },
   },
 
   plugins: [
@@ -213,45 +223,38 @@ const config = {
       '@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-4HP0VV8V2Z',
-        anonymizeIP: true, // Should be enabled for GDPR compliance
+        anonymizeIP: true,
       },
     ],
     [
       '@docusaurus/plugin-ideal-image',
-      {
-        quality: 70,
-        max: 1030,
-        min: 640,
-        steps: 2,
-        disableInDev: false,
-      },
+      { quality: 70, max: 1030, min: 640, steps: 2, disableInDev: false },
     ],
     [
-    '@docusaurus/plugin-client-redirects',
-    {
-      createRedirects(existingPath) {
-        // Automatically redirect any path containing /docs/avstudio-editor/
-        // from its old equivalent /docs/documentation/
-        if (existingPath.includes('/docs/avstudio-editor/')) {
-          return [
-            existingPath.replace('/docs/avstudio-editor/', '/docs/documentation/'),
-          ];
-        }
-        return [];
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          if (existingPath.includes('/docs/avstudio-editor/')) {
+            return [
+              existingPath.replace(
+                '/docs/avstudio-editor/',
+                '/docs/documentation/'
+              ),
+            ];
+          }
+          return [];
+        },
       },
+    ],
+  ],
+
+  scripts: [
+    { src: '/avstudio-docs/js/zoho-init.js', defer: true },
+    {
+      src: 'https://salesiq.zohopublic.com/widget?wc=siq1a525445dedc30bf13ef0981eea4ecf87904b7c2772b4823e47b7b97ca15bf4c',
+      defer: true,
     },
   ],
-  ],
-scripts: [
-  {
-    src: '/avstudio-docs/js/zoho-init.js',
-    defer: true,
-  },
-  {
-    src: 'https://salesiq.zohopublic.com/widget?wc=siq1a525445dedc30bf13ef0981eea4ecf87904b7c2772b4823e47b7b97ca15bf4c',
-    defer: true,
-  },
-],
 };
 
 module.exports = config;
