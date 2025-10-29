@@ -114,38 +114,8 @@ const config = {
 
   themeConfig: {
     metadata: [
-      {
-        name: 'description',
-        content:
-          'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
-      },
-      {
-        name: 'keywords',
-        content:
-          'AVstudio, documentation, audio-visual, knowledge base, AVgator, Crestron One, HTML5, WYSIWYG, GUI, editor',
-      },
-      { name: 'og:title', content: 'AVstudio Documentation' },
-      { name: 'og:type', content: 'website' },
-      {
-        name: 'og:description',
-        content:
-          'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
-      },
-      {
-        name: 'og:image',
-        content:
-          'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif',
-      },
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'AVstudio Documentation' },
-      {
-        name: 'twitter:description',
-        content:
-          'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron',
-      },
-      { name: 'robots', content: 'index, follow, max-image-preview:large' },
       { name: 'author', content: 'AVstudio Inc.' },
-      { name: 'language', content: 'English' },
+      { name: 'robots', content: 'index, follow, max-image-preview:large' },
     ],
     navbar: {
       title: 'AVstudio Docs',
