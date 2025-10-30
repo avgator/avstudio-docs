@@ -1,6 +1,7 @@
 ---
 title: "Autonomic Mirage Media Server Integration Guide"
 sidebar_label: "Autonomic Mirage Media Server Integration Guide"
+description: "Learn how to integrate the Autonomic Mirage Media Server with AVstudio using its JSON/HTTP API for full playback control, metadata display, and real-time synchronization."
 tags:
 - knowledge-base
 - ui-components
