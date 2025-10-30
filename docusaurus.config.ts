@@ -189,6 +189,7 @@ const config = {
   },
 
   plugins: [
+    require.resolve('./plugins/tag-meta-descriptions'),
     [
       '@docusaurus/plugin-google-gtag',
       {
