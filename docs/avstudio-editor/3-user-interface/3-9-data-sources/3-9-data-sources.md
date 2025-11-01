@@ -1,6 +1,7 @@
 ---
 title: Data Sources Overview
 sidebar_label: Data Sources
+description: "Learn how to connect AVstudio to external APIs, WebSocket streams, or local mock data to power dynamic content across pages and components."
 sidebar_position: 9
 order: 9
 tags:
