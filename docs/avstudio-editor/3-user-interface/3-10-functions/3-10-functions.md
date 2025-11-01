@@ -14,6 +14,8 @@ tags:
 
 # Functions Overview
 
+Learn how to define, test, and manage custom JavaScript functions to add interactive logic and behaviors to your AVstudio project.
+
 The Functions section in AVstudio allows you to define custom JavaScript logic that enhances your project’s interactivity. Functions can be used to manipulate variables, trigger navigation, fetch data, publish signals, and control audio playback. With built-in code snippets, live testing, and support for arguments, functions offer a flexible way to add dynamic behaviors across your application.
 
 ## Accessing the Functions Section
@@ -71,6 +73,10 @@ This dashboard lists all custom functions defined in your AVstudio project, allo
 - `Edit` – Opens the function editor so you can modify the code or arguments.  
 - `Clone function` – Creates a duplicate of the function with "_clone" added to the name.  
 - `Delete function` – Removes the function from your project.
+
+## Summary
+
+Functions provide a powerful way to encapsulate interaction logic in AVstudio. By using arguments, built-in snippets, and live testing, you can create reliable behaviors that manipulate data, navigate, and integrate with other parts of your project.
 
 
 
