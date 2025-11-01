@@ -1,5 +1,7 @@
 const prismThemes = require('prism-react-renderer').themes;
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const config = {
   title: 'AVStudio Docs',
   tagline: 'Documentation and Knowledge Base',
@@ -204,7 +206,8 @@ const config = {
   },
 
   plugins: [
-    [
+    // Only enable Google gtag in production to avoid runtime errors during local dev
+    isProd && [
       '@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-4HP0VV8V2Z',
@@ -236,8 +239,13 @@ const config = {
       },
     },
   ],
-  ],
+  ].filter(Boolean),
 scripts: [
+  // Define gtag fallback early to avoid runtime errors if the gtag script is blocked
+  {
+    src: '/avstudio-docs/js/gtag-fallback.js',
+    defer: true,
+  },
   {
     src: '/avstudio-docs/js/zoho-init.js',
     defer: true,
