@@ -1,6 +1,7 @@
 ---
 title: Container Options
 sidebar_label: Container Options
+description: Learn how to configure container options in AVstudio—friendly name, CSS class, orientation-based settings, alignment, size, border, and background.
 sidebar_position: 4
 order: 4
 tags:
@@ -10,6 +11,10 @@ tags:
   - design
 ---
 
+
+# Container Options
+
+Learn how to configure container options in AVstudio—friendly name, CSS class, orientation-based settings, alignment, size, border, and background.
 
 The `Container options` panel allows you to configure how a specific container behaves and appears on the page. Whether you're adjusting layout or applying styles, this panel gives you precise control over container properties.
 

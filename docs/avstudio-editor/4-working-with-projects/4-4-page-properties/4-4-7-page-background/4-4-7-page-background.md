@@ -1,6 +1,7 @@
 ---
 title: Page Background
 sidebar_label: Page Background
+description: Learn how to set page backgrounds in AVstudio—colors, library images, external URLs, blur, opacity, fill, and position.
 sidebar_position: 7
 order: 7
 tags:
@@ -11,6 +12,8 @@ tags:
 ---
 
 # Page Background
+
+Learn how to set page backgrounds in AVstudio—colors, library images, external URLs, blur, opacity, fill, and position.
 
 The `Page Background` section allows you to customize the visual background of the page. You can use a solid color or set a background image from either your media library or an external URL. Additional options let you control blur, opacity, and image positioning.
 

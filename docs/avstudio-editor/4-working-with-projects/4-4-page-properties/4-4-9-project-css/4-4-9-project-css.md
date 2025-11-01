@@ -1,6 +1,7 @@
 ---
 title: Project CSS
 sidebar_label: Project CSS
+description: Learn how to add global CSS to your AVstudio project and when to use it for consistent, advanced styling.
 sidebar_position: 9
 order: 9
 tags:
@@ -11,6 +12,8 @@ tags:
 ---
 
 # Project CSS
+
+Learn how to add global CSS to your AVstudio project and when to use it for consistent, advanced styling.
 
 The `Project CSS` section allows you to define and manage custom CSS that applies globally across your AVstudio project. This gives you more control over the appearance of your layout, especially when visual configuration options are not enough or when you want to apply consistent branding across all pages.
 

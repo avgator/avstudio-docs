@@ -1,6 +1,7 @@
 ---
 title: Project Media Library
 sidebar_label: Project Media Library
+description: Learn how to upload and manage media assets in AVstudio’s Project Media Library for use across pages and containers.
 sidebar_position: 10
 order: 10
 tags:
@@ -11,6 +12,8 @@ tags:
 ---
 
 # Project Media Library
+
+Learn how to upload and manage media assets in AVstudio’s Project Media Library for use across pages and containers.
 
 The `Project Media Library` is where you can manage all media assets used in your AVstudio project. This includes background images, icons, UI illustrations, logos, and any other visual content that will be referenced across pages or containers.
 

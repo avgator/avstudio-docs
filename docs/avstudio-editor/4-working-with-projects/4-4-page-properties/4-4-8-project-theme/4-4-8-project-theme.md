@@ -1,6 +1,7 @@
 ---
 title: Project Theme
 sidebar_label: Project Theme
+description: Learn how to define a project-wide theme in AVstudio—global background, primary colors, text color, and border radius.
 sidebar_position: 8
 order: 8
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Project Theme
+
+Learn how to define a project-wide theme in AVstudio—global background, primary colors, text color, and border radius.
 
 The `Project Theme` section allows you to define global design settings that apply across your entire project. These include a shared background and universal styling variables like primary colors, text colors, and border radius. Setting your theme properly ensures consistency, simplifies styling, and makes it easier to update your project visually in the future.
 
