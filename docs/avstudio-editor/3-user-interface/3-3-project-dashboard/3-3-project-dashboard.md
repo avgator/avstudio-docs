@@ -5,17 +5,22 @@ sidebar_position: 3
 order: 3
 tags:
   - avstudio
+  - getting-started
   - project
   - dashboard
   - build
   - preview
   - clone
   - settings
+  - management
+  - workflow
 ---
 
 # Project Dashboard Overview
 
-The Project Dashboard is where you manage your individual projects in AVstudio. It gives you access to project-specific actions like previewing, building, cloning, deleting, and modifying settings — all within a single view.
+Learn how to use the Project Dashboard to preview, build, clone, and configure your AVstudio projects from one place.
+
+This article introduces the core controls and navigation within the Project Dashboard, covering quick actions, project creation, live previews, builds, settings, and environment selection.
 
 ## Project Management from the Dashboard
 
@@ -111,3 +116,7 @@ It performs the same function as the `Live` button in section ② but gives you 
 ---
 
 Everything in the Project Dashboard is focused on giving you control over a single project — whether you're editing layouts, previewing in real-time, deploying builds, or updating settings.
+
+## Summary
+
+The Project Dashboard concentrates all project-level actions into a single, efficient workspace. By understanding its controls—new project creation, quick actions, live preview, builds, and settings—you can iterate faster and maintain clean, production-ready builds across environments.
