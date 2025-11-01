@@ -5,13 +5,17 @@ sidebar_position: 7
 order: 7
 tags:
   - avstudio
+  - getting-started
   - global-containers
   - layout
   - visibility
   - reusable-components
+  - shared-ui
 ---
 
 # Global Containers Overview
+
+Learn how to create and manage Global Containers to reuse shared UI (like headers, footers, and overlays) across multiple pages.
 
 The Global Containers section in AVstudio lets you create persistent, reusable interface blocks that appear across multiple pages. Whether it’s a navigation bar, footer, or overlay, global containers help ensure design consistency while giving you control over placement and visibility on a per-page basis.
 
@@ -66,3 +70,7 @@ The visibility settings dynamically affect which configuration fields are editab
 **② Visible on Pages** – Lets you select individual pages (e.g., `main`, `getting-started`) where the container should be shown when **Visible by default** is off.
 
 **③ Hidden on Pages (Disabled)** – This field is inactive when **Visible by default** is off. It only becomes usable when the toggle is on.
+
+## Summary
+
+Global Containers provide a reliable way to reuse shared UI across your application. By configuring position, default visibility, and page-level exceptions, you can keep your interface consistent while tailoring where elements appear.
