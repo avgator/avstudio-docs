@@ -1,6 +1,7 @@
 ﻿---
 title: Introduction to AVstudio
 sidebar_label: Introduction
+description: Learn to use AVstudio, explore its features, and get started designing powerful user interfaces.
 sidebar_position: 1
 order: 1
 tags: [avstudio, introduction, ui/ux, documentation, interface-design, control-systems, crestron, saas, gui, html5]
