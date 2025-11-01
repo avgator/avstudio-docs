@@ -1,5 +1,6 @@
 ﻿---
 title: Getting Started
+sidebar_label: Getting Started
 description: Get started with AVstudio
 sidebar_position: 1
 tags:
