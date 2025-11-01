@@ -1,6 +1,7 @@
 ---
 title: "User Registration and Account Setup"
 sidebar_label: "User Registration and Account Setup"
+description: "Learn how to register, verify your email, and complete your AVstudio account setup."
 sidebar_position: 2
 tags:
   - avstudio

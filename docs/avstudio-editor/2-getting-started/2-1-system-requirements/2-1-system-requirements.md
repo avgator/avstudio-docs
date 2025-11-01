@@ -1,6 +1,7 @@
 ﻿---
 title: "System Requirements"
 sidebar_label: "System Requirements"
+description: "Learn the system, hardware, browser, and network requirements to run AVstudio reliably."
 sidebar_position: 1
 tags:
   - avstudio

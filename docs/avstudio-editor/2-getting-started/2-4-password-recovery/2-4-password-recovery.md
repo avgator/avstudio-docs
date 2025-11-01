@@ -1,6 +1,7 @@
 ---
 title: "Password Recovery"
 sidebar_label: "Password Recovery"
+description: "Learn how to reset your AVstudio password and regain access to your account."
 sidebar_position: 4
 tags:
   - avstudio
