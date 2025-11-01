@@ -1,6 +1,7 @@
 ---
 title: Working with Projects
 sidebar_label: Working with Projects
+description: Learn how to work with projects in AVstudio—create, clone, use templates, configure settings, and manage shared elements.
 sidebar_position: 4
 order: 4
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Working with Projects
+
+Learn how to work with projects in AVstudio—create, clone, use templates, configure settings, and manage shared elements.
 
 This section introduces everything you need to know about managing projects in AVstudio. Whether you're creating your first layout, editing an existing setup, or configuring advanced project settings, you'll find helpful guides here.
 

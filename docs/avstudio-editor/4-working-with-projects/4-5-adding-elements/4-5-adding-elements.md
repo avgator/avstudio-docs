@@ -1,8 +1,8 @@
 ---
 title: "How to Add an Element"
 sidebar_label: "Adding Elements"
+description: "Learn how to add elements to your AVstudio project using the Page Containers panel, the editor context menu, or drag-and-drop."
 sidebar_position: 5
-description: "Learn how to add elements to your AVStudio project using the Page Containers panel, right-click menu, or the Editor toolbar."
 keywords:
   - avstudio
   - ui
@@ -34,7 +34,7 @@ schema:
 
 # How to Add an Element
 
-🎯 Learn how to add new elements to your AVStudio project using different methods.  
+🎯 Learn how to add new elements to your AVstudio project using different methods.  
 This guide explains each option available for inserting UI elements such as buttons, sliders, switches, and more.
 
 ---
@@ -121,3 +121,15 @@ They are added to the current container or active page within the Editor.
 
 **Can I reorder or move elements after adding them?**  
 Yes. Drag the element directly within the `Editor` or use the hierarchy panel.
+
+---
+
+## Summary
+
+Add elements in three ways:
+
+- From Page Containers (structured placement inside containers)
+- From the editor’s context menu (quick insertion)
+- By dragging from the elements toolbar (visual positioning)
+
+Use whichever method best fits your current workflow; all elements appear immediately in the editor and properties panel.
