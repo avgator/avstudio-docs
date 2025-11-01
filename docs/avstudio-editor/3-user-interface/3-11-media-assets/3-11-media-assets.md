@@ -1,6 +1,7 @@
 ---
 title: Media Assets Overview
 sidebar_label: Media Assets
+description: "Learn how to upload, organize, and use images, fonts, and audio files across your AVstudio project."
 sidebar_position: 11
 order: 11
 tags:

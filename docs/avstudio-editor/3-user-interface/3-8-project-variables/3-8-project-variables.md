@@ -1,6 +1,7 @@
 ---
 title: Project Variables Overview
 sidebar_label: Project Variables
+description: "Learn how to define and manage project variables to control state, respond to signals, and trigger actions across your application."
 sidebar_position: 8
 order: 8
 tags:

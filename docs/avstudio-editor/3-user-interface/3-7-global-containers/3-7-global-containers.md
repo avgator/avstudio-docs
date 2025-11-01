@@ -1,6 +1,7 @@
 ---
 title: Global Containers Overview
 sidebar_label: Global Containers
+description: "Learn how to create and manage Global Containers to reuse shared UI (like headers, footers, and overlays) across multiple pages."
 sidebar_position: 7
 order: 7
 tags:

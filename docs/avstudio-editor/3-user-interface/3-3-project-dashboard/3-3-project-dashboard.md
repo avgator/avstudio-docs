@@ -1,6 +1,7 @@
 ---
 title: Project Dashboard Overview
 sidebar_label: Project Dashboard
+description: "Learn how to use the Project Dashboard to preview, build, clone, and configure your AVstudio projects from one place."
 sidebar_position: 3
 order: 3
 tags:

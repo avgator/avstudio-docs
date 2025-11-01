@@ -1,6 +1,7 @@
 ---
 title: Subpages Overview
 sidebar_label: Subpages
+description: "Learn how to create, organize, and reuse Subpages to support your main pages with modular, consistent UI components."
 sidebar_position: 6
 order: 6
 tags:

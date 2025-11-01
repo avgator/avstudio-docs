@@ -1,6 +1,7 @@
 ---
 title: User Profile Dashboard Overview
 sidebar_label: User Profile
+description: "Learn how to manage your AVstudio user profile, update account information, and change your password from the User Profile Dashboard."
 sidebar_position: 2
 order: 2
 tags:

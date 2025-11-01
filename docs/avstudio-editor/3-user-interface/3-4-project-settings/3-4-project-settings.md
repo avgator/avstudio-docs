@@ -1,6 +1,7 @@
 ---
 title: Project Settings Overview
 sidebar_label: Project Settings
+description: "Learn how to configure project-level settings in AVstudio, including names, themes, environments, connectors, and datasets."
 sidebar_position: 4
 order: 4
 tags:

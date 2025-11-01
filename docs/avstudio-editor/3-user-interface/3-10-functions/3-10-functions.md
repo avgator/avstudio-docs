@@ -1,6 +1,7 @@
 ---
 title: Functions Overview
 sidebar_label: Functions
+description: "Learn how to define, test, and manage custom JavaScript functions to add interactive logic and behaviors to your AVstudio project."
 sidebar_position: 10
 order: 10
 tags:

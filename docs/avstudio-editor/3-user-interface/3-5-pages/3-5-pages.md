@@ -1,6 +1,7 @@
 ---
 title: Pages Overview
 sidebar_label: Pages
+description: "Learn how to create, organize, and configure pages in AVstudio using responsive or adaptive layouts and signal-based navigation."
 sidebar_position: 5
 order: 5
 tags:

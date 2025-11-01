@@ -1,6 +1,7 @@
 ---
 title: Main Dashboard Overview
 sidebar_label: Main Dashboard
+description: "Learn how to use the AVstudio Main Dashboard to navigate your projects, access templates, and manage your workspace efficiently."
 sidebar_position: 1
 order: 1
 tags:
