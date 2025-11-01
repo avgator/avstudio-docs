@@ -1,8 +1,8 @@
 ---
 title: "How to Assign Dynamic Values"
 sidebar_label: "Assigning Dynamic Values"
+description: "Learn how to assign dynamic values to element fields in AVstudio using the Pick Dynamic Value modal."
 sidebar_position: 7
-description: "Learn how to assign dynamic values to element fields in AVStudio using the Pick Dynamic Value modal."
 keywords:
   - avstudio
   - ui
@@ -33,7 +33,7 @@ schema:
 
 # How to Assign Dynamic Values
 
-🎯 Learn how to assign dynamic values to element fields in AVStudio.  
+🎯 Learn how to assign dynamic values to element fields in AVstudio.  
 This guide explains how to identify dynamic-enabled fields, open the `Pick Dynamic Value` modal, and choose between variables, parameters, or state entries for data binding.
 
 ---
@@ -120,3 +120,15 @@ The bound field will lose its reference and revert to its default or last known 
 
 **Can I apply functions to dynamic values?**  
 Yes. You can use the `fx` icon next to the field to apply post-processing functions to modify how the dynamic value is displayed or calculated.
+
+---
+
+## Summary
+
+Make your UI data-driven by:
+
+- Using the `{–}` icon to bind fields to Variables, Parameters, or State entries
+- Applying functions (fx) to transform values before rendering
+- Relying on automatic updates when the bound source changes
+
+This keeps elements in sync with live data and system feedback.

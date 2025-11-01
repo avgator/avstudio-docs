@@ -1,17 +1,21 @@
 ---
 title: Adding Pages to Your Project
 sidebar_label: Adding Pages
+description: Learn how to add pages and subpages in AVstudio, choose adaptive or responsive layouts, and manage them from the Pages and Subpages tabs.
 sidebar_position: 3
 order: 3
 tags:
   - avstudio
   - pages
-  - page editor
-  - project structure
-  - page parameters
+  - page-editor
+  - project-structure
+  - page-parameters
+  - subpages
 ---
 
 # Adding Pages to Your Project
+
+Learn how to add pages and subpages in AVstudio, choose adaptive or responsive layouts, and manage them from the Pages and Subpages tabs.
 
 After configuring your project settings, the next step is to add pages. Each page represents a distinct screen in your AVstudio interface. In this guide, you'll learn how to create a page, select a design paradigm, open the page in the editor, and set its properties and parameters.
 
@@ -122,3 +126,13 @@ Removes the subpage from the project. As with pages, deletion is final.
 :::tip Note
 You cannot delete a page or subpage that is actively in use in navigation, triggers, or actions without first unlinking it from those elements.
 :::
+
+## Summary
+
+You can build your app structure by:
+
+- Creating pages with either adaptive or responsive layout behaviors
+- Adding subpages for modals, overlays, and nested screens
+- Managing items from the Pages and Subpages tabs (open, clone, delete, set start page)
+
+As your project grows, use clear names and the actions menu to keep navigation organized and maintainable.

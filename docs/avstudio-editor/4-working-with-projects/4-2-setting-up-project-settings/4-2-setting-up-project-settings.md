@@ -1,6 +1,7 @@
 ---
 title: Setting Up Project Settings
 sidebar_label: Setting Up a Project
+description: Learn how to configure project settings in AVstudio—environments, connectors, datasets, and other options that define how your app runs.
 sidebar_position: 2
 order: 2
 tags:
@@ -9,9 +10,14 @@ tags:
   - environment
   - connectors
   - debug-console
+   - configuration
+   - datasets
+   - web-connectors
 ---
 
 # Setting Up Project Settings
+
+Learn how to configure project settings in AVstudio—environments, connectors, datasets, and other options that define how your app runs.
 
 After creating your project, the next step is to configure the settings that define how it behaves, builds, and connects. This guide walks you through how to open the project settings panel and configure key fields like environment setup, debug mode, signal IDs, connectors, and dataset access.
 
