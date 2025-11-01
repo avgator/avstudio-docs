@@ -3,16 +3,21 @@ title: "Accessing the Application"
 sidebar_label: "Accessing the Application"
 sidebar_position: 3
 tags:
-  - login
-  - avstudio
-  - access
-  - authentication
-  - user-guide
+   - avstudio
+   - getting-started
+   - login
+   - authentication
+   - access
+   - user-guide
+   - security
 ---
+
 
 # Accessing AVstudio
 
-Log in to AVstudio to begin building and managing your user interfaces. Whether you're starting a new project or continuing existing work, this guide walks you through the secure login process.
+Learn how to securely log in to AVstudio so you can start building and managing your user interfaces.
+
+This article explains the login process for AVstudio, including available authentication methods, troubleshooting common login issues, and best practices for account security.
 
 ## Login Steps
 
@@ -51,3 +56,7 @@ Once logged in, you're ready to begin designing interfaces or managing projects.
 :::tip **Security**
 AVstudio does not auto-logout after periods of inactivity. For best security practices, **log out manually** when finished using the platform.
 :::
+
+## Summary
+
+Accessing AVstudio is straightforward with multiple login options and built-in password recovery. By following the steps in this guide, you can quickly get started with your projects. For ongoing security, remember to log out when finished and follow the troubleshooting tips if you encounter any login issues.

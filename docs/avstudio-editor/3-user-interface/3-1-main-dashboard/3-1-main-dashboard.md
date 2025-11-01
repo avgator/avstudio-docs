@@ -7,12 +7,17 @@ tags:
   - avstudio
   - dashboard
   - interface
-  - getting started
+  - getting-started
+  - navigation
+  - overview
 ---
+
 
 # Main Dashboard Overview
 
-The Main Dashboard is the first screen you’ll see after logging into AVstudio. It gives you a snapshot of your projects, templates, and settings. This overview will walk you through each area of the interface so you can navigate and manage your work with confidence.
+Learn how to use the AVstudio Main Dashboard to navigate your projects, access templates, and manage your workspace efficiently.
+
+This article explains the layout and features of the Main Dashboard, including project lists, template management, user profile access, and version information, so you can get the most out of your AVstudio experience.
 
 ![Dashboard Overview in AVstudio](./img/3-1-main-dashboard.png)
 
@@ -82,3 +87,7 @@ This is just an overview of the Main Dashboard. We’ll go into detail in other 
 :::tip Note
 The dashboard layout and available templates may evolve over time as new features are introduced.
 :::
+
+## Summary
+
+The Main Dashboard provides a central hub for managing your AVstudio projects, templates, and account settings. By understanding each section, you can quickly access your work, customize your workspace, and stay up to date with the latest features. Refer to this overview whenever you need a refresher on dashboard navigation or available tools.
