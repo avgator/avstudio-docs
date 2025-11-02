@@ -47,11 +47,15 @@ You can configure multiple MQTT connectors to manage data exchange between AVstu
 
 ![Select Project Settings from the Settings menu](./img/4-8-1-project-settings-dropdown.png)
 
+_The Settings menu on the Project Dashboard with “Project Settings” selected._
+
 **Step 2:** In the Project Settings ⚙️ panel, locate **Project settings with environment support** then **Project connectors**.
 
 **Step 3:** Under Project connectors, click the expand arrow **>** beside **MQTT connectors** then select **+Add mqtt connector**. 
 
 ![MQTT connectors list with Add button](./img/4-8-1-mqtt-connectors-list.png)
+
+_The Project connectors panel with “MQTT connectors” expanded and the “+ Add mqtt connector” button._
 
 A new entry appears under MQTT connectors, labeled **New mqtt connector**.
 
@@ -73,6 +77,8 @@ A new entry appears under MQTT connectors, labeled **New mqtt connector**.
 | Keep Alive Timeout (seconds)  | Interval for maintaining an active connection                |
 
 ![New MQTT connector form with fields and Save button](./img/4-8-1-mqtt-connector-form-save.png)
+
+_The new MQTT connector form with all fields visible and the Save Project Settings action._
 
 **Step 6:** To manage connectors, use the following options:
 - Select the trash icon 🗑 to remove a connector.
