@@ -1,17 +1,23 @@
 ---
 title: Subpages Overview
 sidebar_label: Subpages
+description: "Learn how to create, organize, and reuse Subpages to support your main pages with modular, consistent UI components."
 sidebar_position: 6
 order: 6
 tags:
   - avstudio
+  - getting-started
   - subpages
   - layout
   - design
   - editor
+  - reusable-components
+  - navigation
 ---
 
 # Subpages Overview
+
+Learn how to create, organize, and reuse Subpages to support your main pages with modular, consistent UI components.
 
 The Subpages section in AVstudio allows you to create supporting views that complement your main pages. Subpages follow the same layout paradigms as pages and are ideal for building modular, reusable screen components within your project.
 
@@ -54,3 +60,7 @@ Once subpages are created, they appear in the Subpages dashboard. This section d
 **⑧ More Actions Menu (Three Dots)** – Opens a dropdown menu with additional actions:
 - `Clone SubPage` – Creates a duplicate of the subpage.
 - `Delete SubPage` – Removes the subpage from the project.
+
+## Summary
+
+Subpages let you build modular, reusable UI that supports your main pages. By selecting a layout paradigm, organizing where subpages are used, and leveraging the list actions, you can maintain consistency and speed up development across your project.

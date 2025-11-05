@@ -1,6 +1,7 @@
 ---
 title: How to Create a Project
 sidebar_label: Creating a Project
+description: Learn how to create a project in AVstudio—start from scratch, clone an existing one, or use community and personal templates.
 sidebar_position: 1
 order: 1
 tags:
@@ -9,9 +10,13 @@ tags:
   - new-project
   - clone-project
   - templates
+  - projects
+  - getting-started
 ---
 
 # How to Create a Project
+
+Learn how to create a project in AVstudio—start from scratch, clone an existing one, or use community and personal templates.
 
 There are several ways to start a project in AVstudio. You can create a new one from scratch, duplicate an existing project, or start with a template. This guide walks you through each option.
 

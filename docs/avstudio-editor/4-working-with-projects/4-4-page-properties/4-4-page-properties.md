@@ -1,6 +1,7 @@
 ---
 title: Page Properties
 sidebar_label: Page Properties
+description: Learn how to configure page-level settings in AVstudio—identity, alignment, containers, actions, backgrounds, theme, CSS, and media.
 sidebar_position: 4
 order: 4
 tags:
@@ -14,9 +15,12 @@ tags:
 
 # Page Properties
 
+Learn how to configure page-level settings in AVstudio—identity, alignment, containers, actions, backgrounds, theme, CSS, and media.
+
 This article provides an overview of all the page-level settings available in AVstudio. These settings define how each page behaves, looks, and connects to other parts of your project. You can access all of them from the left-hand panel when a page is open in the editor.
 
 ## Overview of Available Settings
+
 
 When a page is open, the left panel displays a list of page-specific and project-wide tools. These options allow you to control layout, background, containers, actions, styles, and assets.
 

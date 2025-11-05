@@ -1,21 +1,33 @@
----
+﻿---
 title: Getting Started
+sidebar_label: Getting Started
 description: Get started with AVstudio
 sidebar_position: 1
 tags:
   - avstudio
   - getting-started
+  - quick-start
+  - user-guide
+  - interface-design
+  - project-management
+  - responsive-design
+  - tutorials
 ---
+
 
 # Getting Started with AVstudio
 
-Welcome to AVstudio! Whether you're designing your first interface or exploring advanced features, this guide will walk you through the essential first steps to start building with AVstudio’s powerful design platform.
+Learn to use AVstudio, explore its features, and get started designing powerful user interfaces.
+
+This article guides you through the essential first steps—setting up your account, logging in, and launching your first project—so you can hit the ground running with AVstudio.
+
+
 
 ## Quick Start Guide
 
 Follow this high-level overview to quickly set up your account, log in, and launch your first project.
 
-### 1. Account Setup
+### Account Setup
 
 👉 Begin by setting up a secure, personalized account.
 
@@ -24,7 +36,7 @@ Follow this high-level overview to quickly set up your account, log in, and laun
 - Complete your user profile  
 - Choose your subscription plan
 
-### 2. First Login
+### First Login
 
 👉 Log in to access your personal dashboard and configure the platform to match your workflow.
 
@@ -33,7 +45,7 @@ Follow this high-level overview to quickly set up your account, log in, and laun
 - Set interface preferences  
 - Configure workspace basics
 
-### 3. Platform Overview
+### Platform Overview
 
 👉 Familiarize yourself with the key areas of AVstudio’s user interface.
 
@@ -42,11 +54,13 @@ Follow this high-level overview to quickly set up your account, log in, and laun
 - Understand project components  
 - Discover essential tools
 
-### 4. Your First Project
+### Your First Project
 
 👉 Launch a project and begin customizing your interface.
 
-1. Create a new project  
+![AVstudio Project Workflow](./img/Your%20First%20Project.png)
+
+1. [Create a new project](../4-working-with-projects/4-1-creating-projects/4-1-creating-projects.md)  
 2. Select a template  
 3. Customize the interface layout and components  
 4. Preview your design  
@@ -97,22 +111,28 @@ Need assistance while getting started?
 
 ## Quick Tips for Success
 
+
+:::tip Things to keep in mind while building
 Here are some practical suggestions to help you get the most out of AVstudio:
 
-1. **Start Small** – Begin with simple layouts to understand the basics  
-2. **Use Templates** – Speed up development with pre-built templates  
-3. **Test Often** – Preview frequently to catch design issues early  
-4. **Save Regularly** – Back up your projects as you work  
-5. **Stay Updated** – Check for new features and improvements
+👉 **Start Small** – Begin with simple layouts to understand the basics
 
-Ready to build your first interface? Jump in and explore [AVstudio](https://avstudio.app) now!
+👉 **Use Templates** – Speed up development with pre-built templates
+
+👉 **Test Often** – Preview frequently to catch design issues early
+
+👉 **Save Regularly** – Back up your projects as you work
+
+👉 **Stay Updated** – Check for new features and improvements
 
 ---
+🚀 Ready to build your first interface? **[Jump in and explore AVstudio now!](https://avstudio.app/)**
 
-:::tip Quick Start
-New to AVstudio? Try our [tutorial project](#) for a hands-on walkthrough of the core features.
+
+🚀 New to AVstudio? Explore **[our demo projects](https://docs.avstudio.app/avstudio-docs/showcase/)** for a hands-on look at the core features in action.
+
 :::
 
-:::note Remember
-Don’t forget to save your work regularly and test across different devices to ensure responsive design.
-:::
+## Summary
+
+Getting started with AVstudio is simple and intuitive. By following the steps in this guide, you’ll be ready to create, customize, and launch your first project with confidence. Explore the platform, use the available tools, and take advantage of best practices to make the most of your AVstudio experience from day one.

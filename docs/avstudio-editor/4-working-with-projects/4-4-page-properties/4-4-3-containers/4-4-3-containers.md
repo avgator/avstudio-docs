@@ -1,6 +1,7 @@
 ---
 title: Containers
 sidebar_label: Containers
+description: Learn how to work with global and page containers in AVstudio and how they differ on responsive vs adaptive pages.
 sidebar_position: 3
 order: 3
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Containers
+
+Learn how to work with global and page containers in AVstudio and how they differ on responsive vs adaptive pages.
 
 In AVstudio, containers define the structure of your interface. They hold elements, apply styling, and help organize how content is displayed. This article introduces the two main types: `Global Containers` and `Page Containers`, and explains how they behave on both responsive and adaptive pages.
 

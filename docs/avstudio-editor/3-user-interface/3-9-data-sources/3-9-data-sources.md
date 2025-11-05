@@ -1,18 +1,24 @@
 ---
 title: Data Sources Overview
 sidebar_label: Data Sources
+description: "Learn how to connect AVstudio to external APIs, WebSocket streams, or local mock data to power dynamic content across pages and components."
 sidebar_position: 9
 order: 9
 tags:
   - avstudio
+  - getting-started
   - data-sources
   - http
   - websocket
   - api
   - remote-data
+  - integration
+  - datasets
 ---
 
 # Data Sources Overview
+
+Learn how to connect AVstudio to external APIs, WebSocket streams, or local mock data and use them to power dynamic content.
 
 The Data Sources section in AVstudio allows you to connect your project to external APIs, WebSocket streams, or local mock data. These sources can be used to feed dynamic content into your pages and components. With support for data transformation, image preloading, and flexible HTTP or WebSocket configurations, data sources make it easy to integrate real-time and remote data into your AVstudio workflows.
 
@@ -74,3 +80,7 @@ Once data sources are created, they appear in the Data Sources dashboard. This t
 - `Edit` – Opens the full data source editor for updates.
 - `Clone datasource` – Creates a duplicate of the current data source.
 - `Delete datasource` – Permanently removes the data source from the project.
+
+## Summary
+
+Data Sources make it straightforward to integrate and manage dynamic content. By configuring HTTP or WebSocket connections—or using local sources—you can iterate quickly during development and deliver real-time experiences in production.

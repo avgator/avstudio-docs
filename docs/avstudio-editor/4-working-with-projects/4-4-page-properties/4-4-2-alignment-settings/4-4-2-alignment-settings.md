@@ -1,6 +1,7 @@
 ---
 title: Alignment Settings
 sidebar_label: Alignment
+description: Learn how to control page-level alignment and container flow, including orientation-based layouts.
 sidebar_position: 2
 order: 2
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Alignment Settings
+
+Learn how to control page-level alignment and container flow, including orientation-based layouts.
 
 The `Alignment` panel lets you control how containers are arranged on the page. This setting affects the overall layout flow and helps you visually align elements based on the orientation or structure of your page.
 

@@ -1,6 +1,7 @@
 ---
 title: Media Assets Overview
 sidebar_label: Media Assets
+description: "Learn how to upload, organize, and use images, fonts, and audio files across your AVstudio project."
 sidebar_position: 11
 order: 11
 tags:
@@ -9,9 +10,13 @@ tags:
   - images
   - fonts
   - audio
+  - library
+  - management
 ---
 
 # Media Assets Overview
+
+Learn how to upload, organize, and use images, fonts, and audio files across your AVstudio project.
 
 The Media Assets panel is where you can upload and manage images, fonts, and audio files for use in your AVstudio project.
 
@@ -28,3 +33,7 @@ The Media Assets panel is where you can upload and manage images, fonts, and aud
 - **Audio:** `.mp3`
 
 Once uploaded, assets will be available across your pages, subpages, and global components for styling, playback, and design consistency.
+
+## Summary
+
+The Media Assets panel centralizes file management for your project. By organizing images, fonts, and audio in one place, you can keep designs consistent and streamline reuse across pages, subpages, and global components.

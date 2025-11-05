@@ -1,6 +1,7 @@
----
+﻿---
 title: "System Requirements"
 sidebar_label: "System Requirements"
+description: "Learn the system, hardware, browser, and network requirements to run AVstudio reliably."
 sidebar_position: 1
 tags:
   - avstudio
@@ -10,9 +11,15 @@ tags:
   - software
 ---
 
+
 # System Requirements
 
-This article outlines the hardware, software, and network requirements needed to run AVstudio smoothly. Whether you're using the cloud-based SAAS platform or the compiled GUI environment, make sure your setup meets the following system specifications.
+
+Learn to use AVstudio, explore its features, and get started designing powerful user interfaces.
+
+This article outlines the essential system, hardware, and network requirements for AVstudio, helping you prepare your environment for a seamless experience.
+
+
 
 ## Supported Platforms
 
@@ -20,7 +27,7 @@ AVstudio works across multiple platforms, ensuring flexible deployment and devel
 
 ### Operating Systems
 
-👉 AVstudio supports installation and usage on the following systems:
+AVstudio supports installation and usage on the following systems:
 
 - Windows 10 or 11
 - macOS 10.15 (Catalina) or newer
@@ -29,14 +36,14 @@ AVstudio works across multiple platforms, ensuring flexible deployment and devel
 
 ### Web Browsers
 
-👉 For optimal performance and stability, use one of the recommended browsers below.
+For optimal performance and stability, use one of the recommended browsers below.
 
-#### Recommended Browsers
+👉 **Recommended Browsers**
 
 - Google Chrome (latest version)
 - Safari (latest version)
 
-#### Also Supported
+👉 **Also Supported**
 
 - Mozilla Firefox
 - Microsoft Edge
@@ -79,35 +86,29 @@ AVstudio operates over the internet and requires consistent access to core servi
 
 ## Device Support
 
-AVstudio is optimized for a variety of devices. Full features are available on desktop, while limited features are accessible on mobile devices.
+AVstudio is optimized for a variety of devices. **Full features are available on desktop**, while **limited features are accessible on mobile devices**.
 
-### Desktop/Laptop
+👉 **Desktop/Laptop:** Full functionality supported. Ideal for development workflows.
 
-- Full functionality supported  
-- Ideal for development workflows
+👉 **Tablets:** Interface optimized for touch input. Great for reviewing or light editing.
 
-### Tablets
+👉 **Mobile Devices:** Responsive design supported. Limited editing capabilities.
 
-- Interface optimized for touch input  
-- Great for reviewing or light editing
+:::tip Best Experience & Browser Settings
+👉 For the best development experience, use Google Chrome with a 1920x1080 or higher resolution display.
 
-### Mobile Devices
-
-- Responsive design supported  
-- Limited editing capabilities
-
-:::tip Best Experience
-For the best development experience, use Google Chrome with a 1920x1080 or higher resolution display.
-:::
-
-:::note **Browser Settings**
-Make sure your browser:
-- Has JavaScript enabled  
-- Accepts cookies from `avstudio.app`  
-- Has local storage enabled  
-- Uses HTTPS  
+👉 Also, make sure your browser:
+- Has JavaScript enabled
+- Accepts cookies from `avstudio.app`
+- Has local storage enabled
+- Uses HTTPS
 :::
 
 ## Compatibility Check
 
-👉 Visit the [compatibility check page](https://avstudio.app/) to confirm your system meets all the technical requirements for AVstudio.
+👉 Visit the [**compatibility check page**](https://avstudio.app/) to confirm your system meets all the technical requirements for AVstudio.
+## Summary
+
+Ensuring your system meets AVstudio’s requirements guarantees a smooth, reliable experience—whether you’re developing on desktop, tablet, or mobile. With the right setup, you’ll unlock the full power of AVstudio’s features and enjoy seamless interface design from day one.
+
+

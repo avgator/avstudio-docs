@@ -1,17 +1,26 @@
 ---
 title: Pages Overview
 sidebar_label: Pages
+description: "Learn how to create, organize, and configure pages in AVstudio using responsive or adaptive layouts and signal-based navigation."
 sidebar_position: 5
 order: 5
 tags:
   - avstudio
+  - getting-started
   - pages
   - layout
   - design
   - editor
+  - page-management
+  - navigation
+  - signals
+  - responsive-design
+  - adaptive-design
 ---
 
 # Pages Overview
+
+Learn how to create, organize, and configure pages in AVstudio using responsive or adaptive layouts and signal-based navigation.
 
 The Pages section in AVstudio is where you manage the main views of your project. From selecting layout paradigms to configuring signal-based navigation, this interface helps you create, edit, and organize the pages that structure your application.
 
@@ -104,3 +113,7 @@ When working in the Pages section, two controls appear in the top-right corner w
 **② Save Project** – Click the `Save Project` button to save all pending changes. The button is only active when there are changes to save.
 
 These controls appear only when edits are made, and give you a quick way to either commit or discard your updates.
+
+## Summary
+
+The Pages section gives you full control over your application's structure. By choosing the right layout paradigm, managing navigation signals, and using the list actions effectively, you can organize content, streamline authoring, and maintain consistent behavior across your project.

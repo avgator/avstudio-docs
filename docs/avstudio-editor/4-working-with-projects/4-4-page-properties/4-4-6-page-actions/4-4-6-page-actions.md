@@ -1,6 +1,7 @@
 ---
 title: Page Actions
 sidebar_label: Page Actions
+description: Learn how to create and manage page actions in AVstudio—behaviors that run on load, on exit, or manually to power automation and integrations.
 sidebar_position: 6
 order: 6
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Page Actions
+
+Learn how to create and manage page actions in AVstudio—behaviors that run on load, on exit, or manually to power automation and integrations.
 
 The `Page Actions` section allows you to define automatic or manual behaviors that are triggered when a page loads, exits, or responds to a specific event. These actions help power automation, control signals, and data exchange inside your AVstudio project.
 

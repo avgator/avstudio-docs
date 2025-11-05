@@ -1,20 +1,26 @@
 ---
 title: Project Settings Overview
 sidebar_label: Project Settings
+description: "Learn how to configure project-level settings in AVstudio, including names, themes, environments, connectors, and datasets."
 sidebar_position: 4
 order: 4
 tags:
   - avstudio
+  - getting-started
   - project
   - settings
+  - configuration
   - environment
   - connectors
   - dataset
+  - integration
 ---
 
 # Project Settings Overview
 
-The Project Settings panel is where you configure key properties of your AVstudio project — from the project name and theme to environment-specific build settings and connector integrations.
+Learn how to configure project-level settings in AVstudio, including names, themes, environments, connectors, and datasets.
+
+This article explains each section of the Project Settings panel so you can set defaults, manage environment-specific configurations, connect to external services, and securely access data.
 
 ## General Project Settings
 
@@ -118,5 +124,9 @@ This section allows you to configure the API endpoint and authorization settings
 
 **③ Authorization header value** – The actual token or credential passed with the header key. This is typically a bearer token or API key.
 
+
+## Summary
+
+Project Settings centralizes configuration for your project—names, themes, environments, connectors, and dataset access—so you can standardize behavior across builds and integrations. Use this panel to keep environments consistent, manage connections securely, and streamline deployments.
 
 <sub>AVstudio is an independent software platform. <em>Crestron®</em> is a registered trademark of Crestron Electronics, Inc. AVstudio is not affiliated with or endorsed by Crestron Electronics.</sub>

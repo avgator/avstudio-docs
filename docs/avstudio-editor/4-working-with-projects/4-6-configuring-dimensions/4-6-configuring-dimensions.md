@@ -1,8 +1,8 @@
 ---
 title: "How to Configure Dimensions"
 sidebar_label: "Configuring Dimensions"
+description: "Learn how to adjust element width and height in AVstudio using pixels, percentages, or dynamic values, plus inheritance tips."
 sidebar_position: 6
-description: "Learn how to adjust element width and height in AVStudio using pixels, percentages, or dynamic values. Includes inheritance behavior and unit tips."
 keywords:
   - avstudio
   - ui
@@ -33,7 +33,7 @@ schema:
 
 # How to Configure Dimensions
 
-🎯 Learn how to set or adjust the width and height of any element in AVStudio.  
+🎯 Learn how to set or adjust the width and height of any element in AVstudio.  
 This guide explains how to work with different measurement units, apply dynamic values, and understand how sizing behaves across responsive layouts.
 
 ---
@@ -89,3 +89,15 @@ The element inherits its size from its parent container or default layout config
 
 **Can dynamic values override static ones?**  
 Yes. When a dynamic value is applied, it takes priority over any manually entered number.
+
+---
+
+## Summary
+
+Control element size by:
+
+- Choosing px for fixed sizes or % for responsive sizing
+- Binding dimensions to dynamic values for data-driven sizing
+- Leveraging inheritance from parent containers where helpful
+
+Use Fit/Reset and the editor preview to validate layouts across devices.

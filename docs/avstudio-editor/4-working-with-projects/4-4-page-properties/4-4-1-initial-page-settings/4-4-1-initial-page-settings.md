@@ -1,6 +1,7 @@
 ---
 title: Initial Page Settings
 sidebar_label: Initial Page Settings
+description: Learn how to configure initial page settings—page name, CSS class, layout type, toolbar visibility, spacing, and parameters.
 sidebar_position: 1
 order: 1
 tags:
@@ -12,6 +13,8 @@ tags:
 ---
 
 # Initial Page Settings
+
+Learn how to configure initial page settings—page name, CSS class, layout type, toolbar visibility, spacing, and parameters.
 
 When you open a page in the editor, AVstudio automatically loads the Page Properties view. This is where you configure the basic identity and behavior of the page before adding content or containers.
 

@@ -1,6 +1,7 @@
 ---
 title: User Profile Dashboard Overview
 sidebar_label: User Profile
+description: "Learn how to manage your AVstudio user profile, update account information, and change your password from the User Profile Dashboard."
 sidebar_position: 2
 order: 2
 tags:
@@ -12,7 +13,9 @@ tags:
 
 # User Profile Dashboard Overview
 
-From the AVstudio main dashboard, clicking the profile icon in the upper-right corner gives you access to account-related actions like managing your profile or switching accounts. This page covers what you’ll see and do in the User Profile Dashboard.
+Learn how to manage your AVstudio user profile, update account information, and change your password from the User Profile Dashboard.
+
+The User Profile Dashboard provides access to all account-related actions, including editing your personal information, updating your password, and managing your organization details. This guide explains each feature so you can keep your account secure and up to date.
 
 ![User Profile Overview](./img/3-2-user-profile-dashboard.png)
 
@@ -55,3 +58,7 @@ Clicking `Logout` will end your current session and return you to the login page
 ---
 
 This dashboard keeps everything account-related in one place — whether you're reviewing your email, changing your password, or updating your name and company.
+
+## Summary
+
+The User Profile Dashboard centralizes all account management tasks in AVstudio. By understanding how to update your profile, change your password, and access account settings, you can maintain a secure and up-to-date user experience. Refer to this guide whenever you need to manage your AVstudio account details.

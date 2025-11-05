@@ -1,18 +1,23 @@
 ---
 title: Project Variables Overview
 sidebar_label: Project Variables
+description: "Learn how to define and manage project variables to control state, respond to signals, and trigger actions across your application."
 sidebar_position: 8
 order: 8
 tags:
   - avstudio
+  - getting-started
   - project-variables
+  - variables
   - signals
   - reactivity
   - dynamic-data
-  - variables
+  - state
 ---
 
 # Project Variables Overview
+
+Learn how to define and manage project variables to control state, respond to signals, and trigger actions across your application.
 
 The Project Variables section in AVstudio lets you define and manage custom variables that store dynamic values. These variables can be used to control logic, respond to signals, and trigger actions across your project. With support for default values, signal feedback, and formatter functions, project variables give you flexible control over your application’s behavior.
 
@@ -69,3 +74,7 @@ Once project variables are created, they appear in the Variables dashboard. This
 **⑦ Side Effect Actions** – This section supports **reactivity**, which allows you to define actions that should run when the variable’s value changes. Hovering over the info icon provides more context.
 
 **⑧ Controls (Three Dots)** – Clicking the three-dot menu opens the option to `Delete` the variable from your project.
+
+## Summary
+
+Project Variables enable reactive, stateful behavior across your project. By defining types, defaults, signal feedback, and optional formatters, you can centralize state management and trigger side-effect actions reliably.
