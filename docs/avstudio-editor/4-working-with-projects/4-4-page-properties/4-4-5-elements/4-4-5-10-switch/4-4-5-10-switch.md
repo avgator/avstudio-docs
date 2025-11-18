@@ -1,6 +1,5 @@
----
-title: "Switch"
-sidebar_label: "Switch"
+title: "Switch / Toggle (Deprecated)"
+sidebar_label: "Switch / Toggle (Deprecated)"
 sidebar_position: 10
 description: "Learn how to add and configure the Switch element in AVStudio, including sizing, design, text, and action settings."
 keywords:
@@ -12,26 +11,28 @@ keywords:
   - control
   - guide
   - tutorial
-tags:
-  - avstudio
-  - elements
-  - ui
-  - switch
-  - toggle
-  - control
+title: "Switch"
+sidebar_label: "Switch"
+   - ui
+   - switch
+   - toggle
+   - control
+   - deprecated
 schema:
   "@context": "https://schema.org"
-  "@type": "HowTo"
+   # - deprecated
   "name": "How to Add and Configure a Switch Element in AVStudio"
-  "description": "Step-by-step instructions to create and customize a Switch element in AVStudio."
-  "step":
-    - "Add a Switch element from Page Containers or directly from the Editor."
+# Switch
     - "Configure dimensions, mode selector, and available switch modes."
     - "Adjust sizing, design, and text properties."
     - "Add actions and manage state settings."
 ---
 
-# Switch
+# Switch / Toggle
+
+:::danger Deprecated
+The Toggle form of this element is deprecated and will be removed in a future release. Existing usages continue to function but should not be used in new projects.
+:::
 
 The `Switch` element allows you to create an on/off control, often used for toggling features or activating functions in a project.
 

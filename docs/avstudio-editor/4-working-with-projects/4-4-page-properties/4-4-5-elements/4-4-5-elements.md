@@ -46,7 +46,7 @@ These are the most common building blocks used in UI layouts.
 | Element Type     | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
 | `Button`         | Triggers actions like navigation or logic. Use for submitting forms or toggling views. |
-| `Checkbox`       | Allows on/off toggling for binary options. Ideal for preferences or filters. |
+| `Checkbox` (Deprecated) | This element is deprecated and will be removed in a future release. |
 | `Dpad`           | A directional control interface. Useful for navigation in kiosk or media layouts. |
 | `Image`          | Displays a static image from your media library or a dynamic source.        |
 | `Keypad`         | A numeric keypad for input interfaces like PIN pads or access panels.       |
@@ -73,7 +73,7 @@ Widgets are pre-built, functional components that offer more specialized or adva
 | `HTML Block`                        | Allows you to embed raw HTML content. Great for custom scripts or third-party widgets. |
 | `Media Player`                      | A general-purpose player for embedded media content.                       |
 | `Shades Control – Premium`          | Provides control UI for smart shades or blinds. Often used in home or conference room automation. |
-| `Toggle Switch`                     | A stylized toggle for on/off functionality. Suitable for settings or device control. |
+| `Toggle Switch` (Deprecated)        | Deprecated stylized toggle; avoid in new layouts. |
 
 **When to Use Widgets:**
 

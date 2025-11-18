@@ -44,7 +44,7 @@ This guide explains each option available for inserting UI elements such as butt
 AVStudio currently supports the following UI elements:  
 
 - `Button`  
-- `Checkbox`  
+- `Checkbox` (Deprecated)  
 - `Dpad`  
 - `Image`  
 - `Keypad`  
@@ -58,8 +58,10 @@ AVStudio currently supports the following UI elements:
 - `Video`  
 - `Player`  
 - `Circle Slider`  
+- `Toggle Switch` (Deprecated)  
 
 Each element has its own properties panel and configuration options.  
+Elements marked as “Deprecated” are maintained for compatibility only and may be removed in a future release.
 You can view their individual documentation pages for detailed setup and usage.
 
 ---

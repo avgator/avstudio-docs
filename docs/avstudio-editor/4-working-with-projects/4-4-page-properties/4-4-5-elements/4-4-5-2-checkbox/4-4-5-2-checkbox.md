@@ -1,5 +1,5 @@
 ---
-title: Checkbox Element
+title: Checkbox Element (Deprecated)
 sidebar_label: Checkbox
 sidebar_position: 2
 order: 2
@@ -8,9 +8,14 @@ tags:
   - elements
   - checkbox
   - ui-elements
+   - deprecated
 ---
 
 # Checkbox Element
+
+:::danger Deprecated
+The Checkbox element is deprecated and will be removed in a future release.
+:::
 
 The `Checkbox` element in AVStudio allows users to toggle a value on or off. It's useful for filtering, form controls, or triggering logic based on user interaction.
 
