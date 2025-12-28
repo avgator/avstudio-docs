@@ -79,9 +79,7 @@ Use environments to separate internal testing setups from production builds.
 
 If your project communicates with Crestron-compatible or similar control systems, you can assign signal IDs that allow AVstudio to process external commands, navigate between pages, and trigger data updates.
 
-:::note Update
-Crestron connector is now optional. By default, the `Crestron connectors` section shows `(0)` connectors and a message "No Crestron connector yet". Click `Add Crestron connector` to create one when you need it. If your project does not require Crestron integration, you can leave this section empty.
-:::
+Note: Crestron connectors are optional. By default, the section shows `(0)` connectors; click `Add Crestron connector` to create one when needed.
 
 a. `Analog flip page signal` – Accepts a numeric input to switch between different pages.  
    *Use this when your control processor sends analog values representing specific page indexes.*  

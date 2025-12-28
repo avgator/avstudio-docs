@@ -80,9 +80,7 @@ This section allows you to configure signal bindings between your AVstudio proje
 
 ![Crestron Connectors](./img/3-4-crestron-connectors.png)
 
-:::note Update
-Crestron connector is now optional. New projects start with `Crestron connectors (0)` and show "No Crestron connector yet". Use the `Add Crestron connector` button to create one when needed. If you don't require a Crestron connection, you can skip adding a connector altogether.
-:::
+Note: Crestron connectors are optional. New projects start with zero connectors; use `Add Crestron connector` to create one when needed.
 
 **① Analog flip page signal** – Assign an analog signal name to control page transitions using analog values.
 
