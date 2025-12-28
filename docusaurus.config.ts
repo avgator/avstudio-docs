@@ -9,7 +9,7 @@ const config = {
 
   // Enhanced metadata for better SEO 
   url: 'https://docs.avstudio.app',
-  baseUrl: '/avstudio-docs/',
+  baseUrl: '/',
   organizationName: 'AVstudio Inc.',
   projectName: 'avstudio-docs',
   
@@ -111,7 +111,7 @@ const config = {
       {name: 'og:title', content: 'AVstudio Documentation'},
       {name: 'og:type', content: 'website'},
       {name: 'og:description', content: 'Comprehensive documentation and knowledge base for AVstudio (avstudio.app) - Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
-      {name: 'og:image', content: 'https://docs.avstudio.app/avstudio-docs/img/400x200_AVstudio_LOGO.avif'},
+      {name: 'og:image', content: 'https://docs.avstudio.app/img/400x200_AVstudio_LOGO.avif'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:title', content: 'AVstudio Documentation'},
       {name: 'twitter:description', content: 'Your HTML5 WYSIWYG GUI Editor for control systems like Crestron'},
@@ -243,11 +243,11 @@ const config = {
 scripts: [
   // Define gtag fallback early to avoid runtime errors if the gtag script is blocked
   {
-    src: '/avstudio-docs/js/gtag-fallback.js',
+    src: '/js/gtag-fallback.js',
     defer: true,
   },
   {
-    src: '/avstudio-docs/js/zoho-init.js',
+    src: '/js/zoho-init.js',
     defer: true,
   },
   {

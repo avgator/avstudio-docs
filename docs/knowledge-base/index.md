@@ -21,7 +21,7 @@ Use the sidebar to browse through categories or search for specific topics using
 
 ## 📖 Topics by Tag
 
-Explore all available topics in our [Tags Directory](/avstudio-docs/tags).
+Explore all available topics in our [Tags Directory](/tags).
 
 ## 🔄 Latest Updates
 

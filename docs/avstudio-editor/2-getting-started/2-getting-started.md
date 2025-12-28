@@ -129,7 +129,7 @@ Here are some practical suggestions to help you get the most out of AVstudio:
 🚀 Ready to build your first interface? **[Jump in and explore AVstudio now!](https://avstudio.app/)**
 
 
-🚀 New to AVstudio? Explore **[our demo projects](https://docs.avstudio.app/avstudio-docs/showcase/)** for a hands-on look at the core features in action.
+🚀 New to AVstudio? Explore **[our demo projects](https://docs.avstudio.app/showcase/)** for a hands-on look at the core features in action.
 
 :::
 
