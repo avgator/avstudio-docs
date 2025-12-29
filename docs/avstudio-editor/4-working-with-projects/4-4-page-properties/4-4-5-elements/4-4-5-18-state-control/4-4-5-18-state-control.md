@@ -14,6 +14,8 @@ tags:
 
 The `State Control` element replaces `Switch` and provides a clear ON/OFF control for managing binary state, visibility, or feature activation.
 
+![State Control](./img/State%20Control.png)
+
 ## Adding a State Control Element
 
 Follow the steps in [How to Add an Element](../../../4-5-adding-elements/4-5-adding-elements.md). In the `Type` dropdown, select `State Control`, then configure options in the right-side panel.
@@ -145,8 +147,6 @@ Configure the visible text and its ordering.
 ## State
 
 Configure visibility and interactivity.
-
-Note: State options and behaviors are identical to those of `Dpad`. For detailed guidance, see [Dpad → State](../4-4-5-3-dpad/4-4-5-3-dpad.md#state).
 
 ### Visibility
 
