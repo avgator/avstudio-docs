@@ -18,11 +18,11 @@ The `State Control` element replaces `Switch` and provides a clear ON/OFF contro
 
 Follow the steps in [How to Add an Element](../../../4-5-adding-elements/4-5-adding-elements.md). In the `Type` dropdown, select `State Control`, then configure options in the right-side panel.
 
-## State Control Friendly Name
+## Switch Friendly Name
 
-Click the pencil icon next to the label to rename the element. This friendly name appears in the editor and helps you identify the element across the project.
+The UI shows `Switch Friendly Name` and the default name is `Switch`. Click the pencil icon next to the label to rename the element. This friendly name appears in the editor and helps you identify the element across the project.
 
-## State Control Dataset Source
+## Switch Dataset Source
 
 Choose how the element receives or references its data:
 
@@ -31,10 +31,10 @@ Choose how the element receives or references its data:
 
 ## Dimensions
 
-Define the element’s width and height. Enter fixed values or click `fx` for expressions. Select units from the dropdown (e.g., `px`, `%`).
+Define the element’s width and height. Each field supports dynamic or direct input:
 
-- `Width`: Horizontal size.
-- `Height`: Vertical size.
+- `Width`: Use `Assign dynamic value` `{−}` to bind from `Variables`/`Parameter`, or enter a numeric value and select a unit (`px` or `%`).
+- `Height`: Use `Assign dynamic value` `{−}` to bind from `Variables`/`Parameter`, or enter a numeric value and select a unit (`px` or `%`).
 
 ## Mode Selector by Index or Name
 
