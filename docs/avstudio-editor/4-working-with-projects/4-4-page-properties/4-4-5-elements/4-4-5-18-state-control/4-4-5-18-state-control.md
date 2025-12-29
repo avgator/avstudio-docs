@@ -124,10 +124,14 @@ Choose whether a shadow is applied.
 
 ### Reflection
 
-Control reflection with `Reflect`:
+Choose whether a reflection is applied.
 
 - `None`: No reflection.
-- `Enabled`: Shows `Align` (`Top`, `Bottom`, `Left`, `Right`), `Offset` (numeric), `Start Opacity`, `End Opacity` (slider + direct entry).
+- `Enabled`: Shows the following controls:
+  - `Align`: Dropdown with `Top` or `Bottom`.
+  - `Offset`: Slider and numeric input to control the distance.
+  - `Start Opacity`: Slider and numeric input (0–100).
+  - `End Opacity`: Slider and numeric input (0–100).
 
 ## Content
 
