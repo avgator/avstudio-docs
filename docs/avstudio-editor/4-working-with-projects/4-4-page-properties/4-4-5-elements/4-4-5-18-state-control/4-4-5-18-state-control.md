@@ -100,10 +100,14 @@ Configure typography for the label.
 
 ### Border
 
-Define border style:
+Choose whether to use defaults or fully customize the border.
 
-- `Corners Radius`: `Assign dynamic value` `{−}` or enter a numeric value (unit: `px`).
-- `Thickness`: `Assign dynamic value` `{−}` or enter a numeric value (unit: `px`).
+- `Default`: Uses the project/theme defaults; no changes required.
+- `Override`: Reveals the customization controls:
+  - `Border Width`: Four inputs for each side (Top, Right, Bottom, Left). Enter numeric values.
+  - `Style`: Select `Solid`, `Dashed`, or `Dotted`.
+  - `Color`: Enter a color value or pick from the color picker.
+  - `Border Radius`: Enter a numeric value with unit `px`. Quick corner presets are available to apply common rounding patterns.
 
 ### Shadow
 
