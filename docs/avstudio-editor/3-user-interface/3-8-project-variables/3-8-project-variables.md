@@ -67,7 +67,7 @@ Once project variables are created, they appear in the Variables dashboard. This
 
 **④ Default Value** – Displays the starting value for the variable. This field is editable — for example, you can change a `false` value to `true` if needed.
 
-**⑤ Signal FB Setter** – Lets you define or edit the signal feedback used to dynamically update the variable.
+**⑤ External Value Setter** – Bind the variable to an external connector input. Options include `None`, `Crestron`, and `MQTT`. Items appear enabled only when a connector of the desired type exists in the project (configured via Project Settings → Connectors). If no matching connector is present, that option is shown as unavailable.
 
 **⑥ Formatter Function** – If you didn’t assign a formatter during creation, you can still attach one here using the dropdown. You can select options like `Toggle boolean`.
 

@@ -198,6 +198,10 @@ These tools are useful when experimenting with layout or design settings, helpin
 
 Page parameters allow you to store and pass dynamic values to a page. These values can be referenced throughout the page’s logic — for example, to control visibility, pass user input, or trigger conditional behavior. You can define parameters like booleans, numbers, or strings depending on what your layout needs.
 
+### Parameters Table – External Value Setter
+
+In the `Parameters` tab, the table includes an `External Value Setter` column that lets you bind a parameter to data from available connectors. Options include `None`, `Crestron`, and `MQTT`. Each option is enabled only when a connector of that type exists in the project (configured in Project Settings → Connectors). If no matching connector is present, the option appears unavailable.
+
 ### Adding a Page Parameter
 
 When you open a page in the editor, you’ll see two tabs at the top: `Editor` and `Parameters`. Click the `Parameters` tab to view and manage any page-specific parameters.
