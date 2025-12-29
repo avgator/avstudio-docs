@@ -43,19 +43,21 @@ Control which state/mode is active using a numeric index or name.
 - `Assign dynamic value` `{−}`: Opens the `Pick dynamic value` modal (`Variables`, `Parameter`).
 - `Assign post-processing function` `fx`: Opens `Select post-processing function` to transform the value before applying.
 
-## Available Modes
+## Available Switch Modes
 
 Manage modes the element can toggle between. A `Default` mode is always present.
 
-- Click `+` to open `Create new mode`.
-- Configure `Name`, optionally `Copy from` an existing mode, and toggle `Separate actions for this mode` when actions should be distinct.
+- Click `+` to open the `Create New Switch Mode` modal.
+- Fields: `Name`, `Copy from default`, and `Separate actions for this mode` (toggle).
+- Buttons: `Cancel`, `Add New Mode`.
 
-## State Control CSS Classname
+## Switch CSS Class Name
 
-Assign a custom CSS class to target the element with project styles. The default may be `stateControlElement`.
+Assign a custom CSS class to target the element with project styles.
 
-- `Assign dynamic value` `{−}`: Bind from `Variables` or `Parameter` via the `Pick dynamic value` modal.
-- `Assign post-processing function` `fx`: Transform the value before applying.
+- `Assign dynamic value` `{−}`: Opens the `Pick dynamic value` modal with `Variables` and `Parameter` tabs.
+- Enter the class name directly in the field.
+- `Assign post-processing function` `fx`: Opens `Select post-processing function` to transform the value.
 
 ## Appearance
 
