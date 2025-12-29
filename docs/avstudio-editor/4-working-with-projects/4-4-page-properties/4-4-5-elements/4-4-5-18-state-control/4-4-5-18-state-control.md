@@ -111,7 +111,16 @@ Choose whether to use defaults or fully customize the border.
 
 ### Shadow
 
-Configure the control’s shadow to add depth. (Full option list to be captured with screenshots.)
+Choose whether a shadow is applied.
+
+- `None`: No shadow.
+- `Enabled`: Shows the following controls:
+  - `X Offset`: `Assign dynamic value` `{−}` or enter a numeric value; unit `px`.
+  - `Y Offset`: `Assign dynamic value` `{−}` or enter a numeric value; unit `px`.
+  - `Blur`: Enter a numeric value; unit `px`.
+  - `Spread`: `Assign dynamic value` `{−}` or enter a numeric value; unit `px`.
+  - `Color`: `Assign dynamic value` `{−}`, type a color value, or use the color picker.
+  - `Inset shadow`: Toggle to switch between drop shadow and inset shadow.
 
 ### Reflection
 
