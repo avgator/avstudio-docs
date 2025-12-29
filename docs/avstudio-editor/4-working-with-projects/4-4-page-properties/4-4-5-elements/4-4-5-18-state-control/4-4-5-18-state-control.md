@@ -61,21 +61,42 @@ Assign a custom CSS class to target the element with project styles.
 
 ## Appearance
 
+### Variant
+
+Choose the visual style for the control:
+
+- `Switch`
+- `Checkbox`
+- `Toggle`
+
 ### Color & Background
 
-Configure colors:
+Configure label and surface colors. Each color field supports `Assign dynamic value` `{−}` (opens `Pick dynamic value` with `Variables` and `Parameter`) and a color picker, or you can type a value directly.
 
-- `Default Color`: Base color of the control.
-- `Pressed Color`: Color shown while pressed/active.
-- `Text Color`: Color of labels/text. Supports `Assign dynamic value` `{−}`.
+- `Label Text Color`: Set the label’s text color via dynamic value, direct entry, or color picker.
+- `UnChecked state`:
+  - `Off Inner Text Color`
+  - `Switch Unchecked Background`
+  - `Thumb Unchecked Background`
+  Each supports `Assign dynamic value` `{−}` and the color picker.
+
+The `Checked state` provides the same set of fields and behaviors as the `UnChecked state` (including dynamic values and the color picker).
+
+### Size
+
+Control the overall size and spacing between the switch and its label. Both fields support `Assign dynamic value` `{−}` and unit selection.
+
+- `Switch Size`: Enter a numeric value, choose unit `px`, or bind a dynamic value.
+- `Switch-Label Gap`: Enter a numeric value, choose unit `px`, or bind a dynamic value.
 
 ### Font
 
-Control typography:
+Configure typography for the label.
 
-- `Font Family`: `Default` uses the project’s default font family.
-- `Font Size`: `Assign dynamic value` `{−}` or enter a numeric value and unit (`px`, `em`, `vh`, `vw`).
-- `Text Transform`: `None`, `Uppercase`, `Lowercase`, `Capitalized`.
+- `Font Family`: Use the dropdown; `Default` follows the project’s font.
+- `Font Size`: Use `Assign dynamic value` `{−}` or enter a numeric value and select unit `px`.
+- `Text Transform`: Options `None`, `Uppercase`, `Lowercase`, `Capitalized`.
+- `Allow text wrap`: Toggle to allow multi-line label text when space is constrained.
 
 ### Border
 
@@ -83,6 +104,10 @@ Define border style:
 
 - `Corners Radius`: `Assign dynamic value` `{−}` or enter a numeric value (unit: `px`).
 - `Thickness`: `Assign dynamic value` `{−}` or enter a numeric value (unit: `px`).
+
+### Shadow
+
+Configure the control’s shadow to add depth. (Full option list to be captured with screenshots.)
 
 ### Reflection
 
