@@ -135,14 +135,18 @@ Choose whether a reflection is applied.
 
 ## Content
 
-Configure labels for ON/OFF states.
+Configure the visible text and its ordering.
 
-- `On Text`: Label when ON. Supports `Assign dynamic value` `{−}`.
-- `Off Text`: Label when OFF. Supports `Assign dynamic value` `{−}`.
+- `Label Text`: Enter the label shown next to the control.
+- `Content Order`: Choose `normal` or `reverse` to switch the order of the label and the control.
+- `On Inner Text`: Use `Assign dynamic value` `{−}` or type the text displayed when the control is ON.
+- `Off Inner Text`: Use `Assign dynamic value` `{−}` or type the text displayed when the control is OFF.
 
 ## State
 
 Configure visibility and interactivity.
+
+Note: State options and behaviors are identical to those of `Dpad`. For detailed guidance, see [Dpad → State](../4-4-5-3-dpad/4-4-5-3-dpad.md#state).
 
 ### Visibility
 
@@ -166,6 +170,8 @@ When `Crestron FB` is selected:
 ## Actions
 
 Define what happens when the State Control is interacted with.
+
+Note: Actions setup mirrors `Dpad` exactly. See [Dpad → Actions](../4-4-5-3-dpad/4-4-5-3-dpad.md#actions) for a full walkthrough of tabs and parameters.
 
 - Click `Add new action` to open the `Create new action for State Control` modal.
 - Core fields: `Name`, `Behaviour`, `Execution Delay` (ms), `Threshold` (if shown).
