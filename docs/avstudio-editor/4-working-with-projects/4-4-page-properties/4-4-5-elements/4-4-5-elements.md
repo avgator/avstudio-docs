@@ -73,7 +73,6 @@ Widgets are pre-built, functional components that offer more specialized or adva
 | `HTML Block`                        | Allows you to embed raw HTML content. Great for custom scripts or third-party widgets. |
 | `Media Player`                      | A general-purpose player for embedded media content.                       |
 | `Shades Control – Premium`          | Provides control UI for smart shades or blinds. Often used in home or conference room automation. |
-| `Toggle Switch` (Deprecated)        | Deprecated stylized toggle; avoid in new layouts. |
 
 **When to Use Widgets:**
 
