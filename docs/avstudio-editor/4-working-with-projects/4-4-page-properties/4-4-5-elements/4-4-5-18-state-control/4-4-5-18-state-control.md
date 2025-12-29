@@ -128,7 +128,7 @@ Choose whether a reflection is applied.
 
 - `None`: No reflection.
 - `Enabled`: Shows the following controls:
-  - `Align`: Dropdown with `Top` or `Bottom`.
+  - `Align`: Dropdown with `Top`, `Bottom`, `Left`, or `Right`.
   - `Offset`: Slider and numeric input to control the distance.
   - `Start Opacity`: Slider and numeric input (0–100).
   - `End Opacity`: Slider and numeric input (0–100).
