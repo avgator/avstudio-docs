@@ -15,6 +15,8 @@ tags:
 
 The `Autonomic Media Player` premium widget provides a rich player UI tightly integrated with Autonomic Mirage systems. It supports dynamic modes, customizable appearance, and connector-driven data.
 
+![Autonomic Media Player](./img/autonomic player.png)
+
 ## Adding an Autonomic Media Player
 
 Follow [How to Add an Element](../../../4-5-adding-elements/4-5-adding-elements.md). In `Type`, select `Autonomic Media Player`, then configure options in the right-side panel.
