@@ -66,7 +66,7 @@ Widgets are pre-built, functional components that offer more specialized or adva
 
 | Widget Name                         | Description                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------|
-| `Autonomic Media Player – Premium`  | Advanced media control for Autonomic systems. Ideal for high-end AV control panels. |
+| [`Autonomic Media Player – Premium`](./4-4-5-19-autonomic-widget/4-4-5-19-autonomic-widget.md)  | Advanced media control for Autonomic systems. Ideal for high-end AV control panels. |
 | `Circle Slider`                     | A rotary-style slider. Useful for volume dials or lighting controls.       |
 | `Clock`                             | Displays current time. Use in dashboards or control room interfaces.       |
 | `DateTime`                          | Combines date and time selectors or display. Useful for scheduling screens.|
