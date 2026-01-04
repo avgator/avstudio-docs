@@ -15,7 +15,7 @@ tags:
 
 The `Autonomic Media Player` premium widget provides a rich player UI tightly integrated with Autonomic Mirage systems. It supports dynamic modes, customizable appearance, and connector-driven data.
 
-![Autonomic Media Player](./img/autonomic player.png)
+![Autonomic Media Player](./img/autonomic%20player.png)
 
 ## Adding an Autonomic Media Player
 
@@ -36,14 +36,14 @@ Choose how the element receives Autonomic data:
 
 Define width and height. Each field supports dynamic or direct input:
 
-- `Width`: `Assign dynamic value` {−} or enter a numeric value and select a unit (`px` or `%`).
-- `Height`: `Assign dynamic value` {−} or enter a numeric value and select a unit (`px` or `%`).
+- `Width`: `Assign dynamic value` [-] or enter a numeric value and select a unit (`px` or `%`).
+- `Height`: `Assign dynamic value` [-] or enter a numeric value and select a unit (`px` or `%`).
 
 ## Mode Selector by Index or Name
 
 Control which Autonomic mode is active using a numeric index or name.
 
-- `Assign dynamic value` {−}: Opens `Pick dynamic value` (`Variables`, `Parameter`).
+- `Assign dynamic value` [-]: Opens `Pick dynamic value` (`Variables`, `Parameter`).
 - `Assign post-processing function` `fx`: Transform value before applying.
 
 ## Available Autonomic Modes
@@ -58,7 +58,7 @@ Manage modes the widget can toggle between. A `Default` mode is always present.
 
 Assign a custom CSS class to style the widget.
 
-- `Assign dynamic value` {−}: Opens `Pick dynamic value` with `Variables` and `Parameter`.
+- `Assign dynamic value` [-]: Opens `Pick dynamic value` with `Variables` and `Parameter`.
 - Enter the class name directly.
 - `Assign post-processing function` `fx`: Apply a function to the final value.
 
@@ -66,7 +66,7 @@ Assign a custom CSS class to style the widget.
 
 ### Color & Background
 
-Configure background and label colors. Each color field supports `Assign dynamic value` {−}, direct entry, and the color picker.
+Configure background and label colors. Each color field supports `Assign dynamic value` [-], direct entry, and the color picker.
 
 - `Background`: Set via dynamic value, direct entry, or color picker.
 
@@ -75,13 +75,13 @@ Configure background and label colors. Each color field supports `Assign dynamic
 Typography options for labels/text within the widget.
 
 - `Font Family`: Dropdown; `Default` uses project theme.
-- `Font Size`: `Assign dynamic value` {−} or enter a numeric value (`px`).
+- `Font Size`: `Assign dynamic value` [-] or enter a numeric value (`px`).
 
 ### Padding
 
 Control inner spacing.
 
-- `Padding Control`: `Assign dynamic value` {−} or enter a numeric value; unit `px`.
+- `Padding Control`: `Assign dynamic value` [-] or enter a numeric value; unit `px`.
 - `Show advanced padding`: Toggle to specify per-side values.
 
 ### Border
@@ -119,8 +119,8 @@ Toggle reflection and configure:
 
 Configure player-specific text.
 
-- `Base URL`: `Assign dynamic value` {−} or enter a URL for Autonomic resources.
-- `Default Player Name`: `Assign dynamic value` {−} or enter a name.
+- `Base URL`: `Assign dynamic value` [-] or enter a URL for Autonomic resources.
+- `Default Player Name`: `Assign dynamic value` [-] or enter a name.
 - `Hide Player Selector`: Toggle to hide/show the player selector control.
 
 ## State
@@ -134,17 +134,17 @@ Configure visibility and interactivity.
 
 When `Direct Value` is selected:
 
-- `Visibility Dynamic Value`: `Assign dynamic value` {−} or type a direct expression.
+- `Visibility Dynamic Value`: `Assign dynamic value` [-] or type a direct expression.
 - `Reserve space while hidden`: Toggle ON/OFF.
 
 When `Crestron FB` is selected:
 
-- `Visibility Signal`: Enter a signal or use `Assign dynamic value` {−}.
+- `Visibility Signal`: Enter a signal or use `Assign dynamic value` [-].
 - `Reserve space while hidden`: Toggle ON/OFF.
 
 ### Disabled Signal
 
-- `Disabled Signal`: Enter a value or use `Assign dynamic value` {−} to disable the element.
+- `Disabled Signal`: Enter a value or use `Assign dynamic value` [-] to disable the element.
 
 ## Actions
 
