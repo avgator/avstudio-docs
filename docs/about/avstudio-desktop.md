@@ -1,7 +1,7 @@
 ---
-title: AVstudio Desktop (macOS & Windows)
-sidebar_label: AVstudio Desktop
-order: 100
+title: "AVstudio Desktop (macOS & Windows)"
+sidebar_label: "AVstudio Desktop"
+sidebar_position: 1
 tags:
   - avstudio
   - desktop
@@ -28,7 +28,6 @@ This distribution hosts the desktop edition of AVstudio Editor for:
 - [AVstudio Editor 1.0.1 x64 Win.zip](https://github.com/AVstudio-Inc/avstudio-editor-desktop/raw/refs/heads/main/Windows/AVstudio%20Editor%201.0.1%20x64%20Win.zip)
 - [AVstudio Editor-1.0.1-arm64.dmg](https://github.com/AVstudio-Inc/avstudio-editor-desktop/raw/refs/heads/main/Mac%20OS/AVstudio%20Editor-1.0.1-arm64.dmg)
 
----
 
 ## What Is AVstudio Desktop?
 
@@ -43,8 +42,6 @@ Its primary advantage is **environment flexibility** — allowing UI designers a
 
 This makes AVstudio Desktop especially valuable for **professional AV and IT workflows**, where browser security policies often block real integrations.
 
----
-
 ## Key Capabilities
 
 ### Full AVstudio Editor
@@ -57,7 +54,6 @@ AVstudio Desktop includes the complete AVstudio Editor experience:
 - Data-driven UI via JSON and APIs
 - Live preview
 
----
 
 ### Secure & Non-Secure Environment Support
 Unlike browser-only tools, AVstudio Desktop can work in **real integration environments**:
@@ -75,7 +71,6 @@ This makes it ideal for:
 - Controller-local APIs
 - Prototyping against unfinished systems
 
----
 
 ### Control-System Agnostic by Design
 AVstudio Desktop is **not tied to any single control system or manufacturer**.
@@ -94,7 +89,6 @@ Common ecosystems include (but are not limited to):
 - Q-SYS
 - Custom controllers and services
 
----
 
 ## Installation
 
@@ -106,8 +100,6 @@ Installation is simple:
 3. Run AVstudio Desktop
 
 No system-level installation or admin privileges required.
-
----
 
 ## Output & Deployment
 
@@ -122,7 +114,6 @@ This archive can be deployed to:
 - PWA
 - iOS devices
 
----
 
 ### App Container (iOS / Android)
 For mobile platforms, AVstudio provides **App Container**.
@@ -140,8 +131,6 @@ App Container supports:
 
 AVstudio Desktop + App Container together form a complete **cross-platform UI workflow**.
 
----
-
 ## Why Use AVstudio Desktop?
 
 ### Built for Real-World Integration
@@ -151,8 +140,6 @@ AVstudio Desktop exists because:
 - Integrators need freedom, not limitations
 
 This version gives you **control over the environment**, not the other way around.
-
----
 
 ### Vendor-Independent UI Strategy
 Your UI:
@@ -165,7 +152,6 @@ Interfaces remain reusable even when:
 - Control systems change
 - Backend logic evolves
 
----
 
 ### Ideal Use Cases
 - Professional AV integrators
@@ -175,7 +161,6 @@ Interfaces remain reusable even when:
 - Complex multi-room and enterprise AV projects
 - Secure or mixed-security environments
 
----
 
 ## Desktop vs Browser-Only Editors
 
@@ -198,7 +183,6 @@ AVstudio Desktop projects:
 - Can be deployed across multiple platforms
 - Can be reused outside AVstudio if needed
 
----
 
 ## Official Resources
 
@@ -208,7 +192,6 @@ AVstudio Desktop projects:
 - YouTube: https://www.youtube.com/@AVstudioApp
 - Repository: https://github.com/AVstudio-Inc/avstudio-editor-desktop.git
 
----
 
 ## Philosophy
 
@@ -219,8 +202,6 @@ AVstudio Desktop is built around a simple idea:
 Controllers handle logic.  
 UI handles presentation.  
 AVstudio connects the two — cleanly and openly.
-
----
 
 ## Feedback
 
