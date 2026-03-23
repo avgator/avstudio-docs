@@ -1,7 +1,7 @@
 ---
 title: Image
 sidebar_label: Image
-sidebar_position: 4
+sidebar_position: 5
 order: 4
 tags:
   - avstudio

@@ -1,7 +1,7 @@
 ---
 title: Slider Element
 sidebar_label: Slider
-sidebar_position: 7
+sidebar_position: 3
 order: 7
 tags:
   - avstudio

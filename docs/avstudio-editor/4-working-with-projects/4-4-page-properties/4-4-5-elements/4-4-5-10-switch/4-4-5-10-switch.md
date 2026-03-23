@@ -1,7 +1,7 @@
 ---
 title: Switch (Deprecated)
 sidebar_label: Switch (Deprecated)
-sidebar_position: 10
+sidebar_position: 100
 description: Deprecated Switch element retained for compatibility; prefer State Control in new projects.
 tags:
   - avstudio

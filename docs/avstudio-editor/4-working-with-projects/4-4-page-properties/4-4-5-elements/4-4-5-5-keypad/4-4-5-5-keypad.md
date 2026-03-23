@@ -1,7 +1,7 @@
 ---
 title: Keypad
 sidebar_label: Keypad
-sidebar_position: 5
+sidebar_position: 9
 order: 5
 tags:
   - avstudio

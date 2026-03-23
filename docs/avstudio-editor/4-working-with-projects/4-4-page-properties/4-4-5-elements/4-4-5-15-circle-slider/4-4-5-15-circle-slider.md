@@ -1,7 +1,7 @@
 ---
 title: "How to Use the Circle Slider Element"
 sidebar_label: "Circle Slider"
-sidebar_position: 15
+sidebar_position: 16
 description: "Learn how to configure and customize the Circle Slider element in AVStudio, including data sources, design settings, and value display options."
 keywords:
   - avstudio

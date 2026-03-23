@@ -34,6 +34,7 @@ schema:
 # How to Configure Dimensions
 
 🎯 Learn how to set or adjust the width and height of any element in AVstudio.  
+
 This guide explains how to work with different measurement units, apply dynamic values, and understand how sizing behaves across responsive layouts.
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Use the HTML Block Element"
 sidebar_label: "HTML Block"
-sidebar_position: 16
+sidebar_position: 18
 description: "Guide for configuring and using the HTML Block element in AVstudio — content, dataset source, styling and common use cases."
 keywords:
   - avstudio

@@ -1,7 +1,7 @@
 ---
 title: Round Slider Element
 sidebar_label: Round Slider
-sidebar_position: 8
+sidebar_position: 17
 order: 8
 tags:
   - avstudio

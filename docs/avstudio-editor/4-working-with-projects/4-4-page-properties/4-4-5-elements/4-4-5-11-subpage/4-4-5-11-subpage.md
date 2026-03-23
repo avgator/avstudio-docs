@@ -1,7 +1,7 @@
 ---
 title: "Subpage"
 sidebar_label: "Subpage"
-sidebar_position: 11
+sidebar_position: 10
 description: "Learn how to add and configure Subpage elements in AVStudio, including layout, appearance, and action properties."
 keywords:
   - avstudio

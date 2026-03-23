@@ -1,7 +1,7 @@
 ---
 title: Autonomic Media Player (Premium)
 sidebar_label: Autonomic Media Player
-sidebar_position: 19
+sidebar_position: 20
 order: 19
 tags:
   - avstudio

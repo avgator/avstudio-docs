@@ -1,7 +1,7 @@
 ---
 title: Checkbox Element (Deprecated)
 sidebar_label: Checkbox
-sidebar_position: 2
+sidebar_position: 99
 order: 2
 tags:
   - avstudio

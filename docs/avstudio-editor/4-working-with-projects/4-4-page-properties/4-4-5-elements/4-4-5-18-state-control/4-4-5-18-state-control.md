@@ -1,7 +1,7 @@
 ---
 title: State Control
 sidebar_label: State Control
-sidebar_position: 18
+sidebar_position: 6
 order: 18
 tags:
   - avstudio

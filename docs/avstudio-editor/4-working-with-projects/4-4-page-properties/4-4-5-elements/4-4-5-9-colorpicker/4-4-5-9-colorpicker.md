@@ -1,7 +1,7 @@
 ---
 title: "Color Picker"
 sidebar_label: "Color Picker"
-sidebar_position: 9
+sidebar_position: 21
 tags:
   - avstudio
   - elements

@@ -1,7 +1,7 @@
 ---
 title: "How to Use the Player Element"
 sidebar_label: "Player"
-sidebar_position: 14
+sidebar_position: 15
 description: "Learn how to use and configure the Player element in AVStudio, including its properties, playback data, and state options."
 keywords:
   - avstudio

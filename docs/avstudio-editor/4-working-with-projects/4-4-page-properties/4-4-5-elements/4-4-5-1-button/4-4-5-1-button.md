@@ -1,7 +1,7 @@
 ---
 title: Button Element
 sidebar_label: Button
-sidebar_position: 1
+sidebar_position: 2
 order: 1
 tags:
   - avstudio

@@ -35,6 +35,8 @@ schema:
 # How to Add an Element
 
 🎯 Learn how to add new elements to your AVstudio project using different methods.  
+
+
 This guide explains each option available for inserting UI elements such as buttons, sliders, switches, and more.
 
 ---
@@ -43,31 +45,43 @@ This guide explains each option available for inserting UI elements such as butt
 
 AVStudio currently supports the following UI elements:  
 
-- `Button`  
-- `Checkbox` (Deprecated)  
-- `Dpad`  
-- `Image`  
-- `Keypad`  
-- `Text`  
+- `text`  
+- `button`  
 - `Slider`  
-- `Round Slider`  
-- `Color Picker`  
-- `Switch`  
-- `Subpage`  
+- `Text Input`  
+- `image`  
+- `State control`  
+- `spacer`  
+- `Dpad`  
+- `keypad`  
+- `subpage`  
 - `Subpage List`  
-- `Video`  
-- `Player`  
+- `video`  
+- `clock`  
+- `dateTime`  
+- `player`  
 - `Circle Slider`  
+- `Round Slider` (Premium)  
+- `Html Block`  
+- `Shades Control` (Premium)  
+- `Autonomic Media Player` (Premium)  
+- `Color Picker` (Premium)  
 
-Each element has its own properties panel and configuration options.  
+Each element has its own properties panel and configuration options. 
+ 
 Elements marked as “Deprecated” are maintained for compatibility only and may be removed in a future release.
 You can view their individual documentation pages for detailed setup and usage.
 
----
+:::tip Deprecated/Removed Elements
+ `Checkbox` and `Switch` no longer appear in the current interface. Keep legacy pages only for backward compatibility.
+:::
 
-## 👉 From Page Containers
 
-### Steps
+
+## From Page Containers
+
+Follow these steps to add an element using the Page Containers panel:
+
 1. Go to `Container` under `Page Containers`.  
 2. Click the dropdown arrow and select `Elements`.  
 3. Choose `Add Element`, then select the desired type.  
@@ -76,43 +90,44 @@ You can view their individual documentation pages for detailed setup and usage.
 
 ![Add Element from Page Containers](img/add-element-from-page-containers.png "Add an element using the Page Containers panel")
 
----
 
-## 👉 From the Editor (Right-Click)
 
-### Steps
+## From the Editor (Right-Click)
+
+Right-click on the editor to quickly add an element using the context menu:
+
 1. Right-click anywhere on the `Editor` workspace.  
 2. Select `Add Element`, then choose the desired type.  
 3. Click `Add Element` to confirm.  
 
 ![Add Element from Editor](img/add-element-from-editor.png "Add an element using the Editor context menu")
 
----
 
-## 👉 By Dragging from the Toolbar
+## By Dragging from the Toolbar
 
-### Steps
+Use drag-and-drop to visually place elements from the toolbar:
+
 1. On the right-hand side of the `Editor`, locate the **Elements Toolbar**.  
 2. The toolbar shows element icons by default. If you prefer to view the element names, click the small arrow to expand the toolbar and display labels (e.g., **Text**, **Button**, **Slider**, **Image**).  
 3. Find the element you want to add.  
 4. Drag it from the toolbar onto the `Editor` workspace, then release to place it.  
 
-📌 You can use this method on any page or subpage that opens in the `Editor`. It works for both responsive and adaptive pages.  
+You can use this method on any page or subpage that opens in the `Editor`. It works for both responsive and adaptive pages.  
 
 ![Expanded Elements Toolbar](img/expanded-elements-toolbar.png "Expanded toolbar showing element names")
 
----
 
-## 📌 Key Points
-
+:::tip Key Points
 - Use **Page Containers** for structured placement within container layouts.  
 - Use the **Editor context menu** for faster additions to any active page.  
 - Use **drag-and-drop** for visual positioning and layout refinement.  
 - Newly added elements appear immediately in the `Editor` and property panel.
+:::
 
----
 
-## ❓ Frequently Asked Questions (FAQ)
+
+
+## Frequently Asked Questions (FAQ)
 
 **Can I add multiple elements at once?**  
 No, elements must be added one at a time, but you can duplicate them after placement.

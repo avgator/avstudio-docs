@@ -1,7 +1,7 @@
 ---
 title: "Subpage List"
 sidebar_label: "Subpage List"
-sidebar_position: 12
+sidebar_position: 11
 tags:
   - avstudio
   - elements
